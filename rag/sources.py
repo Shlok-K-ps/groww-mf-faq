@@ -26,7 +26,8 @@ def source_url(source_id, page=None):
 
 def label(source_id):
     r = load()[source_id]
-    return f"{r['publisher']} · {r['doc_type']} · {r['title']}"
+    base = f"{r['publisher']} · {r['doc_type']} · {r['title']}"
+    return base + " · Excel file" if r["url"].lower().endswith((".xlsx", ".xls")) else base
 
 
 def last_updated(source_id):

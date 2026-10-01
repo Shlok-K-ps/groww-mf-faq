@@ -19,7 +19,8 @@ from rag import sources                                     # noqa: E402
 from rag.config import SCHEME_NAMES                         # noqa: E402
 from rag.pipeline import Assistant, fill_scheme             # noqa: E402
 from rag.retrieve import load_index                         # noqa: E402
-from rag.templates import HIDDEN_USER_MESSAGE, UI           # noqa: E402
+from rag.pii import MAX_CHARS                               # noqa: E402
+from rag.templates import HIDDEN_TOO_LONG, HIDDEN_USER_MESSAGE, UI   # noqa: E402
 
 st.set_page_config(page_title=UI["title"], layout="centered")
 
@@ -63,6 +64,10 @@ with st.sidebar:
     for s in SCHEME_NAMES:
         st.write(f"- {s}")
     st.caption("Direct Plan - Growth is assumed wherever values differ between plans.")
+    st.subheader("Try asking")
+    for k, q in enumerate(UI["examples"]):             # always available, even after the chat has started
+        if st.button(q, key=f"side-ex-{k}", use_container_width=True):
+            ss.pending = q
     with st.expander(f"Sources ({len(sources.load())})"):
         for sid, r in sources.load().items():
             st.markdown(f"- [{r['title']}]({r['url']}) · {r['publisher']} {r['doc_type']}")
@@ -73,9 +78,9 @@ with st.sidebar:
 
 def show(resp):
     st.markdown(resp.text)
-    if resp.kind in ("advice", "mixed"):
-        if resp.kind == "mixed":
-            st.markdown(f'<div class="refuse">{html.escape(resp.refusal_text)}</div>', unsafe_allow_html=True)
+    if resp.kind == "mixed":
+        st.markdown(f'<div class="refuse">{html.escape(resp.refusal_text)}</div>', unsafe_allow_html=True)   # plain text, no link
+    if resp.kind == "advice":
         st.markdown(f'<a class="chip" href="{html.escape(resp.refusal_url)}" target="_blank">Learn more · SEBI Investor Website</a>',
                     unsafe_allow_html=True)
     if resp.source_url and resp.kind != "advice":
@@ -96,7 +101,8 @@ if not ss.messages:
 for i, m in enumerate(ss.messages):
     with st.chat_message(m["role"]):
         if m["role"] == "user":
-            st.write(m["content"])
+            # plain text only: escaped HTML, so no markdown, no auto-linked URLs in what the user typed
+            st.html(f'<div style="white-space:pre-wrap;word-break:break-word">{html.escape(m["content"])}</div>')
         else:
             show(m["resp"])
             last = i == len(ss.messages) - 1
@@ -116,13 +122,14 @@ for i, m in enumerate(ss.messages):
                     if c.button(s.replace("Groww ", "").replace(" Fund", ""), key=f"sch-{i}-{s}", use_container_width=True):
                         ss.pending = fill_scheme(m["orig"], s)
 
-typed = st.chat_input("Ask a factual question about the 4 schemes")
+typed = st.chat_input("Ask a factual question about the 4 schemes", max_chars=MAX_CHARS)
 question = typed or ss.pop("pending", None)
 if question:
     with st.spinner("Checking official sources..."):
         res = ss.assistant.ask(question, ss.qcache)
-    if res.blocked:     # never store or echo a message with personal information
-        ss.messages.append({"role": "user", "content": HIDDEN_USER_MESSAGE})
+    if res.blocked:     # never store or echo a blocked message; ONLY this message is replaced - earlier turns stay as they are
+        hidden = HIDDEN_TOO_LONG if res.response.kind == "too_long" else HIDDEN_USER_MESSAGE
+        ss.messages.append({"role": "user", "content": hidden})
         ss.messages.append({"role": "assistant", "resp": res.response})
     else:
         ss.messages.append({"role": "user", "content": question})

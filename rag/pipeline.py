@@ -67,6 +67,8 @@ class Assistant:
         return self.llm.json_once(prompt, timeout=3.0)
 
     def _ask(self, text, cache):
+        if len(text) > pii.MAX_CHARS:                                  # refuse without processing: could hide anything
+            return render("too_long"), "too_long", "rules", True, False
         if pii.contains_pii(text):                                     # 1. before everything else
             return render("pii_block"), "pii", "rules", True, False
         key = prep(text)

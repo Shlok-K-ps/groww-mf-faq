@@ -47,11 +47,11 @@ def test_advice_refusal_has_sebi_link_and_no_citation_block():
     assert "Source:" not in to_text(r)
 
 
-def test_mixed_keeps_one_fact_citation_and_a_separate_refusal_link():
+def test_mixed_keeps_the_fact_citation_as_its_only_link():
     r = render("mixed", answer="Groww ELSS Tax Saver Fund has a lock-in period of 3 years.", source_id="S03", page=1)
     out = to_text(r)
-    assert out.count("Source:") == 1 and "Learn more: https://investor.sebi.gov.in/" in out
-    assert r.source_url != r.refusal_url
+    assert out.count("Source:") == 1 and re.findall(r"https?://\S+", out) == [r.source_url]
+    assert "SEBI's investor website" in r.refusal_text and "http" not in r.refusal_text
 
 
 def test_performance_links_factsheet():
@@ -80,3 +80,26 @@ def test_unknown_kind_rejected():
 def test_welcome_uses_official_names():
     from rag.templates import UI
     assert "Large Cap" in UI["welcome"] and "Small Cap" in UI["welcome"] and "Largecap" not in UI["welcome"]
+
+
+ANSWER_KINDS = ["fact", "concept", "howto", "mixed", "advice", "performance"]
+
+
+@pytest.mark.parametrize("kind", KINDS)
+def test_never_more_than_one_link_per_response(kind):
+    r = _make(kind)
+    urls = re.findall(r"https?://[^\s]+", to_text(r))
+    assert len(urls) <= 1 and len(r.links()) <= 1
+    assert urls == r.links()                                  # the text form shows exactly what links() says
+
+
+@pytest.mark.parametrize("kind", ANSWER_KINDS)
+def test_every_answer_has_exactly_one_link(kind):
+    r = _make(kind)
+    assert len(r.links()) == 1 and len(re.findall(r"https?://[^\s]+", to_text(r))) == 1
+
+
+def test_excel_sources_are_labelled_as_downloads():
+    assert sources.label("S10").endswith("Excel file") and sources.label("S11").endswith("Excel file")
+    assert "Excel" not in sources.label("S01") and "Excel" not in sources.label("S14")
+    assert render("fact", answer="TER is 1.69%.", source_id="S10").source_label.endswith("\u00b7 Excel file")

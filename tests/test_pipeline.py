@@ -1,4 +1,5 @@
 import json
+import re
 import logging
 
 import pytest
@@ -89,11 +90,13 @@ def test_clarify_then_scheme_button_resends_question():
     assert r2.kind == "fact" and "Small Cap" in r2.text and r2.source_id == "S04"
 
 
-def test_mixed_answers_the_fact_then_declines_with_separate_sebi_link():
+def test_mixed_answers_the_fact_then_declines_in_plain_text_with_one_link():
     r = Assistant(FakeLLM()).ask("What's ELSS's lock-in, and should I invest?").response
     out = to_text(r)
-    assert r.kind == "mixed" and "3 years" in r.text and out.count("Source:") == 1
-    assert "Learn more: https://investor.sebi.gov.in/" in out and r.source_id == "S03"
+    assert r.kind == "mixed" and "3 years" in r.text and r.source_id == "S03"
+    assert "SEBI's investor website or a SEBI-registered investment adviser" in out          # decline sentence, plain text
+    assert re.findall(r"https?://\S+", out) == [r.source_url] and r.links() == [r.source_url]   # the fact's citation is the ONLY link
+    assert "investor.sebi.gov.in" not in out and r.refusal_url is None
 
 
 def test_every_scheme_field_template_is_at_most_3_sentences_and_cited():

@@ -68,3 +68,41 @@ def test_scan_never_returns_the_value():
 def test_normalize():
     assert normalize("  a​ b – c  ") == "a b - c"
     assert normalize("１２") == "12"
+
+
+def test_matching_stays_fast_on_adversarial_long_inputs():
+    import time
+    evil = ["a" * 50000 + "@", "a.b" * 20000, "9" * 50000, "12 " * 17000, "account " + "a" * 50000, "1" * 30000 + "/", "pan " * 12000,
+            "a@" * 20000, ("x" * 60 + "@") * 600]
+    for s in evil:
+        t0 = time.perf_counter()
+        scan(s)
+        assert time.perf_counter() - t0 < 1.5, s[:20]
+
+
+def test_over_length_messages_are_refused_without_processing():
+    from rag.pii import MAX_CHARS
+    from rag.pipeline import Assistant
+
+    class Never:
+        calls = embed_calls = 0
+
+        def json(self, *a, **k):
+            raise AssertionError("no model call")
+
+        def json_once(self, *a, **k):
+            raise AssertionError("no model call")
+
+        def embed_query(self, *a, **k):
+            raise AssertionError("no embedding call")
+    cache = {}
+    res = Assistant(Never()).ask("a" * (MAX_CHARS + 1), cache)
+    assert res.response.kind == "too_long" and res.blocked and cache == {}
+    assert "aaaa" not in res.response.text
+
+
+def test_email_variants_still_caught_after_bounding():
+    for m in ["john.doe@example.com", "JOHN_DOE+x@mail.co.in", "reach me at a.b@c-d.org please", "john [at] example [dot] com",
+              "me@a.b.c.example.in"]:
+        assert contains_pii(m), m
+    assert not contains_pii("what is the at rate or the dot com bubble?")

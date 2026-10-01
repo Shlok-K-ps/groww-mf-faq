@@ -1,6 +1,6 @@
 """Every user-visible response goes through render(). Code owns the format; the model only supplies an answer sentence.
 
-kind: fact | concept | howto | advice | performance | mixed | clarify | clarify_field | unsure | not_found | out_of_scope | pii_block | service_unavailable
+kind: fact | concept | howto | advice | performance | mixed | clarify | clarify_field | unsure | not_found | out_of_scope | pii_block | too_long | service_unavailable
 Source URL and 'Last updated' are always taken from sources.csv by source_id, never from model output.
 render() takes no user text, so a refusal/PII notice can never echo the input.
 """
@@ -18,7 +18,7 @@ SCOPE_LINE = "Large Cap, Multicap, ELSS Tax Saver or Small Cap"
 TEXT = {
     "advice": ("I can only share facts about mutual fund schemes, not advice on what to buy, sell or hold. For help deciding, you can "
                "read SEBI's investor guidance or speak with a SEBI-registered investment adviser."),
-    "mixed_refusal": ("I can't advise on whether to invest or what suits you; for that, see SEBI's investor guidance or speak with a "
+    "mixed_refusal": ("I can't advise on whether to invest or what suits you; for that, see SEBI's investor website or a "
                       "SEBI-registered investment adviser."),
     "performance": ("I don't calculate or compare returns. You can see the official performance figures for {scheme} in Groww Mutual "
                     "Fund's latest factsheet."),
@@ -32,6 +32,7 @@ TEXT = {
     "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or account/folio numbers. "
                   "I don't need them and I don't store them. Ask your question without them and I'll help."),
     "service_unavailable": "Service busy, please try again in a moment.",
+    "too_long": "That message is too long for me to process. Please ask one short question (under 1,000 characters).",
 }
 # buttons shown for a bare scheme name: (label, field, question template that the router maps to that field)
 FIELD_BUTTONS = [("Expense ratio", "expense_ratio", "What is the expense ratio of {scheme}?"),
@@ -41,6 +42,7 @@ FIELD_BUTTONS = [("Expense ratio", "expense_ratio", "What is the expense ratio o
                  ("Benchmark", "benchmark", "What is the benchmark of {scheme}?"),
                  ("Fund managers", "fund_managers", "Who are the fund managers of {scheme}?")]
 HIDDEN_USER_MESSAGE = "[message hidden: contained personal information]"
+HIDDEN_TOO_LONG = "[message hidden: too long to process]"
 
 UI = {
     "title": "Groww MF Facts Assistant",
@@ -63,13 +65,20 @@ class Response:
     source_url: str = None
     source_label: str = None
     last_updated: str = None
-    refusal_url: str = None        # separate "Learn more" link for refusals (never the factual citation)
-    refusal_text: str = None       # second paragraph for kind="mixed"
+    refusal_url: str = None        # the single "Learn more" link of a pure refusal (kind="advice")
+    refusal_text: str = None       # plain-text decline sentence for kind="mixed" (no link of its own)
     fields: dict = field(default_factory=dict)
 
     @property
     def cited(self):
         return self.source_url is not None
+
+    def links(self):
+        """The links this response shows. Rule: one link per answer - the fact's citation, or for a pure refusal its SEBI link.
+        The UI and to_text() both render exactly this list."""
+        if self.kind == "advice":
+            return [self.refusal_url]
+        return [self.source_url] if self.source_url else []
 
 
 _MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
@@ -98,9 +107,7 @@ def render(kind, *, answer=None, source_id=None, page=None, scheme=None, closest
     if kind in ("fact", "concept", "howto"):
         return _cite(Response(kind, strip_links(answer)), source_id, page)
     if kind == "mixed":
-        r = _cite(Response(kind, strip_links(answer), refusal_text=TEXT["mixed_refusal"]), source_id, page)
-        r.refusal_url = sources.source_url(SEBI_SID)
-        return r
+        return _cite(Response(kind, strip_links(answer), refusal_text=TEXT["mixed_refusal"]), source_id, page)
     if kind == "advice":
         return Response(kind, TEXT["advice"], refusal_url=sources.source_url(SEBI_SID))
     if kind == "performance":
@@ -115,7 +122,7 @@ def render(kind, *, answer=None, source_id=None, page=None, scheme=None, closest
         return r
     if kind == "clarify_field":
         return Response(kind, TEXT[kind].format(scheme=scheme or "this scheme"))
-    if kind in ("clarify", "unsure", "out_of_scope", "pii_block", "service_unavailable"):
+    if kind in ("clarify", "unsure", "out_of_scope", "pii_block", "service_unavailable", "too_long"):
         return Response(kind, TEXT[kind])
     raise ValueError(f"unknown response kind: {kind}")
 
@@ -124,8 +131,7 @@ def to_text(r):
     """Plain-text rendering of the PRD answer format (used by the CLI, eval and tests; the UI renders the same fields)."""
     lines = [r.text]
     if r.kind == "mixed":
-        lines.append(r.refusal_text)
-        lines.append(f"Learn more: {r.refusal_url}")
+        lines.append(r.refusal_text)                       # plain text: the fact's citation stays the only link
     if r.kind == "advice":
         lines.append(f"Learn more: {r.refusal_url}")
     if r.cited and r.kind != "not_found":
