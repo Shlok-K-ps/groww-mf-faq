@@ -267,3 +267,24 @@ def test_all_providers_down_is_service_unavailable_fast():
     t0 = time.monotonic()
     r = Assistant(make(g, gem)).ask("What is a riskometer?").response
     assert r.kind == "service_unavailable" and time.monotonic() - t0 < 2
+
+
+def test_diagnose_reports_status_without_leaking_keys():
+    l = make(FakeGroq(), FakeGemini(), groq_key="gsk_SECRETKEY123", gem_key="AIzaSECRET456")
+    out = l.diagnose()
+    text = json.dumps(out)
+    assert out["GROQ_API_KEY set"] is True and "reachable" in out["Groq"] and "openai/gpt-oss-120b" in out["Groq generation chain"]
+    assert "SECRET" not in text and "gsk_" not in text and "AIza" not in text
+    bad = make(FakeGroq(models=ProviderError("http 401", 401, 3600)), FakeGemini(), groq_key="gsk_x")
+    assert bad.diagnose()["Groq"] == "ERROR http 401"
+    none = LLM(api_key="", groq_key="", groq_request=FakeGroq())
+    assert none.diagnose() == {"GROQ_API_KEY set": False, "GEMINI_API_KEY set": False}
+
+
+def test_provider_failures_are_logged_by_kind_only(caplog):
+    import logging
+    caplog.set_level(logging.WARNING, logger="gmf")
+    l = make(FakeGroq([ProviderError("http 429", 429, 60)]), FakeGemini(), groq_key="gsk_x")
+    l.json("my private question text")
+    assert "provider_error provider=groq" in caplog.text and "http 429" in caplog.text
+    assert "private" not in caplog.text and "gsk_" not in caplog.text

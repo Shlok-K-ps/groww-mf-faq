@@ -11,6 +11,7 @@ No provider SDK retries/backoff anywhere (Groq goes through plain HTTPS with one
 is bounded by us. A 429 (or any provider error) puts that model on a cooldown (daily-limit 429s: hours; per-minute: seconds).
 Privacy: errors carry only a short kind/status - never keys, prompts or responses - and nothing here logs request content.
 """
+import logging
 import os
 import time
 
@@ -29,6 +30,7 @@ _groq_choice = {}          # {"gen": [models], "cls": model}, chosen once per pr
 _GEMINI_FAILOVER = ("503", "UNAVAILABLE", "500", "isconnected", "Timeout", "timed out", "ConnectError", "RemoteProtocol",
                     "DeadlineExceeded", "429", "RESOURCE_EXHAUSTED", "404", "NOT_FOUND")
 _embed_off_until = 0.0
+log = logging.getLogger("gmf")      # provider failures are logged by KIND only (never keys, prompts or answers)
 
 
 class LLMUnavailable(Exception):
@@ -204,10 +206,12 @@ class LLM:
                 ttl = 120                                     # empty answer: treat like a transient failure
             except ProviderError as e:
                 ttl = e.ttl
+                log.warning("provider_error provider=%s model=%s kind=%s cooldown_s=%s", prov, model, e, ttl)
             except LLMUnavailable:
                 raise
             except Exception as e:
                 msg = str(e)
+                log.warning("provider_error provider=%s model=%s kind=%s", prov, model, type(e).__name__)
                 if prov == "groq" or not any(k in msg for k in _GEMINI_FAILOVER):
                     raise LLMUnavailable(type(e).__name__) from None
                 ttl = _gemini_ttl(msg)
@@ -227,6 +231,7 @@ class LLM:
                     return text
                 raise ProviderError("empty")
             except ProviderError as e:
+                log.warning("provider_error provider=groq model=%s kind=%s role=classifier", model, e)
                 mark_bad("groq/" + model, ttl=e.ttl)
                 raise LLMUnavailable(str(e)) from None
             except Exception as e:
@@ -246,6 +251,30 @@ class LLM:
             if model and any(k in msg for k in _GEMINI_FAILOVER):
                 mark_bad(model, ttl=_gemini_ttl(msg))
             raise LLMUnavailable(type(e).__name__) from None
+
+    def diagnose(self):
+        """Connectivity/config report for the sidebar 'Check connections' button. Lists models only (no generation quota).
+        Reports key presence as booleans and errors by kind - never a key, prompt or answer."""
+        out = {"GROQ_API_KEY set": bool(self._groq_key), "GEMINI_API_KEY set": bool(self._key)}
+        if self._groq_key:
+            try:
+                data = self._groq("GET", "/models", self._groq_key, None, 5.0)
+                ids = sorted(m["id"] for m in data.get("data", []) if m.get("active", True))
+                out["Groq"] = "reachable; text models: " + ", ".join(i for i in ids if not any(x in i for x in ("whisper", "orpheus", "guard", "tts")))
+                out["Groq generation chain"] = ", ".join(self._groq_models().get("gen") or []) or "(none)"
+            except ProviderError as e:
+                out["Groq"] = f"ERROR {e}"
+            except Exception as e:
+                out["Groq"] = f"ERROR {type(e).__name__}"
+            cooling = [k[5:] for k in __import__("rag.config", fromlist=["_bad"])._bad if k.startswith("groq/") and _is_bad(k)]
+            out["Groq models cooling down"] = ", ".join(cooling) or "none"
+        if self._key:
+            try:
+                resolved = resolve_model(self.client)
+                out["Gemini"] = f"reachable; model {resolved}"
+            except Exception as e:
+                out["Gemini"] = f"ERROR {type(e).__name__}"
+        return out
 
     def embed_query(self, text, timeout=3.0):
         """Unit-length query embedding from gemini-embedding-001 (what the index was built with), or None -> BM25-only retrieval.
