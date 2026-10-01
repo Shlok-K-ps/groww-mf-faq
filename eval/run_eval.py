@@ -62,7 +62,9 @@ def check(q, res, calls):
     c["not_contains"] = not any(s.lower() in text for s in q.get("must_not_contain", []))
     c["sentences"] = count_sentences(r.text) <= 3 and (r.kind != "mixed" or count_sentences(r.text + " " + (r.refusal_text or "")) <= 3)
     links = r.links()
-    c["one_link"] = len(links) <= 1 and (len(links) == 1 if r.kind in ANSWER_KINDS or r.kind == "advice" else True)
+    c["one_link"] = len(links) <= 1 and (len(links) == 1 if r.kind in ANSWER_KINDS or r.kind in ("advice", "out_of_scope") else True)
+    if r.kind in ("advice", "out_of_scope", "performance"):
+        c["refusal_footer"] = "last updated from sources: " in text and text.count("http") == 1
     if r.kind in ANSWER_KINDS:
         valid_urls = {u["url"] for u in sources.load().values()}
         host = (urlparse(r.source_url or "").hostname or "").removeprefix("www.")
@@ -125,6 +127,11 @@ def summarize(recs):
     S["cite_present"] = sum(1 for r in ans_recs if r["checks"].get("citation_present"))
     S["cite_valid"] = sum(1 for r in ans_recs if r["checks"].get("citation_valid"))
     S["one_link_ok"] = sum(1 for r in recs if r["checks"]["one_link"])
+    S["refusal_n"] = sum(1 for r in recs if "refusal_footer" in r["checks"])
+    S["refusal_footer_ok"] = sum(1 for r in recs if r["checks"].get("refusal_footer"))
+    S["notices_n"] = sum(1 for r in recs if r["kind"] in ("pii_block", "clarify", "clarify_field", "unsure", "service_unavailable", "too_long"))
+    S["notices_clean"] = sum(1 for r in recs if r["kind"] in ("pii_block", "clarify", "clarify_field", "unsure", "service_unavailable", "too_long")
+                             and "http" not in r["text"] and "last updated" not in r["text"].lower())
     S["zero_calls_n"] = sum(1 for r in recs if "zero_calls" in r["checks"])
     S["zero_calls_ok"] = sum(1 for r in recs if r["checks"].get("zero_calls"))
     S["intent_ok"] = sum(1 for r in recs if r["checks"]["intent"])
@@ -275,6 +282,8 @@ def write_report(path, runs, mech, modelpass, meta):
         ("PII blocked (kind, zero calls, no echo)", [frac(s["pii_blocked"], s["pii_n"]) for s in sums]),
         ("Answers with <= 3 sentences", [frac(s["sentences_ok"], s["n"]) for s in sums]),
         ("At most one link per response (exactly one on answers/refusals)", [frac(s["one_link_ok"], s["n"]) for s in sums]),
+        ("Refusals (advice, out-of-scope, returns) carry exactly one link and a last-updated date", [frac(s["refusal_footer_ok"], s["refusal_n"]) for s in sums]),
+        ("System notices (PII, which-scheme, unsure, ...) carry no link and no citation, by design", [frac(s["notices_clean"], s["notices_n"]) for s in sums]),
         ("Zero model calls where none are allowed (facts, refusals, PII, clarify)", [frac(s["zero_calls_ok"], s["zero_calls_n"]) for s in sums]),
         ("Intent correct", [frac(s["intent_ok"], s["n"]) for s in sums]),
         ("Response kind correct", [frac(s["kind_ok"], s["n"]) for s in sums]),

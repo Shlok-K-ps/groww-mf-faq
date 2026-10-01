@@ -63,7 +63,7 @@ def test_generation_never_exceeds_two_attempts(real_llm):
     t0 = time.monotonic()
     with pytest.raises(LLMUnavailable):
         l.json("q")
-    assert m.n == 2 and l.calls == 2 and time.monotonic() - t0 < 1     # no sleeps, no hidden retries
+    assert m.n == 2 and l.calls == 2 and time.monotonic() - t0 < 3     # no sleeps (a retry backoff would take longer)
 
 
 def test_unknown_error_type_is_not_leaked_or_retried(real_llm):

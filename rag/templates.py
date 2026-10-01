@@ -13,6 +13,8 @@ from rag.config import SCHEME_NAMES
 SEBI_SID = sources.first_of(publisher="SEBI", doc_type="Education")
 FACTSHEET_SID = sources.first_of(doc_type="Factsheet")
 
+REFUSAL_KINDS = ("advice", "out_of_scope")     # refusals: one SEBI "Learn more" link plus that source's last-updated date
+
 SCOPE_LINE = "Large Cap, Multicap, ELSS Tax Saver or Small Cap"
 
 TEXT = {
@@ -29,8 +31,8 @@ TEXT = {
                "mutual fund terms. Try one of these:"),
     "not_found": "I couldn't find this in my official sources.",
     "out_of_scope": ("I only cover these 4 Groww MF schemes and general mutual fund facts: " + ", ".join(SCHEME_NAMES) + "."),
-    "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or account/folio numbers. "
-                  "I don't need them and I don't store them. Ask your question without them and I'll help."),
+    "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or folio numbers — "
+                  "I don't need or store them. Ask your question without them and I'll help."),
     "service_unavailable": "Service busy, please try again in a moment.",
     "too_long": "That message is too long for me to process. Please ask one short question (under 1,000 characters).",
 }
@@ -76,7 +78,7 @@ class Response:
     def links(self):
         """The links this response shows. Rule: one link per answer - the fact's citation, or for a pure refusal its SEBI link.
         The UI and to_text() both render exactly this list."""
-        if self.kind == "advice":
+        if self.kind in REFUSAL_KINDS:
             return [self.refusal_url]
         return [self.source_url] if self.source_url else []
 
@@ -108,8 +110,8 @@ def render(kind, *, answer=None, source_id=None, page=None, scheme=None, closest
         return _cite(Response(kind, strip_links(answer)), source_id, page)
     if kind == "mixed":
         return _cite(Response(kind, strip_links(answer), refusal_text=TEXT["mixed_refusal"]), source_id, page)
-    if kind == "advice":
-        return Response(kind, TEXT["advice"], refusal_url=sources.source_url(SEBI_SID))
+    if kind in REFUSAL_KINDS:
+        return Response(kind, TEXT[kind], refusal_url=sources.source_url(SEBI_SID), last_updated=sources.last_updated(SEBI_SID))
     if kind == "performance":
         r = Response(kind, TEXT["performance"].format(scheme=scheme or "Groww Mutual Fund's schemes"))
         return _cite(r, FACTSHEET_SID)
@@ -122,7 +124,7 @@ def render(kind, *, answer=None, source_id=None, page=None, scheme=None, closest
         return r
     if kind == "clarify_field":
         return Response(kind, TEXT[kind].format(scheme=scheme or "this scheme"))
-    if kind in ("clarify", "unsure", "out_of_scope", "pii_block", "service_unavailable", "too_long"):
+    if kind in ("clarify", "unsure", "pii_block", "service_unavailable", "too_long"):
         return Response(kind, TEXT[kind])
     raise ValueError(f"unknown response kind: {kind}")
 
@@ -132,8 +134,9 @@ def to_text(r):
     lines = [r.text]
     if r.kind == "mixed":
         lines.append(r.refusal_text)                       # plain text: the fact's citation stays the only link
-    if r.kind == "advice":
+    if r.kind in REFUSAL_KINDS:
         lines.append(f"Learn more: {r.refusal_url}")
+        lines.append(f"Last updated from sources: {r.last_updated}")
     if r.cited and r.kind != "not_found":
         lines.append(f"Source: {r.source_url}")
         lines.append(f"Last updated from sources: {r.last_updated}")

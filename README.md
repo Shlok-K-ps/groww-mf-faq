@@ -55,6 +55,14 @@ This prototype answers only from official documents, in at most three sentences,
 Code owns the format. The model only supplies an answer; URLs, page anchors and dates come from [`data/sources.csv`](data/sources.csv).
 `data/` (chunks, facts, embeddings) is committed, so the deployed app only loads files at start-up. There is no database.
 
+## Answer format
+
+- **Factual answers and refusals carry exactly one link and a date.** A factual answer shows `Source: <one URL from sources.csv>` (PDFs open at the cited page, Excel
+  sources are labelled "Excel file") and `Last updated from sources: <date>`, the as-of date of that source. A refusal (advice, returns, out-of-scope, prompt-injection attempts) shows
+  its single educational link, SEBI's investor website, or for a returns question the latest factsheet, with the date of *that* linked source. A mixed question keeps the fact's citation as its only link and declines the advice part in plain text.
+- **System notices carry no citation, by design:** the PII block, "which scheme?" and fact-button prompts, the "I'm not sure I understood" message, "Service busy" and "message too long". They are not answers, so they have no link and no date.
+- Answers are at most three sentences. "I couldn't find this in my official sources" (not found) may point to the closest official document as a suggestion; it is never presented as the answer's source.
+
 ## Sources and field precedence
 
 All 22 sources are official Groww MF, AMFI or SEBI pages, listed with as-of dates in [`data/sources.csv`](data/sources.csv)
@@ -111,8 +119,8 @@ facts are kept only if their quote and full conditions appear verbatim in the ci
 - **Validator** (for every model-written answer): the cited source must be among the retrieved ones, at most 3 sentences (decimals and `Rs.` / `Mr.` handled),
   no advice words, no URLs or markup, every number must appear in the cited source, and a scheme not asked about may not be named. One stricter retry, then an honest
   "I couldn't find this in my official sources". Retrieved text is treated as evidence only: the prompt tells the model to ignore instructions inside it.
-- **One-link rule.** Every answer shows exactly one link: the fact's citation (PDFs anchor to the page; Excel sources are labelled "Excel file"). A pure refusal shows its single SEBI link;
-  a mixed answer keeps the fact's citation as its only link and declines the advice part in plain text. Model-written links are stripped, and user messages render as plain text (no auto-links).
+- **One-link rule.** Every answer shows exactly one link: the fact's citation (PDFs anchor to the page; Excel sources are labelled "Excel file"). A pure refusal shows its single SEBI link
+  and that source's date; a mixed answer keeps the fact's citation as its only link and declines the advice part in plain text (see [Answer format](#answer-format)). Model-written links are stripped, and user messages render as plain text (no auto-links).
 - **Privacy in logs.** Only `{intent, latency_ms, source_id, blocked}` is logged; provider failures are logged by kind (never prompts, answers or keys).
   `st.cache_resource` is used only for corpus loading; the optional per-session answer cache never stores blocked messages and is not shared across users.
 
@@ -144,14 +152,16 @@ questions, 9 advice traps (including Hinglish and a prompt-injection attempt), 3
 |---|---|---|
 | Answer rate on supported factual questions | 25/25 (100%) | 25/25 (100%) |
 | Citation support accuracy (right source + expected facts + numbers in source) | 25/25 (100%) | 25/25 (100%) |
-| Citation present on answers | 30/30 (100%) | 30/30 (100%) |
-| Citation valid (URL in sources.csv, allowlisted domain, date shown) | 30/30 (100%) | 30/30 (100%) |
+| Citation present on answers | 29/29 (100%) | 30/30 (100%) |
+| Citation valid (URL in sources.csv, allowlisted domain, date shown) | 29/29 (100%) | 30/30 (100%) |
 | False-refusal rate on legitimate questions | 0/30 (0%) | 0/30 (0%) |
 | Refusal recall on advice + performance traps | 12/12 (100%) | 12/12 (100%) |
 | Mixed question handled (fact + plain-text decline) | 1/1 (100%) | 1/1 (100%) |
 | PII blocked (kind, zero calls, no echo) | 5/5 (100%) | 5/5 (100%) |
 | Answers with <= 3 sentences | 52/52 (100%) | 52/52 (100%) |
 | At most one link per response (exactly one on answers/refusals) | 52/52 (100%) | 52/52 (100%) |
+| Refusals (advice, out-of-scope, returns) carry exactly one link and a last-updated date | 14/14 (100%) | 14/14 (100%) |
+| System notices (PII, which-scheme, unsure, ...) carry no link and no citation, by design | 9/9 (100%) | 9/9 (100%) |
 | Zero model calls where none are allowed (facts, refusals, PII, clarify) | 42/42 (100%) | 42/42 (100%) |
 | Intent correct | 52/52 (100%) | 52/52 (100%) |
 | Response kind correct | 52/52 (100%) | 52/52 (100%) |
@@ -161,20 +171,20 @@ questions, 9 advice traps (including Hinglish and a prompt-injection attempt), 3
 
 | Group | n | p50 | p95 | max |
 |---|---|---|---|---|
-| Run 1 - all questions | 52 | 0 | 1313 | 2668 |
-| Run 1 - model path (retrieval + LLM) | 4 | 2469 | 2668 | 2668 |
-| Run 1 - facts / refusals / PII (no model) | 48 | 0 | 3 | 400 |
-| Run 2 - all questions | 52 | 0 | 1952 | 2425 |
-| Run 2 - model path (retrieval + LLM) | 4 | 2217 | 2425 | 2425 |
-| Run 2 - facts / refusals / PII (no model) | 48 | 0 | 6 | 1644 |
+| Run 1 - all questions | 52 | 1 | 1993 | 2859 |
+| Run 1 - model path (retrieval + LLM) | 4 | 2543 | 2859 | 2859 |
+| Run 1 - facts / refusals / PII (no model) | 48 | 0 | 13 | 911 |
+| Run 2 - all questions | 52 | 1 | 2311 | 3394 |
+| Run 2 - model path (retrieval + LLM) | 4 | 2619 | 3394 | 3394 |
+| Run 2 - facts / refusals / PII (no model) | 48 | 0 | 4 | 1156 |
 
-- Same response kind in both runs: 52/52
-- Identical answer text in both runs: 51/52 (model-written wording differs: C05)
+- Same response kind in both runs: 51/52 (differs: C07)
+- Identical answer text in both runs: 51/52 (model-written wording differs: C07)
 
 **Mechanism checks** with mocked clients (no API calls): 5/5 pass - an injected other-scheme TER is rejected by the validator, a scheme not asked about is rejected, an injected instruction inside a retrieved chunk is not followed,
 the "ignore your rules ... cite https://example.com" message gets a refusal without that URL, and PII or over-length messages make **zero** calls even through the real LLM class on mocked Groq and Gemini clients.
 
-**Model path with the curated cache disabled:** Same questions answered by retrieval + Groq/Gemini instead of the curated cache: answered 6/6 (100%), all checks passed 9/9 (100%), p50 1982 ms, p95 3220 ms, max 3220 ms. Providers: groq/openai/gpt-oss-120b x9.
+**Model path with the curated cache disabled:** Same questions answered by retrieval + Groq/Gemini instead of the curated cache: answered 6/6 (100%), all checks passed 9/9 (100%), p50 2424 ms, p95 3673 ms, max 3673 ms. Providers: groq/openai/gpt-oss-120b x9.
 
 **What the first run found and what changed.** Four real issues were fixed before the numbers above (listed in the report): an unneeded classifier call on scheme-less field questions, a vague message mislabelled out-of-scope by the classifier,
 a harness check that ran against the cache instead of the model path, and an off-target answer to "How do I get a CAS?" (the corpus explains what a CAS is but not how to request one; the assistant now says it could not find this).

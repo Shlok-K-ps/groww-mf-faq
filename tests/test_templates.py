@@ -82,7 +82,7 @@ def test_welcome_uses_official_names():
     assert "Large Cap" in UI["welcome"] and "Small Cap" in UI["welcome"] and "Largecap" not in UI["welcome"]
 
 
-ANSWER_KINDS = ["fact", "concept", "howto", "mixed", "advice", "performance"]
+ANSWER_KINDS = ["fact", "concept", "howto", "mixed", "advice", "out_of_scope", "performance"]
 
 
 @pytest.mark.parametrize("kind", KINDS)
@@ -109,3 +109,39 @@ def test_disclaimer_doc_matches_the_ui_text_exactly():
     from rag.templates import UI
     doc = open("docs/disclaimer.md", encoding="utf-8").read()
     assert f"**{UI['banner_head']}** {UI['banner_body']}" in doc and UI["footer"] in doc
+
+
+# ----------------------------------------------------------------------------- refusal footer, system notices, PII text
+REFUSALS = ["advice", "out_of_scope", "performance"]
+NOTICES = ["clarify", "clarify_field", "unsure", "pii_block", "service_unavailable", "too_long"]
+
+
+@pytest.mark.parametrize("kind", REFUSALS)
+def test_refusals_carry_exactly_one_link_and_that_sources_date(kind):
+    r = render(kind, scheme="Groww Large Cap Fund")
+    out = to_text(r)
+    assert len(re.findall(r"https?://\S+", out)) == 1 and len(r.links()) == 1
+    link_source = "S09" if kind == "performance" else SEBI_SID
+    assert f"Last updated from sources: {sources.last_updated(link_source)}" in out and r.last_updated == sources.last_updated(link_source)
+
+
+def test_advice_and_out_of_scope_link_the_sebi_site():
+    for kind in ("advice", "out_of_scope"):
+        r = render(kind)
+        assert r.refusal_url == sources.source_url(SEBI_SID) and r.links() == [r.refusal_url]
+        assert to_text(r).endswith("Last updated from sources: " + sources.last_updated(SEBI_SID))
+
+
+@pytest.mark.parametrize("kind", NOTICES)
+def test_system_notices_carry_no_link_and_no_citation(kind):
+    r = render(kind, scheme="Groww Large Cap Fund")
+    out = to_text(r)
+    assert "http" not in out and "Last updated" not in out and "Source:" not in out and r.links() == []
+
+
+def test_pii_notice_is_exactly_the_approved_two_sentences():
+    from rag.validate import count_sentences
+    t = render("pii_block").text
+    assert t == ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or folio numbers — "
+                 "I don't need or store them. Ask your question without them and I'll help.")
+    assert count_sentences(t) == 2

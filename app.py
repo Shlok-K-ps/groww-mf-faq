@@ -20,7 +20,7 @@ from rag.config import SCHEME_NAMES                         # noqa: E402
 from rag.pipeline import Assistant, fill_scheme             # noqa: E402
 from rag.retrieve import load_index                         # noqa: E402
 from rag.pii import MAX_CHARS                               # noqa: E402
-from rag.templates import HIDDEN_TOO_LONG, HIDDEN_USER_MESSAGE, UI   # noqa: E402
+from rag.templates import HIDDEN_TOO_LONG, HIDDEN_USER_MESSAGE, REFUSAL_KINDS, UI   # noqa: E402
 
 st.set_page_config(page_title=UI["title"], layout="centered")
 
@@ -80,10 +80,11 @@ def show(resp):
     st.markdown(resp.text)
     if resp.kind == "mixed":
         st.markdown(f'<div class="refuse">{html.escape(resp.refusal_text)}</div>', unsafe_allow_html=True)   # plain text, no link
-    if resp.kind == "advice":
+    if resp.kind in REFUSAL_KINDS:
         st.markdown(f'<a class="chip" href="{html.escape(resp.refusal_url)}" target="_blank">Learn more · SEBI Investor Website</a>',
                     unsafe_allow_html=True)
-    if resp.source_url and resp.kind != "advice":
+        st.markdown(f'<div class="muted">Last updated from sources: {resp.last_updated}</div>', unsafe_allow_html=True)
+    if resp.source_url and resp.kind not in REFUSAL_KINDS:
         label = "Closest source · " if resp.kind == "not_found" else ""
         st.markdown(f'<a class="chip" href="{html.escape(resp.source_url)}" target="_blank">{label}{html.escape(resp.source_label)}</a>',
                     unsafe_allow_html=True)
