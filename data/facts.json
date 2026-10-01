@@ -36,18 +36,6 @@
   "evidence_quote": "NIFTY100 – TRI"
  },
  {
-  "scheme": "Groww Large Cap Fund",
-  "plan": "both",
-  "field": "min_sip",
-  "value": "500",
-  "unit": "INR",
-  "conditions": "Monthly – Rs. 500 and in multiples of Re.1 thereafter",
-  "effective_date": "2026-09-09",
-  "source_id": "S05",
-  "page": 8,
-  "evidence_quote": "Monthly – Rs. 500 and in multiples of Re.1 thereafter"
- },
- {
   "scheme": "Groww Multicap Fund",
   "plan": "both",
   "field": "exit_load",
@@ -58,18 +46,6 @@
   "source_id": "S06",
   "page": 6,
   "evidence_quote": "Exit Load:\na) 1% if redeemed/ switched out within 1 year from the date of\nallotment.\nb) NIL, if redeemed/ switched out after 1 year from the date of\nallotment."
- },
- {
-  "scheme": "Groww Multicap Fund",
-  "plan": "both",
-  "field": "min_sip",
-  "value": "100",
-  "unit": "INR",
-  "conditions": "Daily - Rs.100 and in multiples of Re.1\nWeekly - Rs. 100 and in multiples of\nRe.1\nMonthly - Rs. 500 and in multiples of\nRe.1\nQuarterly - Rs. 500 and in multiples of\nRe.1",
-  "effective_date": "2026-09-09",
-  "source_id": "S06",
-  "page": 6,
-  "evidence_quote": "SIP Purchase Daily - Rs.100 and in multiples of Re.1\nWeekly - Rs. 100 and in multiples of\nRe.1\nMonthly - Rs. 500 and in multiples of\nRe.1\nQuarterly - Rs. 500 and in multiples of\nRe.1"
  },
  {
   "scheme": "Groww Multicap Fund",
@@ -146,18 +122,6 @@
  {
   "scheme": "Groww ELSS Tax Saver Fund",
   "plan": "both",
-  "field": "min_sip",
-  "value": "500",
-  "unit": "INR",
-  "conditions": "Minimum amount for Daily SIP facility shall be Rs 500/- and in multiples of Rs 500/- thereof",
-  "effective_date": "2026-10-01",
-  "source_id": "S07",
-  "page": 7,
-  "evidence_quote": "Rs. 500 and in multiples of Rs. 500 thereafter (For Systematic Investment\nPlan (SIP))\nMinimum amount for Daily SIP facility shall be Rs 500/- and in multiples\nof Rs 500/- thereof"
- },
- {
-  "scheme": "Groww ELSS Tax Saver Fund",
-  "plan": "both",
   "field": "min_lumpsum",
   "value": "500",
   "unit": "INR",
@@ -202,18 +166,6 @@
   "source_id": "S04",
   "page": 10,
   "evidence_quote": "Mr. Anupam Tiwari"
- },
- {
-  "scheme": "Groww Small Cap Fund",
-  "plan": "both",
-  "field": "min_sip",
-  "value": "100",
-  "unit": "INR",
-  "conditions": "For Daily & Weekly - Rs.100 and in multiples of Re1. For Monthly and Quarterly SIPs Minimum amount per installment - Rs. 500/- each and in multiples of Rs.1/- thereafter",
-  "effective_date": "2026-09-09",
-  "source_id": "S08",
-  "page": 7,
-  "evidence_quote": "For Daily & Weekly - Rs.100 and in multiples of Re1. For Monthly and Quarterly SIPs Minimum amount per installment - Rs. 500/- each and in multiples of Rs.1/- thereafter"
  },
  {
   "scheme": "Groww Small Cap Fund",
@@ -276,6 +228,18 @@
   "evidence_quote": "An open ended equity scheme predominantly investing in large cap stocks"
  },
  {
+  "scheme": "Groww Large Cap Fund",
+  "plan": "both",
+  "field": "min_sip",
+  "value": "100/100/500/500",
+  "unit": "INR",
+  "conditions": "Daily Rs. 100, Weekly Rs. 100, Monthly Rs. 500, Quarterly Rs. 500, each in multiples of Re. 1 thereafter",
+  "effective_date": "2026-10-01",
+  "source_id": "S01",
+  "page": 26,
+  "evidence_quote": "Daily Weekly Monthly Quarterly Rs. 100 and in multiples Rs. 100 and in multiples Rs. 500 and in multiples Rs. 500 and in multiples"
+ },
+ {
   "scheme": "Groww Multicap Fund",
   "plan": "direct",
   "field": "expense_ratio",
@@ -324,6 +288,18 @@
   "evidence_quote": "An open-ended equity scheme investing across large-cap, mid-cap, and small-cap stocks"
  },
  {
+  "scheme": "Groww Multicap Fund",
+  "plan": "both",
+  "field": "min_sip",
+  "value": "100/100/500/500",
+  "unit": "INR",
+  "conditions": "Daily Rs. 100, Weekly Rs. 100, Monthly Rs. 500, Quarterly Rs. 500, each in multiples of Re. 1 thereafter",
+  "effective_date": "2026-10-01",
+  "source_id": "S02",
+  "page": 22,
+  "evidence_quote": "Daily Weekly Monthly Quarterly Rs. 100 and in multiples Rs. 100 and in multiples Rs. 500 and in multiples Rs. 500 and in multiples"
+ },
+ {
   "scheme": "Groww ELSS Tax Saver Fund",
   "plan": "direct",
   "field": "expense_ratio",
@@ -358,6 +334,18 @@
   "source_id": "S11",
   "page": null,
   "evidence_quote": "Aug 2026: Very High"
+ },
+ {
+  "scheme": "Groww ELSS Tax Saver Fund",
+  "plan": "both",
+  "field": "min_sip",
+  "value": "500/500/500/500",
+  "unit": "INR",
+  "conditions": "Daily Rs. 500, Weekly Rs. 500, Monthly Rs. 500, Quarterly Rs. 500, each in multiples of Rs. 500 thereafter",
+  "effective_date": "2026-10-01",
+  "source_id": "S03",
+  "page": 23,
+  "evidence_quote": "Rs. 500 and in multiples Rs. 500 and in multiples Rs. 500 and in multiples Rs. 500 and in multiples"
  },
  {
   "scheme": "Groww Small Cap Fund",
@@ -406,6 +394,18 @@
   "source_id": "S04",
   "page": 1,
   "evidence_quote": "An open ended equity scheme predominantly investing in small cap stocks"
+ },
+ {
+  "scheme": "Groww Small Cap Fund",
+  "plan": "both",
+  "field": "min_sip",
+  "value": "100/100/500/500",
+  "unit": "INR",
+  "conditions": "Daily Rs. 100, Weekly Rs. 100, Monthly Rs. 500, Quarterly Rs. 500, each in multiples of Re. 1 thereafter",
+  "effective_date": "2026-09-03",
+  "source_id": "S04",
+  "page": 28,
+  "evidence_quote": "Daily Weekly Monthly Quarterly Rs. 100 and in multiples Rs. 100 and in multiples Rs. 500 and in multiples Rs. 500 and in multiples"
  },
  {
   "scheme": "Groww Large Cap Fund",

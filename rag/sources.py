@@ -41,3 +41,8 @@ def first_of(**match):
         if all(r.get(k) == v for k, v in match.items()):
             return sid
     return None
+
+
+def fmt_date(iso):
+    """'2026-09-30' -> '30 Sep 2026'."""
+    return dt.date.fromisoformat(iso).strftime("%d %b %Y").lstrip("0")

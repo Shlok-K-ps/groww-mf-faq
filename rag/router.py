@@ -144,9 +144,9 @@ def rules(text):
     if fld:
         if schemes or cur:
             return R("factual")
-        if definitional:                                   # "What is a riskometer?" "What is the expense ratio?"
-            return R("concept")
-        return R("factual", confident=False)
+        if definitional and not re.search(r"\bwhat (is|are|was|were) the\b", t):   # "What is a riskometer?" -> concept
+            return R("concept")                                                    # "What is the exit load?" -> factual
+        return R("factual", confident=bool(schemes or cur or fld in ("expense_ratio", "riskometer") or definitional))
 
     if definitional:
         return R("concept")

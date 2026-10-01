@@ -8,3 +8,4 @@ data/raw/*.pdf
 build/
 research/
 links.json
+.claude/

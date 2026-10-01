@@ -389,6 +389,34 @@ def kim_fund_managers(chunks, scheme):
     return None
 
 
+SIP_ROW = re.compile(r"Rs\. ?(\d+) and in multiples Rs\. ?(\d+) and in multiples Rs\. ?(\d+) and in multiples Rs\. ?(\d+) and in multiples")
+
+
+def kim_min_sip(chunks, scheme):
+    """KIM 'Minimum SIP Amount' table: first row = 'All Scheme', second row = the ELSS-specific row."""
+    for x in chunks:
+        if x["scheme"] != scheme or x["doc_type"] != "KIM":
+            continue
+        flat = re.sub(r"\s+", " ", x["text"])
+        if "Minimum SIP Amount" not in flat or "Daily Weekly Monthly Quarterly" not in flat:
+            continue
+        rows = list(SIP_ROW.finditer(flat))
+        want = 1 if scheme == "Groww ELSS Tax Saver Fund" else 0
+        if len(rows) <= want:
+            continue
+        m = rows[want]
+        amounts = m.groups()
+        unit = "Rs. 500" if want else "Re. 1"
+        cond = ("Daily Rs. {}, Weekly Rs. {}, Monthly Rs. {}, Quarterly Rs. {}, each in multiples of {} thereafter"
+                .format(*amounts, unit))
+        start = flat.index("Daily Weekly Monthly Quarterly") if want == 0 else m.start()
+        quote = flat[start:m.end()]
+        if want == 0 and flat.index("Daily Weekly Monthly Quarterly") > m.start():
+            continue
+        return x, "/".join(amounts), cond, quote
+    return None
+
+
 def det_fact(src, scheme, plan, field, value, unit, conditions, sid, page, quote):
     if unit and str(value).endswith(unit):  # value already carries its unit ("1%"): don't repeat it
         unit = ""
@@ -427,6 +455,10 @@ def deterministic_facts(scheme, chunks, src):
                                         "Open-ended scheme; the KIM does not specify a lock-in period", x["source_id"], x["page"],
                                         m.group(0)))
                     break
+    r = kim_min_sip(chunks, scheme)           # KIM > SID: the KIM table lists every SIP frequency
+    if r:
+        ch, amounts, cond, quote = r
+        out.append(det_fact(src, scheme, "both", "min_sip", amounts, "INR", cond, ch["source_id"], ch["page"], quote))
     return out
 
 

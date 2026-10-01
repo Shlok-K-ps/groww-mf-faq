@@ -22,12 +22,13 @@ DATA_DIR = "data"
 
 
 _resolved = {}
-_bad = set()
+_bad = {}   # model -> time until which it is skipped
 
 
-def mark_bad(name):
-    """Skip a model that keeps failing (overloaded/retired) and force re-resolution."""
-    _bad.add(name)
+def mark_bad(name, ttl=900):
+    """Skip a model that keeps failing (overloaded / out of quota / retired) for `ttl` seconds, then retry it."""
+    import time
+    _bad[name] = time.time() + ttl
     _resolved.pop("m", None)
 
 
@@ -45,7 +46,9 @@ def resolve_model(client):
     avail = {m.name[7:] for m in client.models.list()}
     tail = [n for n in ("gemini-3-flash-preview", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite") if n in avail]  # last-resort chain
     names = list(dict.fromkeys([GEMINI_MODEL] + [n for _, n in sorted(found, reverse=True)] + tail))
-    names = [n for n in names if n not in _bad and n != "gemini-2.5-flash"]  # 2.5 retired for new keys
+    import time
+    now = time.time()
+    names = [n for n in names if _bad.get(n, 0) < now and n != "gemini-2.5-flash"]  # 2.5 retired for new keys
     if not names:
         raise RuntimeError("no Gemini model available")
     _resolved["m"] = names[0]
