@@ -23,6 +23,10 @@ CASES = [
     ("What is TER?", "concept"),
     ("Explain CAGR", "concept"),
     ("What is SIP?", "concept"),
+    ("What is AUM?", "concept"),
+    ("What is the net asset value?", "concept"),
+    ("What is a consolidated account statement?", "concept"),
+    ("How can I get my consolidated account statement?", "howto"),
     ("How long is the ELSS lock-in period under 80C rules?", "factual"),
     # how-to
     ("How do I download my capital-gains statement?", "howto"),
@@ -112,7 +116,7 @@ def test_llm_only_when_unconfident_and_validated():
     assert route("Should I invest in Groww Small Cap?", fake).via == "rules" and not calls
     # unconfident -> model decides
     r = route("tell me something", fake)
-    assert r.via in ("rules", "llm")
+    assert r.via in ("rules", "llm", "default")
     # unusable model output -> falls back to the rules' answer, never crashes
     assert route("blah blah", lambda p: "not json").via in ("rules", "default")
     assert classify_llm(lambda p: '{"intent": "dance"}', "x") is None

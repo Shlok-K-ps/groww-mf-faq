@@ -9,3 +9,4 @@ build/
 research/
 links.json
 .claude/
+.pytest_tmp/

@@ -87,12 +87,12 @@ DEFINITIONAL = re.compile(r"\bwhat (is|are|does|do)\b|\bwhat's\b|\bexplain\b|\bm
 HOWTO = re.compile(
     r"\bhow (do|can|to|should|would) (i|we|you)?\s*\b(download|get|obtain|find|request|check|view|generate|start|stop|pause|"
     r"change|update|apply|raise|file|redeem|invest|open)\b|\bhow to\b|\bwhere (do|can|to) (i|we)\b.{0,30}\b(download|get|find|see|check)\b"
-    r"|\bdownload\b.{0,30}\b(statement|cas|document|factsheet|kim|sid)\b|\bcapital gains? statement\b|\bconsolidated account\b"
-    r"|\baccount statement\b|\bsteps? (to|for)\b|\bprocess (to|for)\b", _I)
+    r"|\bdownload\b.{0,30}\b(statement|cas|document|factsheet|kim|sid)\b|\bcapital gains? statement\b"
+    r"|\bsteps? (to|for)\b|\bprocess (to|for)\b", _I)
 CURRENT = re.compile(r"\b(today|now|currently|current|latest|live|right now|at present|as of now|these days|todays)\b", _I)
 
 MF_VOCAB = re.compile(
-    r"\b(mutual funds?|funds?|schemes?|sip|nav|elss|ter|expense|exit load|load|risk ?o ?meter|riskometer|lock ?in|kim|sid|amc|sebi|amfi|"
+    r"\b(mutual funds?|net asset value|asset management|assets under management|aum|corpus|funds?|schemes?|sip|nav|elss|ter|expense|exit load|load|risk ?o ?meter|riskometer|lock ?in|kim|sid|amc|sebi|amfi|"
     r"folio|statement|cas|invest(ing|ment|ments|or|ors)?|redeem|redemption|units?|benchmark|returns?|etf|cagr|xirr|tax|"
     r"capital gains?|groww|large ?cap|multi ?cap|small ?cap|mid ?cap|flexi ?cap|tax saver|80c|lump ?sum|portfolio|dividend|idcw|"
     r"growth plan|direct plan|regular plan|fund manager|index|equity|debt|hybrid|stp|swp|kyc|nominee|factsheet)\b", _I)
@@ -181,13 +181,14 @@ def classify_llm(call_model, text):
 
 
 def route(text, call_model=None):
-    """Rules first; LLM classifier only when rules are unconfident and a model callable is supplied."""
+    """Rules first. If rules are unconfident, ask the LLM classifier once (3 s, no failover). If it is unavailable, slow or
+    unusable, fall back to the rules result and REFUSE (advice) - a wrong refusal is cheaper than wrong advice."""
     r = rules(text)
-    if r.confident or call_model is None:
+    if r.confident:
         return r
-    intent = classify_llm(call_model, text)
+    intent = classify_llm(call_model, text) if call_model else None
     if intent:
         r.intent, r.confident, r.via = intent, True, "llm"
     else:
-        r.via = "default"
+        r.intent, r.via = "advice", "default"
     return r

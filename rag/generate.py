@@ -41,5 +41,5 @@ def parse(raw):
     return "not_found", None, None
 
 
-def generate(llm, question, chunks, why=None):
-    return parse(llm.json(build_prompt(question, chunks, why), system=SYSTEM))
+def generate(llm, question, chunks, why=None, budget=None):
+    return parse(llm.json(build_prompt(question, chunks, why), system=SYSTEM, budget=budget))

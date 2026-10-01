@@ -17,14 +17,20 @@ class FakeLLM:
     def __init__(self, replies=(), fail=False):
         self.replies, self.fail, self.calls, self.embed_calls, self.prompts = list(replies), fail, 0, 0, []
 
-    def json(self, prompt, system=None, temperature=0.1, **kw):
+    def json_once(self, prompt, timeout=3.0, **kw):
+        self.classifier_calls = getattr(self, "classifier_calls", 0) + 1
+        if self.fail:
+            raise LLMUnavailable("down")
+        return '{"intent": "factual"}'
+
+    def json(self, prompt, system=None, temperature=0.1, budget=None, **kw):
         self.calls += 1
         self.prompts.append(prompt)
         if self.fail:
             raise LLMUnavailable("down")
         return self.replies.pop(0) if self.replies else '{"status": "not_found"}'
 
-    def embed_query(self, text):
+    def embed_query(self, text, timeout=3.0):
         self.embed_calls += 1
         return None
 

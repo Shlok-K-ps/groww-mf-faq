@@ -11,10 +11,10 @@ import logging
 import time
 from dataclasses import dataclass
 
-from rag import factsqa, pii, sources
+from rag import answer_cache, factsqa, pii, sources
 from rag.config import SCHEME_NAMES
 from rag.generate import generate
-from rag.llm import LLM, LLMUnavailable
+from rag.llm import LLM, Budget, LLMUnavailable
 from rag.retrieve import expand_terms, retrieve
 from rag.router import prep, route
 from rag.templates import render, strip_links
@@ -64,7 +64,7 @@ class Assistant:
 
     # ------------------------------------------------------------ internals
     def _classifier(self, prompt):
-        return self.llm.json(prompt, temperature=0)
+        return self.llm.json_once(prompt, timeout=3.0)
 
     def _ask(self, text, cache):
         if pii.contains_pii(text):                                     # 1. before everything else
@@ -100,20 +100,26 @@ class Assistant:
                 return resp, "rules"
             if fa and fa.text:
                 return render("fact", answer=fa.text, source_id=fa.source_id, page=fa.page), "facts"
-        return self._rag(text, r), "rag"                                # concepts, how-to, fields not in facts.json
+        hit = answer_cache.lookup(text) if r.intent in ("concept", "howto") else None
+        if hit:                                                         # vetted public answer: instant, no model call
+            return render(hit["kind"], answer=hit["answer"], source_id=hit["source_id"], page=hit.get("page")), "curated"
+        return self.rag_answer(text, r), "rag"                          # concepts, how-to, fields not in facts.json
 
-    def _rag(self, text, r):
+    def rag_answer(self, text, r, budget=None):
+        """Retrieval + Gemini within a hard budget (2 model attempts, 10 s). Budget exceeded -> LLMUnavailable -> service busy."""
         if self.llm is None:
             return render("service_unavailable")
+        budget = budget or Budget(2, 10.0)
         q = expand_terms(prep(text))
-        chunks = retrieve(q, r.schemes, r.intent, self.llm.embed_query(q))
+        qvec = self.llm.embed_query(q, timeout=min(3.0, max(0.5, budget.left() - 4.0)))   # None -> BM25-only
+        chunks = retrieve(q, r.schemes, r.intent, qvec)
         closest = (sources.first_of(doc_type="SID", scheme=r.schemes[0]) if r.schemes
                    else (chunks[0]["source_id"] if chunks else None))
         if not chunks:
             return render("not_found", closest_source_id=closest)
         why = None
-        for _ in range(2):                                              # retry once with a stricter prompt
-            status, answer, sid = generate(self.llm, q, chunks, why)
+        for _ in range(2):                                              # one validator-driven retry (counts toward the budget)
+            status, answer, sid = generate(self.llm, q, chunks, why, budget)
             if status != "ok":
                 break
             answer = strip_links(answer)
@@ -123,4 +129,6 @@ class Assistant:
                 kind = r.intent if r.intent in ("concept", "howto") else "fact"
                 return render(kind, answer=answer, source_id=sid, page=pc["page"] if pc else None)
             why = "; ".join(reasons)
+            if budget.calls >= budget.max_calls:
+                break
         return render("not_found", closest_source_id=closest)

@@ -28,6 +28,8 @@ st.set_page_config(page_title=UI["title"], layout="centered")
 def corpus_ready():
     """Corpus loading only (chunks + embeddings + BM25). Never user queries or answers."""
     load_index()
+    from rag.llm import LLM
+    LLM().warm()                # resolve the model name once; lists models only, no generate request
     return True
 
 
