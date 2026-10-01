@@ -1,0 +1,128 @@
+=== S09-001 | page 17 | Groww Large Cap Fund ===
+Groww MF Factsheet August 2026 - Fund snapshot - Groww Large Cap Fund
+Type of Scheme: An open ended equity scheme predominantly investing in large cap stocks
+Scheme Characteristics: Min 80% of total assets in large cap equity
+Indicative Investment Horizon: 4 years & above
+Investment Style: Growth
+Capitalisation: Large Cap
+Inception Date: February 10, 2012
+Benchmark: NIFTY100 - TRI
+Fund Manager: Mr. Anupam Tiwari Mr. Gagan Thareja Mr. Saptarshee Chatterjee Mr. Nikhil Satam
+Monthly Average AUM (Rs. in Crores): ` 136.78 Crore
+Month End AUM (Rs. in Crores): ` 136.68 Crore
+Portfolio Turnover: 0.81
+Standard Deviation#: 4.1509
+Sharpe Ratio#: 0.32
+Beta#: 0.98
+R Square#: 0.96
+Base Expense Ratio^ (Regular Plan /Direct Plan$): 2.09% / 1.18%
+Large Cap: 83.88
+Mid Cap: 9.14
+Small Cap: 0.02
+Number of Stocks: 45
+Top 10 Stocks (%): 48.29
+Top 5 Sectors (%): 55.27
+Exit Load: a) 1% if redeemed/ switched out within 7 Days from the date of allotment. b) Nil - if redeemed/ switched out after 7 Days from the date of allotment
+
+=== S09-002 | page 17 | Groww ELSS Tax Saver Fund ===
+Groww MF Factsheet August 2026 - Fund snapshot - Groww ELSS Tax Saver Fund
+Type of Scheme: An open ended scheme with at tributes in accordance with Equity Linked Saving Scheme, 2005 notified by Ministry of Finance
+Scheme Characteristics: Min 80% of total assets in large equity with a lock in period of 3 years
+Indicative Investment Horizon: 5 years & above
+Investment Style: Growth
+Capitalisation: Equity
+Inception Date: December 28, 2017
+Benchmark: Nifty 500 TRI
+Fund Manager: Mr. Paras Matalia Mr. Nikhil Satam
+Monthly Average AUM (Rs. in Crores): ` 51.74 Crore
+Month End AUM (Rs. in Crores): ` 51.57 Crore
+Portfolio Turnover: 1.83
+Standard Deviation#: 4.4606
+Sharpe Ratio#: 0.23
+Beta#: 1.01
+R Square#: 0.57
+Base Expense Ratio^ (Regular Plan /Direct Plan$): 2.09% / 0.84%
+Large Cap: 69.36
+Mid Cap: 23.93
+Small Cap: 2.78
+Number of Stocks: 95
+Top 10 Stocks (%): 34.28
+Top 5 Sectors (%): 46.53
+Exit Load: NIL
+
+=== S09-003 | page 17 | Groww Small Cap Fund ===
+Groww MF Factsheet August 2026 - Fund snapshot - Groww Small Cap Fund
+Type of Scheme: An open ended equity scheme predominantly investing in small cap stocks
+Scheme Characteristics: Min 65% of total assets in Eq uity and equity related securities covered
+Indicative Investment Horizon: 4 years & above
+Investment Style: Growth
+Capitalisation: Small Cap Fund
+Inception Date: January 29, 2026
+Benchmark: Nifty Smallcap 250 Index
+Fund Manager: Mr. Anupam Tiwari Mr. Gagan Thareja Mr. Saptarshee Chatterjee Mr. Nikhil Satam
+Monthly Average AUM (Rs. in Crores): ` 663.53 Crore
+Month End AUM (Rs. in Crores): ` 764.03 Crore
+Portfolio Turnover: 0.28
+Standard Deviation#: -
+Sharpe Ratio#: -
+Beta#: -
+R Square#: -
+Base Expense Ratio^ (Regular Plan /Direct Plan$): 2.02 / 0.51%
+Large Cap: -
+Mid Cap: 12.55
+Small Cap: 76.90
+Number of Stocks: 60
+Top 10 Stocks (%): 28.08
+Top 5 Sectors (%): 52.32
+Exit Load: a) For redemption / switch-out of unit on or before 1 year from the date of allotment: 1.00% of applicable NAV b) For redemption / switch-out of unit after 1 year from the date of allotment: Nil
+
+=== S09-004 | page 18 | Groww Multicap Fund ===
+Groww MF Factsheet August 2026 - Fund snapshot - Groww Multicap Fund
+Type of Scheme: (An open ended equity scheme investing across large cap, mid cap and small cap stocks
+Scheme Characteristics: 75% to 100% Equity and equity related securities
+Indicative Investment Horizon: 4 years & above
+Investment Style: Growth
+Capitalisation: Equity Fund
+Inception Date: December 16, 2024
+Benchmark: Nifty 500 Multicap 50:25:25 Index TRI
+Fund Manager: Mr. Anupam Tiwari Mr. Gagan Thareja Mr. Saptarshee Chatterjee Mr. Nikhil Satam
+Monthly Average AUM (Rs. in Crores): ` 1246.40 Crore
+Month End AUM (Rs. in Crores): ` 1476.14 Crore
+Portfolio Turnover: 0.69
+Standard Deviation#: -
+Sharpe Ratio#: -
+Beta#: -
+R Square#: -
+Base Expense Ratio^ (Regular Plan /Direct Plan$): 1.82% / 0.31%
+Large Cap: 27.15
+Mid Cap: 27.88
+Small Cap: 39.19
+Number of Stocks: 76
+Top 10 Stocks (%): 26.80
+Top 5 Sectors (%): 47.16
+Exit Load: a) 1% if redeemed/ switched out within 1 year from the date of allotment. b) NIL, if redeemed/ switched out after 1 year from the date of allotment.
+
+=== S09-005 | page 111 | Groww Large Cap Fund ===
+Benchmark of Groww Large Cap Fund (Groww MF Factsheet August 2026): NIFTY 100 TRI
+
+=== S09-006 | page 111 | Groww ELSS Tax Saver Fund ===
+Benchmark of Groww ELSS Tax Saver Fund (Groww MF Factsheet August 2026): NIFTY 500 TRI
+
+=== S09-007 | page 111 | Groww Multicap Fund ===
+Benchmark of Groww Multicap Fund (Groww MF Factsheet August 2026): NIFTY 500 Multicap 50:25:25 Index TRI
+
+=== S09-008 | page 111 | Groww Small Cap Fund ===
+Benchmark of Groww Small Cap Fund (Groww MF Factsheet August 2026): NIFTY Smallcap 250 Index
+
+=== S09-009 | page 115 | Groww Large Cap Fund ===
+Minimum investment amount for Groww Large Cap Fund (Groww MF Factsheet August 2026): Minimum Investment Amount (for fresh application): For Lumpsum & SIP : `500 and in multiples of `1/- thereafter Minimum Additional Investment: `500 and in multiples of `1/- thereafter Choti SIP**: `250
+
+=== S09-010 | page 115 | Groww ELSS Tax Saver Fund ===
+Minimum investment amount for Groww ELSS Tax Saver Fund (Groww MF Factsheet August 2026): Minimum Investment Amount (for fresh application): For Lumpsum & SIP : `500 and in multiples of `1/- thereafter Minimum Additional Investment: `500 and in multiples of `1/- thereafter -
+
+=== S09-011 | page 115 | Groww Multicap Fund ===
+Minimum investment amount for Groww Multicap Fund (Groww MF Factsheet August 2026): Minimum Investment Amount (for fresh application): For Lumpsum & SIP : `500 and in multiples of `1/- thereafter Minimum Additional Investment: `500 and in multiples of `1/- thereafter Choti SIP**: `250
+
+=== S09-012 | page 115 | Groww Small Cap Fund ===
+Minimum investment amount for Groww Small Cap Fund (Groww MF Factsheet August 2026): Minimum Investment Amount (for fresh application): For Lumpsum & SIP : `500 and in multiples of `1/- thereafter Minimum Additional Investment: `500 and in multiples of `1/- thereafter -
+

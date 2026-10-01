@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>:: Home | SEBI Investor </title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta content="" name="description" />
+		<!-- BEGIN GLOBAL MANDATORY STYLES -->
+		<link rel="shortcut icon" href="https://www.sebi.gov.in/images/icons/sebi-icon.png" type="text/css" media="all" />
+		<link href="assets/fonts.css" rel="stylesheet" type="text/css" />
+		<link href="assets/layouts/layout3/css/custom.css" rel="stylesheet" type="text/css" />
+		<link href="assets/global/plugins/font-aws/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/global/plugins/bootstrap-v5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="newcss/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+		<!-- <link href="newcss/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+		<link href="newcss/sidebar.css" rel="stylesheet">
+		<!-- END GLOBAL MANDATORY STYLES -->
+		<!-- BEGIN THEME GLOBAL STYLES -->
+		<link href="assets/global/plugins/cubeportfolio/css/cubeportfolio.css" rel="stylesheet" type="text/css" />
+		<link href="assets/global/css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
+		<link href="assets/global/css/plugins-md.min.css" rel="stylesheet" type="text/css" />
+		<!-- END THEME GLOBAL STYLES -->
+		<!-- <link href="assets/pages/css/portfolio.min.css" rel="stylesheet" type="text/css" /> -->
+		<link href="assets/custom.css" rel="stylesheet" type="text/css" />
+		<link href="assets/layouts/layout3/css/layout.min.css" rel="stylesheet" type="text/css" />
+		<!--  font awesome kit-->
+		<script src="newjs/a076d05399.js" crossorigin="anonymous"></script>
+		<link href="assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+		<link href="newcss/owl.carousel.css" rel="stylesheet" type="text/css"  />
+		<link href="newcss/prettyPhoto.min.css" rel="stylesheet" type="text/css" />
+		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- END THEME LAYOUT STYLES -->
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" href="/invweb/css/quiz_style.css">
+		<link href="assets/layouts/layout3/css/mmstyle.css" rel="stylesheet" type="text/css">
+		<link href="assets/global/plugins/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+		<style>
+			a {
+				transition: all 0.3s ease;
+				text-decoration: none !important;
+				outline: none !important;
+			}
+			a:active,
+			a:hover {
+				text-decoration: none;
+				outline: 0 none;
+			}
+			.close-btn{
+				margin-top: -15px !important;
+			}
+			#popupbox1{
+				top: 20% !important; 
+			}
+			.overlay {
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: rgba(0, 0, 0, 0.7);
+				transition: opacity 500ms;
+				visibility: hidden;
+				opacity: 0;
+				z-index: 99;
+			}
+			.overlay:target {
+				visibility: visible;
+				opacity: 1;
+			}
+			.popup {
+				margin: 70px auto;
+				padding: 20px;
+				background: #fff;
+				border-radius: 5px;
+				width: 30%;
+				position: relative;
+				transition: none;
+			}
+			.popup h2 {
+				margin-top: 0;
+				color: #333;
+				font-family: Tahoma, Arial, sans-serif;
+			}
+			.popup .close {
+				position: absolute;
+				top: 15px;
+				right: 15px;
+				transition: all 200ms;
+				font-size: 30px;
+				font-weight: bold;
+				text-decoration: none;
+				color: #333;
+			}
+			.popup .close:hover {
+				color: #06D85F;
+			}
+			.popup .content {
+				max-height: 30%;
+				overflow: auto;
+			}
+			@media screen and (max-width: 700px){
+				.box{
+					width: 70%;
+				}
+				.popup{
+					width: 70%;
+				}
+			}
+			/* Slick Slider Css Ruls */
+			.slick-slider {
+				position: relative;
+				display: block;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				-webkit-touch-callout: none;
+				-khtml-user-select: none;
+				-ms-touch-action: pan-y;
+				touch-action: pan-y;
+				-webkit-tap-highlight-color: transparent;
+				
+			}
+			.slick-list {
+				position: relative;
+				display: block;
+				overflow: hidden;
+				margin: 0;
+				padding: 0
+			}
+			.slick-list:focus {
+				outline: none
+			}
+			.slick-list.dragging {
+				cursor: pointer;
+			}
+			.slick-slider .slick-track,
+			.slick-slider .slick-list {
+				-webkit-transform: translate3d(0, 0, 0);
+				-ms-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0)
+			}
+			.slick-track {
+				position: relative;
+				top: 0;
+				left: 0;
+				display: block
+			}
+			.slick-track:before,
+			.slick-track:after {
+				display: table;
+				content: ''
+			}
+			.slick-track:after {
+				clear: both
+			}
+			.slick-loading .slick-track {
+				visibility: hidden
+			}
+			.slick-slide {
+				display: none;
+				float: left;
+				height: 100%;
+				min-height: 1px
+			}
+			.slick-slide.dragging img {
+				pointer-events: none
+			}
+			.slick-initialized .slick-slide {
+				display: block;
+				background: #ebf1f5;
+				margin: 5px;
+				padding-top: 20px;
+			}
+			.slick-loading .slick-slide {
+				visibility: hidden
+			}
+			.slick-vertical .slick-slide {
+				display: block;
+				height: auto;
+				border: 1px solid transparent
+			}
+			.img-fill {
+				width: 100%;
+				display: flex;
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+			}
+			.img-fill img {
+				height: 100%;
+				/*        min-width: 100%;*/
+				position: relative;
+				display: inline-block;
+				max-width: none
+			}
+			/* Slider Theme Style */
+			.Container {
+				display: flex;
+				flex-wrap: wrap; /* Allows the carousel slider to drop to the next line */
+				justify-content: space-between;
+				align-items: center;
+			}
+			
+			/* Force the slick carousel container to take up 100% of the lower row width */
+			.Container .SlickCarousel {
+				width: 100%;
+				margin-top: 20px; /* Optional: adds clean spacing below header row */
+			}
+			
+			.page-header {
+				opacity: 1;
+				filter: alpha(opacity=100);
+				width: 100%;
+				margin: 0;
+				border: 0;
+				padding: 0;
+				height: 80px;
+				background-image: none
+			}
+			.Container:after,
+			.Container .Head:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.Container .Head {
+				font: 20px/30px NeoSansR;
+				color: #0070c0;
+				/* height: 52px;*/
+				overflow: hidden;
+				font-weight: 800;
+				/* border-bottom:1px solid rgba(0,0,0,.25);*/
+				padding-top: 15px;
+			}
+			.Container .Head .Arrows {
+				float: none;
+			}
+			.Container .Slick-Next{
+				display: inline-block;
+				width: 70px;
+				height: 25px;
+				margin-top: 6px;
+				background: none;
+				border: none;
+				color: #0070c0 !important;
+				margin-left: 5px;
+				cursor: pointer;
+				font: 16px/22px FontAwesome;
+				text-align: center;
+				transition: all 0.5s;
+				margin-right: 0px;
+				font-weight: 800;
+			}
+			.Container .Slick-Prev {
+				display: inline-block;
+				width: 70px;
+				height: 25px;
+				margin-top: 6px;
+				background: none;
+				border: none;
+				color: #0070c0 !important;
+				margin-left: 5px;
+				cursor: pointer;
+				font: 16px/22px FontAwesome;
+				text-align: center;
+				transition: all 0.5s;
+				margin-right: 0px;
+				font-weight: 800;
+			}
+			.Container .Slick-Next:hover,
+			.Container .Slick-Prev:hover {
+				background: #fff;
+				color: #0070c0 !important;
+			}
+			.Container .Slick-Next:after {
+				content: '\f105'
+			}
+			.Container .Slick-Prev:before {
+				content: '\f104'
+			}
+			.SlickCarousel {
+				margin: 0 -10px;
+				margin-top: 15px;
+			}
+			.ProductBlock {
+				padding: 0 7.5px;
+			}
+			.ProductBlock .img-fill {
+				height: 100px;
+			}
+			.ProductBlock h5 {
+				font: 17px RalewayR;
+				color: #393939;
+				margin-top: 5px;
+				text-align: center;
+				/* border: 1px solid rgba(0, 0, 0, .25);*/
+				/*width: 270px;*/
+				font-weight: 600;
+			}
+			.ProductBlock p {
+				font: 17px RalewayR;
+				color: #393939;
+				margin-top: 5px;
+				text-align: center;
+				/* border: 1px solid rgba(0, 0, 0, .25);*/
+				/*width: 270px;*/
+				font-weight: 600;
+			}
+			.ProductBlock {
+				/*   width: 260px !important;*/
+			}
+			*,
+			*:before,
+			*:after {
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+			}
+			.page-content{
+				padding: 10px !important;
+			}
+			.carousel-indicators [data-bs-target]{
+				border-bottom: 35px solid transparent !important;
+			}
+			.text_anim {
+				font-size: 14px;
+				font-family: serif;
+				color: transparent;
+				text-align: center;
+				animation: effect 2s linear infinite;
+			}
+			@keyframes effect {
+				0% {
+					background: linear-gradient(
+					#ff0000, #ad5389);
+					-webkit-background-clip: text;
+				}
+				100% {
+					background: linear-gradient(
+					#10a0ad, #01608e);
+					-webkit-background-clip: text;
+				}
+				}
+			.banner_button_start{
+				display: flex; 
+				justify-content: center
+			}
+			span.Arrows > span::focus-within{
+				outline:1px solid black;
+				outline:3px solid black;
+			}
+			:focus-visible {
+				outline: -webkit-focus-ring-color auto 1px;
+				box-shadow: 0 0 12px #337ac0;
+			}
+			
+	/*for pop up of vigilance awareness*/
+			/* Styles for the main modal container (the dark overlay) */
+			.modal-vaw {
+				display: none; /* Initially hide the modal */
+				position: fixed; /* Stay in place even when scrolling */
+				z-index: 1000; /* Sit on top of everything */
+				left: 0;
+				top: 0;
+				width: 100%; /* Full width */
+				height: 100%; /* Full height */
+				overflow: auto; /* Enable scroll if needed */
+				background-color: rgba(255,255,255,0.5); /* Black w/ opacity (the dark overlay) */
+				backdrop-filter: blur(5px); /* Optional: Adds a blur effect */
+			}
+
+			/* Styles for the content box inside the modal */
+			.modal-content-vaw {
+				background-color: #fefefe;
+				margin: 10% auto; /* 10% from the top and centered horizontally */
+				padding: 20px;
+				border: 1px solid #888;
+				width: 80%; /* Could be anything you want */
+				max-width: 600px; /* Max width to keep it tidy */
+				border-radius: 20px;
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+				text-align: center;
+			}
+
+			/* Styles for the image */
+			.modal-image-vaw {
+				width: 100%; /* Make the image fill the content width */
+				max-height: 300px; /* Control the maximum height */
+				object-fit: cover; /* Ensures the image covers the area without distortion */
+				border-radius: 5px;
+				margin-bottom: 15px;
+			}
+
+			/* Styles for the close button */
+			.close-btn-vaw {
+				color: #aaa;
+				float: right;
+				font-size: 28px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+
+			.close-btn-vaw:hover,
+			.close-btn-vaw:focus {
+				color: #000;
+				text-decoration: none;
+			}
+
+			/* Styles for the link */
+			.modal-link-vaw {
+				display: inline-block;
+				margin-top: 15px;
+				padding: 10px 20px;
+				background-color: #0188cc;
+				color: white;
+				text-decoration: none;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+
+			.modal-link-vaw:hover {
+				background-color: #0188cc;
+			}
+
+
+			/* ===============================
+   SECTION HEADER
+================================ */
+.section-header{
+  background:#d9efff;
+  padding:14px 20px;
+  font-size:20px;
+  font-weight:600;
+  margin:20px 0;
+}
+
+/* ===============================
+   LEFT INFO CARDS
+================================ */
+.info-card{
+  background:#d9efff;
+  padding-bottom:5px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display:flex;
+  gap:15px;
+  margin-bottom:12px;
+  align-items:center;
+  border-radius:4px;
+}
+
+
+
+.info-card h4{
+  margin:0 0 5px;
+  font-size:18px;
+}
+
+.info-card p{
+  font-size:14px;
+  margin-bottom:8px;
+}
+
+/* ===============================
+   RIGHT SLIDER WRAPPER
+================================ */
+.right-slider-wrapper{
+  background:#d9efff;
+  padding-top:20px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+  border-radius:6px;
+  position:relative;
+  height: 100%;
+}
+
+/* ===============================
+   RIGHT SLIDER
+================================ */
+.right-slider{
+  position:relative;
+  width:100%;
+}
+
+/* Slide content */
+.right-slider .slide{
+  text-align:center;
+}
+
+/* Content spacing */
+.right-slider h4{
+  font-size:18px;
+  font-weight:600;
+  margin:8px 0;
+}
+
+.right-slider p{
+  font-size:14px;
+  line-height:1.5;
+  margin-bottom:12px;
+}
+
+/* Center button */
+.slider-btn{
+  margin-top:15px;
+  text-align:center;
+}
+
+.slider-btn .btn{
+  background:#fff;
+  padding:8px 18px;
+  border-radius:4px;
+  font-weight:600;
+  text-decoration:none;
+  color:#000;
+}
+
+/* ===============================
+   SLICK ARROWS (ROUND, BOTH SIDES)
+================================ */
+.right-slider .slick-prev,
+.right-slider .slick-next{
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background:#8a8f94;
+  z-index:10;
+}
+
+/* .right-slider .slick-prev{ left:10px; }
+.right-slider .slick-next{ right:10px; }  */
+
+.right-slider .slick-prev:before,
+.right-slider .slick-next:before{
+  font-size:26px;
+  color:#fff;
+  opacity:1;
+}
+
+/* ===============================
+   SLICK DOTS (CENTERED TOP)
+================================ */
+.right-slider .slick-dots{
+  position:absolute;
+  bottom: -25px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.right-slider .slick-dots li{
+  margin:0 5px;
+}
+
+.right-slider .slick-dots li button:before{
+  font-size:12px;
+  color:#9e9e9e;
+  opacity:1;
+}
+
+.right-slider .slick-dots li.slick-active button:before{
+  color:#2d6cdf;
+}
+
+/* ===============================
+   FIX METRONIC / SEBI CONFLICTS
+================================ */
+.right-slider .slick-track{
+  display:flex !important;
+}
+
+.right-slider .slick-slide{
+  height:auto !important;
+}
+ .sebi-ticker-container { 
+  background: #ffffff; 
+  color: #000000; 
+  overflow: hidden; 
+  font-family: 'Open Sans', Arial, sans-serif; 
+  font-size: 14px; 
+  font-weight: 600; 
+  position: relative; 
+  width: 100%;
+} 
+
+.sebi-ticker-scroll { 
+  display: inline-block; 
+  white-space: nowrap; 
+  /* 1. Added alternate flex layout to handle seamless duplication */
+  display: flex;
+  width: max-content;
+} 
+
+/* 2. Target both individual tracks inside the wrapper */
+.sebi-ticker-track {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 50px; /* Spacing between loops */
+  animation: sebi-scroll 30s linear infinite; 
+}
+
+.sebi-ticker-scroll:hover .sebi-ticker-track { 
+  animation-play-state: paused; 
+} 
+
+.sebi-ticker-link { 
+  color: #000000; 
+  text-decoration: none; 
+} 
+
+.sebi-ticker-link:hover { 
+  text-decoration: underline; 
+  color: #0056b3; 
+}
+
+/* 3. Perfect -100% transform keyframe for infinite looping */
+@keyframes sebi-scroll {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+  .sebi-phone {
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  @keyframes sebi-scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+
+  .lang-modal {
+  position: fixed;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width: min(750px, 100%);
+  max-width: 800px; /* wider to fit Hindi matras */
+  background: #ffffff;
+  border-radius: 8px;
+  border: 4px solid #205DB1;
+  box-shadow: 0 10px 25px rgba(18,40,80,0.18);
+  z-index:1001;
+  display:none;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.titles {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.title-hi, .title-en {
+  display: block;
+  text-align: center;
+  margin: 0 0 8px;
+}
+
+.title-hi {
+  color: #205DB1;
+  font-weight: 700;
+  font-size: 20px;       /* slightly smaller font to fit one line */
+  line-height: 1.2;
+  
+  white-space: nowrap;     /* keep single line */
+  width: 100% !important; 
+  text-overflow: ellipsis;
+}
+
+.title-en {
+  color: #205DB1;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  width: 100% !important; 
+}
+
+.modal-body {
+  text-align:center;
+  margin-top: 16px;
+  padding: 12px 4px 0;
+}
+
+.modal-body .hi-sub { 
+  color: #923F17;
+  font-size: 20px; 
+  font-weight:500; 
+  display:block; 
+  margin-bottom:10px; 
+}
+
+.modal-body .en-sub { 
+  color: #923F17; 
+  font-size: 20px;
+  margin-bottom: 14px; 
+  display:block; 
+}
+
+.buttons { display:flex; gap:16px; justify-content:center; margin-top: 8px; flex-wrap:wrap; }
+.lang-btn {
+  min-width:120px;
+  padding:12px 22px;
+  border-radius:10px;
+  border: 0;
+  font-size:16px;
+  font-weight:700;
+  color:#fff;
+  background: linear-gradient(180deg,#355ea6, #2b4f94);
+  box-shadow: 0 4px 0 rgba(0,0,0,0.12), inset 0 -2px 0 rgba(0,0,0,0.06);
+  cursor:pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.lang-btn:active{ transform: translateY(2px); box-shadow: 0 2px 0 rgba(0,0,0,0.08); }
+.lang-btn.secondary{ background: linear-gradient(180deg,#3f63a8,#2f4f8a); }
+
+@media (max-width:500px){
+  .title-hi { font-size:16px; }
+  .title-en { font-size:18px; }
+  .lang-modal{ padding:28px 14px; border-width:3px; width: 90%; }
+  .modal-body .hi-sub{ font-size:0.95rem; }
+  .modal-body .en-sub{ font-size:0.9rem; }
+  .lang-btn { font-size:14px; min-width:100px; padding:8px 16px; }
+}
+
+  
+		</style>
+	</head>
+	<!-- END HEAD -->
+	<body class="page-container-bg-solid page-md page-header-menu-fixed">
+ <div id="overlay" aria-hidden="true"></div>
+
+<section
+  id="languageModal"
+  class="lang-modal"
+  role="dialog"
+  aria-labelledby="modalTitleEN modalTitleHI"
+  aria-modal="true"
+  aria-hidden="true"
+>
+  <div class="titles">
+    <h2 id="modalTitleHI" class="title-hi" lang="hi">
+      सेबी की निवेशक वेबसाइट पर आपका स्वागत है 
+    </h2>
+    <span id="modalTitleEN" class="title-en">
+      Welcome to Investor website of Securities and Exchange Board of India
+    </span>
+  </div>
+
+  <div class="modal-body">
+    <span class="hi-sub" lang="hi">वेबसाइट देखने के लिए अपनी पसंदीदा भाषा चुनें</span>
+    <span class="en-sub">Select your preferred language to access the website</span>
+
+    <div class="buttons" role="group" aria-label="Language choices">
+      <button class="lang-btn" id="btnHindi" type="button">हिन्दी</button>
+      <button class="lang-btn secondary" id="btnEnglish" type="button">English</button>
+    </div>
+  </div>
+</section>
+<script>
+const hindiLink = "https://investor.sebi.gov.in/hindi/index.html";
+const englishLink = "https://investor.sebi.gov.in/index.html";
+
+const overlay = document.getElementById('overlay');
+const modal = document.getElementById('languageModal');
+const btnHindi = document.getElementById('btnHindi');
+const btnEnglish = document.getElementById('btnEnglish');
+
+let lastActiveElement = null;
+
+function showModal(){
+  lastActiveElement = document.activeElement;
+  overlay.style.display = 'block';
+  modal.style.display = 'block';
+  overlay.setAttribute('aria-hidden', 'false');
+  modal.setAttribute('aria-hidden', 'false');
+  document.documentElement.classList.add('modal-open');
+  document.body.classList.add('modal-open');
+  setTimeout(()=> btnHindi.focus(), 40);
+}
+
+function hideModal(){
+  overlay.style.display = 'none';
+  modal.style.display = 'none';
+  overlay.setAttribute('aria-hidden', 'true');
+  modal.setAttribute('aria-hidden', 'true');
+  document.documentElement.classList.remove('modal-open');
+  document.body.classList.remove('modal-open');
+  try{ if(lastActiveElement && typeof lastActiveElement.focus === 'function') lastActiveElement.focus(); }catch(e){}
+}
+
+function redirectTo(lang){
+  if(lang === 'hi') {
+    window.location.href = hindiLink;
+  } else {
+    hideModal(); // just close modal for English
+  }
+}
+
+// Show modal every page load
+window.addEventListener('DOMContentLoaded', () => showModal());
+
+// Button events
+btnHindi.addEventListener('click', () => redirectTo('hi'));
+btnEnglish.addEventListener('click', () => redirectTo('en'));
+
+/* focus trap inside modal */
+(function(){
+  const focusableSelectors = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+  modal.addEventListener('keydown', (e)=>{
+    if(e.key !== 'Tab') return;
+    const focusables = Array.from(modal.querySelectorAll(focusableSelectors)).filter(el => el.offsetParent !== null);
+    if(focusables.length === 0) return;
+    const first = focusables[0];
+    const last  = focusables[focusables.length -1];
+    if(e.shiftKey){
+      if(document.activeElement === first){ last.focus(); e.preventDefault(); }
+    } else {
+      if(document.activeElement === last){ first.focus(); e.preventDefault(); }
+    }
+  });
+})();
+</script>
+		<header>
+			<nav class="navbar navbar-expand-lg">
+				<div class="page-wrapper">
+				   <!-- <div class="iw_top_wrap_bg">
+					  <script src="assets/headertop.js"></script>
+					  </div> -->
+				   <div class="page-wrapper-row">
+					  <script src="assets/header.js"></script>
+				   </div>
+				</div>
+			</nav>
+		</header>
+
+		
+		<main>
+		<div class="page-wrapper-row full-height">
+            <div class="page-wrapper-white">
+				
+               <!-- BEGIN CONTAINER -->
+				<div class="page-container">
+					
+					<!-- BEGIN CONTENT -->
+					<div class="page-content-wrapper">
+						<!-- BEGIN PAGE CONTENT BODY --><br>
+						 			
+
+								<div class="container">
+									<div class="page-content-inner">
+<div class="page-content" style="background-color:#fff; margin-top: 0;">
+							<div class="topbox">
+								<div class="sebi-ticker-container"> 
+  <div class="sebi-ticker-scroll"> 
+    
+    <!-- Track 1: Original Content -->
+    <div class="sebi-ticker-track">
+      <a href="https://investor.sebi.gov.in/join-us.html" class="sebi-ticker-link"> Apply to join as Securities Market Trainers(SMARTS) </a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="https://investor.sebi.gov.in/Investor-support.html#inv-sup-02" class="sebi-ticker-link"> ⚠️ Toll - Free Helpline Service For Investors: <span class="sebi-phone">1800 266 7575</span> or <span class="sebi-phone">1800 22 7575</span> </a>
+    </div>
+    
+    <!-- Track 2: Identical Clone for Seamless Wrap -->
+    <div class="sebi-ticker-track" aria-hidden="true">
+      <a href="https://investor.sebi.gov.in/join-us.html" class="sebi-ticker-link"> Apply to join as Securities Market Trainers(SMARTS) </a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+      <a href="https://investor.sebi.gov.in/Investor-support.html#inv-sup-02" class="sebi-ticker-link"> ⚠️ Toll - Free Helpline Service For Investors: <span class="sebi-phone">1800 266 7575</span> or <span class="sebi-phone">1800 22 7575</span> </a>
+    </div>
+
+  </div> 
+</div>
+			
+										  <div class="row">
+
+
+    <!-- LEFT PANEL -->
+    <div class="container">
+
+  <!-- MAIN ROW -->
+  <div class="row">
+
+    <!-- LEFT COLUMN (CARDS) -->
+    <div class="col-md-7">
+      
+
+		<div class="info-card" style="text-align: center;">
+<h1 style="text-align: center; color: black; font-size: 18px;"><b>Learn To Manage Your Money For Financial Well-Being</b></h1>
+
+</div>
+      <div class="info-card">
+        <div class="banner_image center">
+																   <img src="images/topic-to-interest/img-66.png" alt=''>
+																</div>
+        <div>
+          <h2 id="moreLink1" style="font-size: 16px;color: #0070c0 !important;font-weight: 600;">Money Matters : Lets Understand</h2>
+        <p>This Section Will Provide You Understanding About Money Related Matters</p>
+        
+          <a class="btn btn-default" href="https://investor.sebi.gov.in/moneymatters.html" id="money" aria-labelledby="moreLink1" data-purpose="This link will take you to the Money Matters page for more information about financial topics.">
+    To Know More
+</a>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="banner_image center">
+																	<img src="images/topic-to-interest/img-65.png" alt="">
+																</div>
+        <div>
+          <h2 id="moreLink2" style="font-size: 16px;color: #0070c0 !important;font-weight: 600;">Investment : Avenue To Grow Your Money</h2>
+          <p>This section will provide you an essential guide on investments and asset class</p>
+          <a class="btn btn-default" href="https://investor.sebi.gov.in/personalinvestments.html" id="investment" aria-labelledby="moreLink2" data-purpose="This link will take you to a guide on investments and asset classes.">TO KNOW MORE</a>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="banner_image center">
+																	<img src="images/topic-to-interest/img-64.png" alt="">
+																</div>
+        <div>
+          <h2 id="moreLink3" style="font-size: 16px;color: #0070c0 !important;font-weight: 600;">Securities Market Investment : Lets Learn</h2>
+          <p>This section helps you to know about investment avenues available in securities market</p>
+          <a class="btn btn-default" href="https://investor.sebi.gov.in/personalsecurities.html" aria-labelledby="moreLink3" data-purpose="This link will take you to the Securities Market Investment section for more information.">TO KNOW MORE</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN (SLIDER) -->
+    <div class="col-md-5">
+
+      <div class="right-slider-wrapper">
+        <div class="right-slider">
+
+
+			
+          <div class="slide">
+			<img src="images/Bond_Investments.png" alt="Bond Investments" style="width: 100%; height: auto; margin-bottom: 10px;">
+    
+            <h4>Caution to Public regarding unregistered Online Bond Platform Providers </h4>
+            <p></p>
+            <div class="slider-btn">
+              <a class="btn btn-default" href="https://investor.sebi.gov.in/pdf/1763551749033.pdf" aria-labelledby="moreLink3" data-purpose="This link will take you to the Securities Market Investment section for more information.">TO KNOW MORE</a>
+        </div>
+          </div>
+
+          <div class="slide">
+			<img src="images/Authorised_Mobile_Trading.png" alt="Authorised Mobile Trading" style="width: 100%; height: auto; margin-bottom: 10px;">
+            <h4>Authorised Mobile Trading Apps</h4>
+            <p></p>
+            <div class="slider-btn">
+             <a class="btn btn-default" href="https://investor.sebi.gov.in/Investor-support.html" aria-labelledby="moreLink3" data-purpose="This link will take you to the Securities Market Investment section for more information.">TO KNOW MORE</a>
+        
+            </div>
+          </div>
+
+        
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap -->
+  <script src="newjs/bootstrap.bundle.min.js" type="text/javascript"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>-->
+
+<!-- Slick -->
+  <script src="newjs/slick.min.js" type="text/javascript"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+
+										<!-- <div class="row">
+											<div class="col-lg-12">
+												<div class="banner_start" style="display: flex; align-items: center; justify-content: center; height:40px;">
+													<div>
+														<a href="Investor-support.html" style="color: #333; text-decoration: none; font-size:18px; display:inline-block;">📢  <b> Authorised Mobile Trading Apps -</b> </a>
+														<a href="Investor-support.html#inv-sup-07" style="color: #333; text-decoration: none; font-size:18px; display:inline-block;"><b>List of Social Media Handle of Brokers</b></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="banner_start" style="display: flex; align-items: center; justify-content: center; height:40px;">
+													<div>
+														<a href="https://investor.sebi.gov.in/events.html" style="color: #333; text-decoration: none; font-size:18px">
+														📷<b>	SEBI Arth Yatra Contest 2025 Results </b></a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="banner_start" style="display: flex; align-items: center; justify-content: center; height:40px;">
+													<div>
+														<a href="Campaign.html" style="color: #333; text-decoration: none; font-size:18px; display:inline-block;">🏦  <b> Campaign for efficient and quick  settlement of unclaimed assets in the financial sector</b> </a>
+													</div>
+												</div>
+											</div>
+										</div><br>
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="banner_start">
+													<h1>Learn to Manage Your Money For Financial Well-being</h1>
+													<div class="row">
+														<div class="col-md-4 ">
+															<div class="banner_box">
+																<div class="banner_image center">
+																   <img src="images/topic-to-interest/img-66.png" alt='' title='Money Matters : Lets Understand'>
+																</div>
+																<h2 id="moreLink1" class="managemoney">Money Matters : Lets Understand</h2>
+																<div class="banner_text">This section will provide you understanding about money related matters</div>
+																<div class="banner_button_start">
+																	<a class="banner_button" href="https://investor.sebi.gov.in/moneymatters.html" aria-labelledby="moreLink1" data-purpose="This link will take you to the Money Matters page for more information about financial topics.">More</a>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-4">
+															<div class="banner_box">
+																<div class="banner_image center">
+																	<img src="images/topic-to-interest/img-65.png" alt="" title="Investment : Avenue to Grow Your Money">
+																</div>
+																<h2 id="moreLink2" class="managemoney">Investment : Avenue to Grow Your Money</h2>
+																<div class="banner_text">This section will provide you an essential guide on investments and asset class</div>
+																<div class="banner_button_start">
+																	<a class="banner_button" href="https://investor.sebi.gov.in/personalinvestments.html" aria-labelledby="moreLink2" data-purpose="This link will take you to a guide on investments and asset classes.">More</a>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-4">
+															<div class="banner_box">
+																<div class="banner_image center">
+																	<img src="images/topic-to-interest/img-64.png" alt="" title="Securities Market Investment">
+																</div>
+																<h2 id="moreLink3" class="managemoney">Securities Market Investment : Lets Learn</h2>
+																<div class="banner_text">This section helps you to know about investment avenues available in securities market</div>
+																<div class="banner_button_start">
+																	<a class="banner_button" href="https://investor.sebi.gov.in/personalsecurities.html" aria-labelledby="moreLink3" data-purpose="This link will take you to the Securities Market Investment section for more information.">More</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> -->
+										<div class="row">
+											<div class="Container">
+												<h2 class="Head">Topics of Interest</h2>
+												<span class="Arrows"></span>
+												<!-- Carousel Container -->
+												<div class="SlickCarousel">
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/advisory-investment-in-sme-segment.html" >
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/img-68.png" alt="" title="Advisory - SME segment">
+															</div>
+															<p><span style="color:Black;">Advisory - SME segment</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/secure_ur_inv_account.html">
+														<div class="Content">
+															<div class="img-fill">
+																<center><img src="images/topic-to-interest/img-62.jpg" alt="" title="Secure Your Investment Account"></center>
+															</div>
+															<p><span style="color:Black;">Secure Your Investment Account</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/podcasts.html" >
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/podcast/img-1.png" alt="" title="Podcasts">
+															</div>
+															<p><span style="color:Black;">Podcasts</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/market-nomination.html">
+														<div class="Content">
+															<div class="img-fill">
+															   <img src="images/topic-to-interest/58.png" alt="" title="Nomination">
+															</div>
+															<p><span style="color:Black;">Nomination</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/sms_email_alerts.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/img-11.jpg" alt="" title="SMS and Email Alerts to Investors">
+															</div>
+															<p><span style="color:Black;">SMS and Email Alerts to Investors</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/ipo_through_asba.html">
+														<div class="Content">
+															<div class="img-fill">
+															   <img src="images/topic-to-interest/img-05.jpg" alt="" title="Apply in IPO through ASBA">
+															</div>
+															<p><span style="color:Black;">Apply in IPO through ASBA</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/due_diligence.html">
+														<div class="Content">
+															<div class="img-fill">
+															   <img src="images/topic-to-interest/img-40.jpg" alt="" title="Due Diligence">
+															</div>
+															<p><span style="color:Black;">Due Diligence</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/consolidated_account_statement.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/img-61.jpg" alt="" title="Consolidated Account Statement">
+															</div>
+															<p><span style="color:Black;">Consolidated Account Statement</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/marketindex.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img class="center" src="images/topic-to-interest/toi-03.png" alt="" title="Market Index – Sensex & Nifty">
+															</div>
+															<p><span style="color:Black;">Market Index – Sensex & Nifty</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/bullandbeermarket.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-01.png" alt="" title="Bull and Bear Market">
+															</div>
+															<p><span style="color:Black;">Bull and Bear Market</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/smartinvestor.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-04.png" title="" alt="SMART Investor" style="min-width: 50% !important;">
+															</div>
+															<p><span style="color:Black;">SMART Investor</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/dabba_trading.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/img-60.jpg" alt="" title="Dabba Trading ">
+															</div>
+															<p><span style="color:Black;">Dabba Trading</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/cautiontoinvestor.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-02.png" alt="" title="Caution to Investor">
+																</div>
+															<p><span style="color:Black;">Caution to Investor</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/beware-fake-trading-app-scam.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-05.png" alt="" title="Beware of Fake Trading App Scam">
+															</div>
+															<p><span style="color:Black;">Beware of Fake Trading App Scam</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/stock-market-guru-scams.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-06.png" alt="" title="Stock Market Guru Scams">
+															</div>
+															<p><span style="color:Black;">"Stock Market Guru" Scams</span></p>
+														</div>
+														</a>
+													</div>
+													<div class="ProductBlock">
+														<a href="https://investor.sebi.gov.in/pump-and-dump-scam.html">
+														<div class="Content">
+															<div class="img-fill">
+																<img src="images/topic-to-interest/toi-07-e.png" alt="" title="Pump and Dump Scam">
+															</div>
+															<p><span style="color:Black;">Pump and Dump Scam</span></p>
+														</div>
+														</a>
+													</div>
+												</div>
+												<!-- Carousel Container -->
+											 </div>
+										  </div>
+										  <div class="row">
+											 <div class="services" style="padding-top:6px; padding-bottom: 30px;">
+												<div class="main_services">
+												   <div class="iw_hdg_01 default_width">
+													  <span class="pb20 mt0">&nbsp;</span>
+												   </div>
+												</div>
+											 </div>
+										   <div class="row">
+											   <a href="https://sice.nism.ac.in/" lang="en" hreflang="en" target="_blank" title="Digital Banner">
+												   <img src="images/sebi-investor-awareness-test.png" title="SEBI - Investor Awareness Test" alt="SEBI Investor Awareness Test" aria-label="SEBI Investor Awareness Test. Includes free study material and has no exam fee. For support, contact NISM certification helpdesk at +91-8080806476 or email certification@nism.ac.in.">
+											   </a>
+										   </div>
+										</div>
+										<!-- <div class="row">
+											<div class="services" style="padding-top:6px; padding-bottom: 20px;">
+												<div class="main_services">
+												   <div class="iw_hdg_01 default_width">
+													  <h3 class="pb20 mt0">&nbsp;</h3>
+												   </div>
+												</div>
+												<div class="row">
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/awareness-messages.html" class="stretched-link" title="Awareness Messages">
+															   <div class="icon">
+																   <img src="images/quick-links/rt.jpg" alt="" style="width:50px;">
+															   </div>
+															   <p> <span style="color:Black;">Awareness Messages</span></span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/inv_aware_edu_videos.html" class="stretched-link" title="Video Based Learning" >
+															   <div class="icon">
+																   <img src="images/quick-links/videos1.png" alt="" style="width:50px;">
+															   </div>
+															   <p> <span style="color:Black;">Video Based Learning</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/Investor-charter.html" class="stretched-link" title="Investor Charter">
+															   <div class="icon">
+																   <img src="images/quick-links/ic.png"  alt="" style="width:50px;">
+															   </div>
+															   <p><span style="color:Black;">Investor Charter</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/awar-program.html" class="stretched-link" title="Awareness Programs">
+															   <div class="icon">
+																   <img src="images/quick-links/ap.jpg" alt="" style="width:50px;">
+															   </div>
+															   <p><span style="color:Black;">Awareness Programs</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="Investor-support.html" class="stretched-link" title="Investor Support">
+															   <div class="icon">
+																   <img src="images/quick-links/is-sebi.jpg" alt="" style="width:50px;">
+															   </div>
+															   <p><span style="color:Black;">Investor Support</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="req_awar_program.html" class="stretched-link" title="Request for Awareness Program">
+															   <div class="icon">
+																   <img src="images/quick-links/contact.png" alt="" style="width:43px;">
+															   </div>
+															   <p><span style="color:Black;">Request for Awareness Program</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/events.html" class="stretched-link" title="Events">
+															   <div class="icon">
+																   <img src="images/quick-links/events.png" alt="" style="width:50px;">
+															   </div>
+															   <p><span style="color:Black;">Events</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/video_gallery.html" title="Video Gallery">
+															   <div class="icon">
+																   <img src="images/quick-links/gallery.png" alt="" style="width:50px;">
+															   </div>
+															   <p><span style="color:Black;">Video Gallery</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+													<div class="service-item">
+														<div class="details position-relative">
+														   <a href="https://investor.sebi.gov.in/join-us.html" class="stretched-link" title="Partner with SEBI">
+															   <div class="icon">
+																   <img src="images/quick-links/trainer.png" alt="">
+															   </div>
+															   <p><span style="color:Black;">Partner with SEBI</span></p>
+														   </a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> -->
+										
+										
+										<div class="row">
+											<div class="services" style="padding-top:6px; padding-bottom: 30px;">
+												<div class="main_services">
+												   <div class="iw_hdg_01 default_width">
+													  <span class="pb20 mt0">&nbsp;</span>
+												   </div>
+												</div>
+												<div class="row">
+												<!-- Start Service Item -->
+												<ul Style="list-style-type: none !important;">
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/awareness-messages.html" class="stretched-link" title="Awareness Messages">
+																	   <div class="icon">
+																		   <img src="images/quick-links/rt.jpg" alt="" style="width:50px;">
+																	   </div>
+																	   <p> <span style="color:Black;">Awareness Messages</span></span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/inv_aware_edu_videos.html" class="stretched-link" title="Video Based Learning" >
+																	   <div class="icon">
+																		   <img src="images/quick-links/videos1.png" alt="" style="width:50px;">
+																	   </div>
+																	   <p> <span style="color:Black;">Video Based Learning</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/Investor-charter.html" class="stretched-link" title="Investor Charter">
+																	   <div class="icon">
+																		   <img src="images/quick-links/ic.png"  alt="" style="width:50px;">
+																	   </div>
+																	   <p><span style="color:Black;">Investor Charter</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/awar-program.html" class="stretched-link" title="Awareness Programs">
+																	   <div class="icon">
+																		   <img src="images/quick-links/ap.jpg" alt="" style="width:50px;">
+																	   </div>
+																	   <p><span style="color:Black;">Awareness Programs</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="Investor-support.html" class="stretched-link" title="Investor Support">
+																	   <div class="icon">
+																		   <img src="images/quick-links/is-sebi.jpg" alt="" style="width:50px;">
+																	   </div>
+																	   <p><span style="color:Black;">Investor Support</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="req_awar_program.html" class="stretched-link" title="Request for Awareness Program">
+																	   <div class="icon">
+																		   <img src="images/quick-links/contact.png" alt="" style="width:43px;">
+																	   </div>
+																	   <p><span style="color:Black;">Request for Awareness Program</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													
+													
+													<li style="display: inline-block !important; margin-right: 28px !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/video_gallery.html" title="Video Gallery">
+																	   <div class="icon">
+																		   <img src="images/quick-links/gallery.png" alt="" style="width:50px;">
+																	   </div>
+																	   <p><span style="color:Black;">Video Gallery</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/events.html" class="stretched-link" title="Events">
+																	   <div class="icon">
+																		   <img src="images/quick-links/events.png" alt="" style="width:50px;">
+																	   </div>
+																	   <p><span style="color:Black;">Events</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+
+
+
+
+
+
+
+
+
+
+													<li style="display: inline-block !important;">
+														<div class="col-md-4" data-aos="zoom-in" data-aos-delay="700">
+															<div class="service-item">
+																<div class="details position-relative">
+																   <a href="https://investor.sebi.gov.in/join-us.html" class="stretched-link" title="Partner with SEBI">
+																	   <div class="icon">
+																		   <img src="images/quick-links/trainer.png" alt="">
+																	   </div>
+																	   <p><span style="color:Black;">Partner with SEBI</span></p>
+																   </a>
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div>
+		 </main>
+		 
+         <!-- onload popup start -->
+         <!-- <div id="popupbox1" class="modal" role="dialog" style="display: block; text-align: center;">
+            <div class="popup-content">
+               <a href="https://nflq.nism.ac.in/" target="_blank"><img src="images/National_Quiz.jpg"></a> 
+            </div>
+         </div> -->
+         <!-- onload popup end -->
+
+		 <!--Modal for Vigilance Awareness Week Popup-->
+		  <!-- <div id="vawModal" class="modal-vaw">
+			<div class="modal-content-vaw">
+				<span class="close-btn-vaw">&times;</span> 
+				<img src="images/vigilance_awareness_week.jpg" alt="Description of the image" class="modal-image-vaw">
+				<h2>Vigilance Awareness Week - 2025</h2>	
+				<p><b>"Vigilance: Our Shared Responsibility"</b></br>
+					Participate in the fight against corruption - Take Online Integrity Pledge at <a href="https://pledge.cvc.nic.in/" target="_blank" class="modal-link-vaw">https://pledge.cvc.nic.in/</a>
+				</p>
+			</div>
+		</div> -->
+
+		 <footer>
+			 <div class="page-wrapper-row">
+				<script src="assets/footer.js" type="text/javascript"></script>
+			 </div>
+		 </footer>
+         <!-- BEGIN QUICK NAV -->
+         <script src="assets/share.js" type="text/javascript"></script>
+         <script src="assets/emailtofriend.js" type="text/javascript"></script>
+         <!-- END QUICK NAV -->
+         <!-- BEGIN CORE PLUGINS -->
+         <script src="assets/global/plugins/jquery-new/jquery.min.js"></script>
+         <!-- <script src="newjs/jquery.min.js" type="text/javascript"></script> -->
+         <!-- <script src="newjs/bootstrap.min.js" type="text/javascript"></script> -->
+         <script src="assets/global/plugins/bootstrap-v5/js/bootstrap.min.js" type="text/javascript"></script>
+         <script src="newjs/js.cookie.min.js" type="text/javascript"></script>
+         <script src="newjs/jquery.blockUI.min.js" type="text/javascript"></script>
+         <script src="newjs/owl.carousel.js" type="text/javascript"></script>
+         <!-- <script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> -->
+         <script src="assets/global/plugins/jquery-new/jquery.slimscroll.min.js" type="text/javascript"></script>
+         <!-- END CORE PLUGINS --> 
+         <!-- BEGIN THEME GLOBAL SCRIPTS -->
+         <script src="newjs/app.min.js" type="text/javascript"></script>
+         <!-- END THEME GLOBAL SCRIPTS -->
+         <!-- <script src="assets/pages/scripts/portfolio-1.min.js" type="text/javascript"></script> -->
+         <!-- BEGIN THEME LAYOUT SCRIPTS -->
+         <script src="assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
+         <script src="assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
+         <script src="assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+         <script src="assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+         <!-- END THEME LAYOUT SCRIPTS -->
+         <script src="assets/marquee.js" type="text/javascript"></script>
+         <!-- <script src="newjs/jquery.prettyPhoto.min.js" type="text/javascript"></script> -->
+         <script src="assets/jquery.jfontsize.js" type="text/javascript"></script>
+         <script src="assets/custom.js" type="text/javascript"></script>   
+         <script src="assets/common.js" type="text/javascript"></script>
+         <script type="text/javascript" src="assets/commonsite.js"></script>  
+         <script src="assets/questionoftheday.js" type="text/javascript"></script>
+         <script src="assets/accordian.js" type="text/javascript"></script>
+		 <!--script for pop up of vigilance awareness week 2025  code 1-->
+		<!-- <script>
+			$(document).ready(function(){
+				$("#popupbox1").modal('show');            
+			});            
+			$('.popup-content').click(function() {
+				$('#popupbox1').modal('hide');
+			});
+		</script> -->
+		<!--script for pop up of vigilance awareness week 2025 code 2-->
+		<!-- <script>
+
+			$(document).ready(function(){
+				var modal = document.getElementById("vawModal");
+
+				// 2. Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close-btn-vaw")[0];
+
+				// 3. Show the modal when the page loads
+				// Note: The modal is hidden by default in CSS (display: none), 
+				// so we change the display to 'block' to show it.
+				modal.style.display = "block";
+
+				// 4. When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+
+				// 5. When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}
+			});
+		</script> -->
+
+         <!-- <script>
+            $(document).ready(function(){
+               $("#popupbox1").modal('show');            
+            });            
+            $('.popup-content').click(function() {
+               $('#popupbox1').modal('hide');
+            });
+         </script>  -->
+         <!-- <script src='https://code.jquery.com/jquery-1.8.2.js'></script> -->
+         <!-- <script>
+            $(document).ready(function(){
+            $("#popupbox").modal('show');
+            });
+            </script> 
+            <script>
+            $(document).ready(function() {
+               if(sessionStorage.getItem("ques")!=='true')
+                   {
+                       sessionStorage.setItem("ques","true");
+                       $("#popupbox").modal();
+                   }
+                   $("#reset-session").on('click',function(){
+                       sessionStorage.setItem('ques','');
+                   });
+            });
+            </script>-->
+         <!--jQuery First Visit Popup Demo cdn start -->        
+         <!-- <script src="assets/newjs/jquery.firstVisitPopup.js"></script>  -->
+         <!-- <script>
+            $(function () {
+              $('#popupbox').firstVisitPopup({
+                cookieName : 'homepage',
+                showAgainSelector: '#show-message'
+              });
+            });
+            </script> -->
+         <!--jQuery First Visit Popup Demo cdn end -->
+         <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+         <!-- <script src="assets/newjs/mcqscript.js"></script> -->
+         <script src="assets/newjs/slick.js"></script>
+         <script>
+            $(document).ready(function(){
+				$(".SlickCarousel").slick({
+					rtl:false, // If RTL Make it true & .slick-slide{float:right;}
+					autoplay:false, 
+					autoplaySpeed:1000, //  Slide Delay
+					speed:1000, // Transition Speed
+					slidesToShow:4, // Number Of Carousel
+					slidesToScroll:1, // Slide To Move 
+					pauseOnHover:true,
+					appendArrows:$(".Container .Arrows"), // Class For Arrows Buttons
+					prevArrow:'<button type="button" class="Slick-Prev">&nbsp;Previous</button>',
+					nextArrow:'<button type="button" class="Slick-Next">Next&nbsp;</button>',
+					easing:"linear",
+					responsive: [
+						{
+							breakpoint: 801, settings: {
+								slidesToShow: 3,
+							}
+						},
+						{
+							breakpoint: 641, settings: {
+								slidesToShow: 3,
+							}
+						},
+						{
+							breakpoint: 481, settings: {
+								slidesToShow: 1,
+							}
+						},
+					],
+
+
+				})
+				
+				document.querySelectorAll('.Arrows > span').forEach(span => {
+					span.setAttribute('tabindex', '0');
+				});	  
+
+				$('.SlickCarousel').on('setPosition', function(){
+					$(this).find('.slick-track').removeAttr('role');
+				});
+			})
+
+			document.addEventListener('DOMContentLoaded', function () {
+				document.querySelectorAll('[data-purpose]').forEach(element => {
+					element.title = element.getAttribute('data-purpose');
+				});
+			});
+		
+         </script>
+ 
+	<script>
+$(document).ready(function () {
+  $('.right-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    adaptiveHeight: true
+  });
+});
+</script>
+	</body>
+</html>

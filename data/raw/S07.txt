@@ -1,0 +1,1352 @@
+=== S07-001 | page 1 | Groww ELSS Tax Saver Fund ===
+SCHEME INFORMATION DOCUMENT
+GROWW ELSS TAX SAVER FUND
+(An open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit.)
+This product is suitable Scheme Riskometer Benchmark Riskometer
+for investors who are
+seeking*
+• The investment As per AMFI Tier I Benchmark
+objective of the Nifty 500 - TRI
+Scheme is to generate
+long-term capital
+appreciation from a
+diversified portfolio of
+predominantly equity
+and equity-related
+Securities
+• An ELSS Scheme
+offering tax benefits
+under Section 80C of
+the Income Tax Act
+The Scheme Risk-o-meter is at Very High Benchmark Risk-o-meter is at Very High
+Risk. Risk.
+*Investors should consult their financial advisers if in doubt about whether the product is suitable for them.
+Continuous offer for Units at NAV based prices
+Name of Mutual Fund Groww Mutual Fund
+Groww Asset Management Limited CIN: U65991KA2008PLC180894
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey
+Name of Asset Management Company
+No.16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur,
+Bangalore South, Bangalore- 560103, Karnataka, India
+Groww Trustee Limited CIN: U65991KA2008PLC183561
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey
+Name of Trustee Company
+No.16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur,
+Bangalore South, Bangalore- 560103, Karnataka, India.
+505 – 5th Floor, Tower 2B, One World Centre, Near Prabhadevi Railway
+Address Station, Lower Parel, Mumbai – 400013, Maharashtra, Tele-+91 22
+69744435
+Website of the entities www.growwmf.in
+The particulars of the Scheme have been prepared in accordance with the Securities and Exchange Board of India (Mutual
+Funds) Regulations 1996, (herein after referred to as SEBI (MF) Regulations) as amended till date and circulars issued
+thereunder filed with SEBI, along with a Due Diligence Certificate from the AMC. The units being offered for public
+subscription have not been approved or recommended by SEBI nor has SEBI certified the accuracy or adequacy of the
+Scheme Information Document.
+1
+
+=== S07-002 | page 3 | Groww ELSS Tax Saver Fund ===
+TABLE OF CONTENTS PAGE
+NO.
+SECTION I
+I. HIGHLIGHTS / SUMMARY OF THE SCHEME 4
+II. INFORMATION ABOUT SCHEME 18
+A. HOW WILL SCHEME ALLOCATE ITS ASSESTS 18
+B. WHERE WILL THE SCHEME INVEST 19
+C. WHAT ARE THE INVESTMENT STRATEGIES 21
+D. HOW WILL THE SCHEME BENCHMARK ITS PERFORMANCE 22
+E. WHO MANAGES THE SCHEME? 22
+F. HOW IS THE SCHEME DIFFERENT FROM EXISTING SCHEMES OF THE MUTUAL FUND? 23
+G. HOW HAS THE SCHEME PERFORMED 23
+H. ADDITIONAL SCHEME RELATED DISCLOSURES 24
+III. OTHER DETAILS 25
+A. COMPUTATION OF NAV 25
+B. NEW FUND OFFER (NFO) EXPENSES 26
+C. ANNUAL SCHEME RECURRING EXPENSES 26
+D. LOAD STRUCTURE 30
+SECTION II. 31
+I. INTRODUCTION 31
+A. DEFINITION & INTERPRETATION 31
+B. RISK FACTORS 31
+C. RISK MITIGATION STRATEGIES 34
+II. INFORMATION ABOUT SCHEME 35
+A. WHERE WILL THE SCHEME INVEST? 35
+B. WHAT ARE THE INVESTMENT RESTRICTIONS? 37
+C. FUNDAMENTAL ATTRIBUTES 40
+D. INDEX METHODOLOGY (FOR INDEX FUNDS, ETFS AND FOFS HAVING ONE UNDERLYING DOMESTIC ETF) 41
+E. PRINCIPLES OF INCENTIVE STRUCTURE FOR MARKET MAKERS (FOR ETFS) 41
+F. FLOORS AND CEILING WITHIN A RANGE OF 5% OF THE INTENDED ALLOCATION AGAINST EACH SUB CLASS OF ASSET 41
+G. OTHER SCHEME SPECIFIC DISCLOSURES 41
+III. OTHER DETAILS 50
+A. IN CASE OF FUND OF FUNDS SCHEME, DETAILS OF BENCHMARK, INVESTMENT OBJECTIVE, INVESTMENT 50
+STRATEGY, TER, AUM, YEAR WISE PERFORMANCE, TOP 10 HOLDING/ LINK TO TOP 10 HOLDING OF THE
+UNDERLYING FUND SHOULD BE PROVIDED
+B. PERIODIC DISCLOSURES SUCH AS HALF YEARLY DISCLOSURES, HALF YEARLY RESULTS, ANNUAL REPORT 50
+C. TRANSPARENCY/NAV DISCLOSURE 51
+D. TRANSACTION CHARGES AND STAMP DUTY 51
+E. ASSOCIATE TRANSACTIONS 51
+F. TAXATION 51
+G. RIGHTS OF UNITHOLDERS 54
+H. LIST OF OFFICIAL POINTS OF ACCEPTANCE 54
+I. PENALTIES, PENDING LITIGATION OR PROCEEDINGS, FINDINGS OF INSPECTIONS OR INVESTIGATIONS FOR WHICH 54
+ACTION MAY HAVE BEEN TAKEN OR IS IN THE PROCESS OF BEING TAKEN BY ANY REGULATORY AUTHORITY
+3
+
+=== S07-003 | page 4 | Groww ELSS Tax Saver Fund ===
+SECTION I
+Part I. HIGHLIGHTS/SUMMARY OF THE SCHEME
+Sr. No. Title Description
+I. Name of the Groww ELSS Tax Saver Fund
+scheme
+II. Category of the ELSS Fund
+Scheme
+III. Scheme type An open ended equity linked saving scheme with a statutory lock in of 3 years
+and tax benefit.
+IV. Scheme code INDB/O/E/ELS/17/08/0006
+V. Investment The investment objective of the Scheme is to generate long-term capital
+objective appreciation from a diversified portfolio of predominantly equity and equity-
+related Securities. The scheme shall offer tax benefits under Section 80C of
+the Income Tax Act. However, there is no assurance that the investment
+objective of the Scheme will be realized and the Scheme does not assure or
+guarantee any returns.
+VI. Liquidity Subject to completion of the lock-in period, the Scheme is open for
+repurchase/redemption on all Business Days. The redemption proceeds will
+be dispatched to the unitholders within the regulatory time limit of 03 working
+days of the receipt of the valid redemption request at the Official Points of
+Acceptance of Transactions (OPAT) of the Mutual Fund.
+Since units of the Scheme will be offered for subscription and redemption at
+NAV based prices on all Business Days on an ongoing basis providing the
+Listing details
+required liquidity to investors, units of the Scheme are not proposed to be
+listed on any stock exchange. However, the Trustee reserves the right to list
+the units of the Scheme on any stock exchange(s) at its sole discretion at a later
+date.
+VII. Benchmark As per AMFI Tier I benchmark: Nifty 500 - TRI.
+The Trustees reserve the right to change the benchmark in future if a
+benchmark better suited to the investment objective of the Scheme is
+available.
+VIII. NAV disclosure The AMC will calculate the NAVs for all the Business Days. The Asset
+Management Company (“AMC”) shall update the NAVs on the website of
+Association of Mutual Funds in India (“AMFI”) (www.amfiindia.com) by
+11.00 p.m. every Business Day. The NAV shall also be available on AMC
+website (https://www.growwmf.in/nav).
+Further Details in Section II.
+4
+
+=== S07-004 | page 5 | Groww ELSS Tax Saver Fund ===
+IX. Applicable timelines Dispatch of redemption proceeds:
+The redemption or repurchase proceeds shall be dispatched to the unit holders
+within 03 working days from the date of redemption or repurchase.
+• Dispatch of IDCW
+The IDCW warrants shall be dispatched to the unitholders within 07 working
+days from the record date.
+In case of Unit holders having a bank account with certain banks with which
+the Mutual Fund would have an arrangement from time to time, the IDCW
+proceeds shall be electronically credited to their account.
+In case of specific request for IDCW by warrants/cheques/demand drafts or
+unavailability of sufficient details with the Fund, the IDCW will be paid by
+warrant/cheques/demand drafts and payments will be made in favor of the
+unitholder (registered holder of the Unit or, if there are more than one
+registered holder, only to the first registered holder) with bank account number
+furnished to the Fund.
+Please note that it is mandatory for the unitholders to provide the bank account
+details as per SEBI guidelines.
+X. Plans and Options Plans: The Scheme offers following two plans for investment into the
+Plans/Options and sub Scheme:
+options under the
+Scheme A. Direct: This Plan is suitable for investors who wish to invest directly
+in the scheme without routing their investment through any distributor.
+Direct shall have lower expense ratio compared to Regular and no
+commission shall be paid out of the Direct.
+B. Regular: This Plan is suitable for investors who wish to invest in the
+Scheme through any distributor. This Plan shall have higher expense
+ratio compared to the Direct and distributor commission may be paid out
+of this Plan.
+IDCW Options:
+Groww ELSS Tax Saver Fund - Direct Plan- IDCW Option (Payout)
+Groww ELSS Tax Saver Fund - Regular Plan- IDCW Option (Payout)
+Direct and Regular shall have separate NAVs. However, there will be a
+common portfolio for both plans. The various options available under
+Direct and Regular and the salient features common to both plans are
+given below:
+Options: The Scheme has the following Options across a common
+portfolio:
+ Growth Option: This option is suitable for investors who are not
+looking for current income but who invest only with the intention of
+capital appreciation. However, there can be no assurance of the capital
+appreciation.
+5
+
+=== S07-005 | page 6 | Groww ELSS Tax Saver Fund ===
+ IDCW Option: This option is suitable for investors seeking income
+through IDCW declared by the Scheme. Under this Option, the Scheme
+will endeavor to declare IDCWs from time to time. The IDCW shall be
+dependent on the availability of distributable surplus.
+The IDCW option has the following facility:
+IDCW Pay-out Facility
+IDCW Sweep Facility
+In cases where the investor fails to opt for a particular Option at the time
+of investment, the default Option will be Growth.
+In cases where the investor fails to opt for a particular IDCW facility at
+the time of investment, the default Option will be IDCW Pay-out Facility.
+The amounts can be distributed under Income Distribution cum capital
+withdrawal option (IDCW) out of investors capital (Equalization Reserve),
+which is part of sale price that represents realized gains. However, investors
+are requested to note that amount (IDCW) distribution under IDCW option
+is not guaranteed and subject to availability of distributable surplus.
+A clear segregation between income distribution (appreciation on NAV) and
+capital distribution (Equalization Reserve) shall be suitably disclosed in the
+Consolidated Account Statement provided to the investors, whenever
+distributable surplus is distributed.
+If IDCW payable under IDCW Payout option is equal to or less than Rs.
+250/- then the IDCW would be compulsorily reinvested in the option of the
+Scheme.
+Uniform disclosure on treatment of applications under "Direct"/
+"Regular" Plans:
+Scenario Broker Code Plan mentioned Default Plan to be
+mentioned by by the investor captured
+the investor
+1 Not mentioned Not mentioned Direct Plan
+2 Not mentioned Direct Direct Plan
+3 Not mentioned Regular Direct Plan
+4 Mentioned Direct Direct Plan
+5 Direct Not Mentioned Direct Plan
+6 Direct Regular Direct Plan
+7 Mentioned Regular Regular Plan
+8 Mentioned Not Mentioned Regular Plan
+For detailed disclosure on default plans and options, kindly refer SAI.
+6
+
+=== S07-006 | page 7 | Groww ELSS Tax Saver Fund ===
+XI. Load Structure Exit load: NIL
+XII. Minimum amount for During NFO: The Scheme has already been launched
+purchase/ redemption
+/ switches On continuous basis:
+Rs. 500 and in multiples of Rs. 500 thereafter
+Rs. 500 and in multiples of Rs. 500 thereafter (For Systematic Investment
+Plan (SIP))
+Minimum amount for Daily SIP facility shall be Rs 500/- and in multiples
+of Rs 500/- thereof
+Minimum Balance Requirements
+The minimum balance to be maintained by the investor in the Scheme will
+be Rs. 5,000. If in the event of a redemption/ switch-out / SWP, the
+outstanding balance falls below the minimum balance required, the AMC
+reserves the right to redeem the balance amount/units outstanding.
+In case the balance in the account of the unitholder does not cover the
+amount of redemption request, then the Mutual Fund is authorized to redeem
+all the units in the folio and send the redemption proceeds to the unitholder.
+XIII. Minimum Additional Rs. 500 and in multiples of Rs. 500 thereafter.
+Purchase Amount
+XIV. Minimum Minimum Redemption/switch out amount - The minimum redemption
+Redemption/switch amount for all plans will be Rs.500/- and in multiples of Re.1/-
+out amount
+XV. New Fund Offer The Scheme has already been launched. The date of inception is 28th
+(NFO) Period December 2017.
+XVI. New Fund Offer Price The Scheme has already been launched
+XVII. Segregated The provisions wrt segregated portfolio/side pocketing have not been
+portfolio/side included in the SID
+pocketing disclosure
+XVIII Swing pricing Not applicable since it is an Equity Scheme
+disclosure
+XIX. Stock lending/short The AMC will follow regulatory restrictions as may be prescribed in carrying
+selling on the activities of Stock lending. Such lent stock, while they are on-lending,
+will not be available for sale, and this can result in temporary illiquidity.
+The Fund Manager may engage in Stock Lending as per following limits:
+• Not more than 20% of the net assets of the Scheme can generally be
+deployed in Stock Lending.
+• Not more than 5% of the net assets of the Scheme can generally be
+deployed in Stock Lending to any single counter party.
+XX. How to Apply & Investors may obtain Key Information Memorandum (KIM) along with the
+Other Details application forms from the AMC offices or Customer Service Centers of the
+Registrar or may be downloaded from
+7
+
+=== S07-007 | page 9 | Groww ELSS Tax Saver Fund ===
+In order to protect confidentiality of information, the service representatives
+at the AMC’s branches/ KFin Technologies Limited ISCs may require personal
+information of the investor for verification of his identity. The AMC will at all
+times endeavor to handle transactions efficiently and to resolve any investor
+grievances promptly.
+Investor grievances should be addressed to the ISC of the AMC, or at KFin
+Technologies Limited’s ISC directly. All grievances received at the ISC of the
+AMC will then be forwarded to KFin Technologies Limited, if required, for
+necessary action. The complaints will closely be followed up with KFin
+Technologies Limited by the AMC to ensure timely redressal and prompt
+investor service.
+KFin Technologies Ltd.
+Selenium,Tower B,
+Plot number 31 & 32,
+Financial District, Nanakramguda, Serilingampally Mandal, Hyderabad-
+500032.
+The investors are further requested to take note that, pursuant to SEBI Circular
+no. SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/145 dated July 31, 2023, read
+along with circular dated August 04, 2023, a common Online Dispute
+Resolution Portal (“ODR Portal”) has been introduced to provide investors /
+unit holders with a mechanism to redress their grievances.
+The ODR Portal allows investors / unitholders with additional mechanism to
+resolve the grievances through online conciliation and online arbitration. The
+link to access ODR Portal is https://smartodr.in/login
+XXIII Specific attribute of It is an open-ended Fund, hence not applicable
+the scheme
+XXIV Special The Special Products / Facilities available under the Scheme, are:
+product/facility i. Systematic Investment Plan [SIP]
+available during the ii. Systematic Withdrawal Plan [SWP]
+NFO and on ongoing iii. IDCW Sweep Facility
+iv. Transactions by Email
+basis
+v. Transactions through Electronic Mode
+vi. Additional facility of ‘K-TRACK’
+vii. Transactions through Stock Exchange Platform for Mutual Funds
+viii. Transactions Through MF Utility ("MFU")
+ix. Registration of Multiple Bank Accounts in respect of an Investor
+Folio
+x. MFCentral as Official Point of Acceptance of Transactions
+(OPAT)
+Systematic Investment Plan (SIP):
+This facility enables investors to save and invest periodically over a longer
+period of time. It is a convenient way to “invest as you earn” and affords the
+9
+
+=== S07-008 | page 10 | Groww ELSS Tax Saver Fund ===
+investor an opportunity to enter the market regularly, thus averaging the
+acquisition cost of Units.
+SIP Frequency:
+SIP Installments and Amount –
+Daily – Rs. 500 and in multiples of Rs. 500 thereafter
+Weekly – Rs. 500 and in multiples of Rs. 500 thereafter
+Monthly – Rs. 500 and in multiples of Rs. 500 thereafter
+Quarterly - Rs. 500 and in multiples of Rs. 500 thereafter
+Minimum No. of SIP instalments:
+Minimum number of installments for each frequency are -
+Daily – 180 instalments
+Weekly – 24 instalments
+Monthly - 12 instalments
+Quarterly – 4 instalments
+Frequency / Date:
+Daily - Every business day
+Weekly - 1, 8, 15 & 22
+Monthly - Any day between 1st and 28th of the month
+Quarterly - Any day between 1st and 28th of the quarter
+(In case any of these days fall on a non-business day, the transaction will be
+effected on the next business day of the Scheme).
+Registration period: There must be at least 30 days between the first SIP
+cheque and subsequent due date of Auto Debit [NACH clearing];
+In case of the auto debit facility, the default options (where auto debit period,
+frequency and SIP date are not indicated) will be as follows:
+• SIP auto debit period: The SIP auto debit will continue till 5 years.
+• SIP date: 15th of the month (commencing 30 days after the first SIP instalment
+date); and
+• SIP frequency: Monthly
+The load structure prevailing at the time of submission of the SIP application
+[whether fresh or extension] will apply for all the instalments indicated in such
+application;
+All the cheques/ payment instructions [including the first cheque/payment
+instruction] shall be of equal amounts in case of SIP applications;
+Investors may also choose to invest any lump sum amount along with the first
+SIP instalment by way of a single cheque/ payment instruction.
+Investors will have the right to discontinue the SIP facility at any time by
+sending a written request to any of the Official Point(s) of Acceptance. Notice
+of such discontinuance should be received at least 30 days prior to the due date
+of the next debit. On receipt of such request, the SIP facility will be terminated.
+It is clarified that if the Fund fails to get the proceeds for three consecutive
+Instalments out of a continuous series of Instalments submitted at the time of
+initiating a SIP), the AMC reserves the right to discontinue the SIP.
+10
+
+=== S07-009 | page 11 | Groww ELSS Tax Saver Fund ===
+Systematic Withdrawal Plan (SWP)
+This facility enables unitholders to withdraw a fixed sum (subject to tax
+deduction at source, if applicable) by redemption of units in the unitholder‘s
+account at regular intervals through a one-time request.
+The conditions for investing in SWP will be as follows:
+SWP Frequency : Monthly; Quarterly
+Minimum SWP instalment amount:
+Monthly: Rs. 500/- and in multiples of Re.1/- thereafter;
+Quarterly – Rs.500/- and in multiples of Re.1 thereafter
+Minimum No. of SWP instalments:
+Monthly - 12 instalments
+Quarterly – 4 installments
+SWP Dates: 15th of every month as the STP date (in case any of these days fall
+on a non-business day, the transaction will be effected on the next business day
+of the Scheme).
+Registration period: A minimum period of 7 calendar days shall be required for
+registration under SWP.
+The default options (where the period, frequency and SWP date are not
+indicated) will be as follows:
+• SWP period: The SWP will continue till 5 years.
+• SWP frequency : Monthly
+• SWP date: 15th of every month.
+If 15th is a holiday, the SWP will be processed on the next business day.
+Unit holder may change the amount (but not below the minimum specified
+amount) / frequency by giving written notice to any of the Official Point(s) of
+Acceptance at least 8 calendar days prior to next SWP execution date.
+The SWP may be terminated on a written notice of 8 calendar days by a
+unitholder of the Scheme. SWP will be automatically terminated if all units
+are liquidated or withdrawn from the Scheme or pledged or upon receipt of
+intimation of death of the unitholder.
+IDCW Sweep Facility
+IDCW Sweep facility shall be in addition to the existing IDCW Payout Option.
+Default IDCW Option shall be IDCW Payout.
+Under IDCW Sweep Facility, Unit holders can opt for switching the IDCW
+earned under any Schemes (Source Scheme) of Groww Mutual Fund into any
+other Schemes (Target Scheme) of Groww Mutual Fund. The IDCW (net of
+applicable DDT, if any) shall be swept subject to minimum investment
+eligibility requirements of the Target Scheme at applicable NAV based prices.
+The minimum amount for sweep out to be Rs. 500/-. In case the sweep amount
+is less than Rs. 500/-, the IDCW amount shall be reinvested in the Source
+scheme. This facility shall be processed on the record date of the IDCW
+declared under the Source Scheme. Further, this facility shall not allow for
+
+=== S07-010 | page 11 | Groww ELSS Tax Saver Fund ===
+The minimum amount for sweep out to be Rs. 500/-. In case the sweep amount
+is less than Rs. 500/-, the IDCW amount shall be reinvested in the Source
+scheme. This facility shall be processed on the record date of the IDCW
+declared under the Source Scheme. Further, this facility shall not allow for
+switch of partial IDCW or switch of IDCW to multiple schemes. In case the
+investor fails to specify his preference of Option for the Target scheme into
+11
+
+=== S07-011 | page 12 | Groww ELSS Tax Saver Fund ===
+which the IDCW has to be swept, Sweep-in amount shall be invested in default
+plan / option as mentioned in Scheme Information Document (SID) of Target
+scheme.
+The Load Structure prevailing at the time of submission of the STP/SWP
+application will apply for all the installments indicated in such application.
+The AMC reserves the right to introduce STP/SWP at any other frequencies or
+on any other dates as the AMC may feel appropriate from time to time.
+Transactions by Email:
+In order to facilitate quick processing of transaction and / or instruction of
+investment of investor the Mutual Fund / AMC / Trustee may (at its sole
+discretion and without being obliged in any manner to do so and without being
+responsible and /or liable in any manner whatsoever), accept and process any
+application, supporting documents and /or instructions submitted by an
+investor/ Unit holder by email at growwmf.inv@groww.in and the
+investor/Unit holder voluntarily and with full knowledge takes and assumes any
+and all risk associated therewith. The Mutual Fund / AMC/ Trustee shall have
+no obligation to check or verify the authenticity or accuracy of email purporting
+to have been sent by the investor and may act thereon as if the same has been
+duly given by the investor.
+In all cases the investor will have to immediately submit the original documents
+/ instruction to AMC/ Mutual Fund/ Official Points of Acceptance unless
+indemnified by the investor.
+Transactions through Electronic Mode:
+The Mutual Fund may (at its sole discretion and without being obliged in any
+manner to do so and without being responsible and/ or liable in any manner
+whatsoever), allow transactions in Units by electronic mode (web/ electronic
+transactions) including transactions through the various websites with which
+the AMC would have an arrangement from time to time. Subject to the investor
+fulfilling certain terms and conditions as stipulated by AMC from time to time,
+the AMC, Mutual Fund, Registrar or any other agent or representative of the
+AMC, Mutual Fund, the Registrar may accept transactions through any
+electronic mode including web transactions and as permitted by SEBI or other
+regulatory authorities from time to time
+Additional facility of ‘K-TRACK’ for transaction in the units of Groww
+Mutual Fund towards additional purchase, redemption or switch:
+Investor may take note of additional facility for transaction in Groww Mutual
+Fund through K-TRACK; mobile application provided by KFin Technologies
+Limited Investors may execute additional purchase, redemption or switch
+transaction through K-TRACK mobile application.
+
+=== S07-012 | page 14 | Groww ELSS Tax Saver Fund ===
+transacting through MFU.
+2. Investors can create a CAN by submitting the CAN Registration Form
+(CRF) and necessary documents at the Point of Service (POS) of MFUI. The
+AMC and/ or CAMS, Registrar and Transfer Agent (RTA) of the Fund shall
+provide necessary details to MFUI as may be needed for providing the
+required services to investors / distributors through MFU.
+3. Investors will be allotted a CAN, a single reference number for all
+investments across Mutual Funds, for transacting in multiple Schemes of
+various Mutual Funds through MFU and to map existing folios, if any.
+4. Currently, the transactions facilitated through MFU for the investors are:
+(i) CAN registration;
+(ii) Submission of documents to KRAs for KYC Registration;
+(iii) Financial transactions like Purchases, Redemptions and Switches,
+Registration of Systematic Transactions like Systematic Investments (SIP)
+using a single Mandate, Systematic Withdrawals (SWP) and Systematic
+Transfers (STP);
+(iv) Non-financial transactions (NFT) like Bank Account changes,
+facilitating
+change of address through KRAs etc. based on duly signed written requests
+from the Investors.
+5. The CRF and other relevant forms for transacting through MFU can be
+downloaded from MFUI website at www.mfuindia.com or can be obtained
+from MFUI POS.
+6. Investors transacting through MFU shall be deemed to have consented to
+exchange of information viz. personal and / or financial (including the
+changes, if any) between the Fund / AMC and MFUI and / or its authorized
+service providers for validation and processing of transactions carried out
+through MFU.
+7. For details on carrying out the transactions through MFU or any queries
+or clarifications related to MFU, investors are requested to contact the
+Customer Care of MFUI on 1800-266-1415 (during the business hours on
+all days except Sunday and Public Holidays) or send an email to
+clientservices@mfuindia.com. Investors of the Fund can also get in touch
+with Investor Service Centres (ISCs) of the AMC to know more about MFU.
+8. For any escalations and post-transaction queries pertaining to Scheme(s)
+of the Fund, the Investors are requested to get in touch with the ISCs of the
+AMC.
+The transactions carried out through MFU shall be subject to the terms &
+conditions as may be stipulated by MFUI / Fund / the AMC from time to
+time. The terms & conditions of offering of the Scheme(s) of the Fund as
+specified in the Scheme Information Document (SID), Key Information
+Memorandum ('KIM') and Statement of Additional Information ('SAI') shall
+be applicable to transactions through MFU.
+Registration of Multiple Bank Accounts in respect of an Investor Folio:
+
+=== S07-013 | page 18 | Groww ELSS Tax Saver Fund ===
+Part II. INFORMATION ABOUT THE SCHEME
+A. HOW WILL THE SCHEME ALLOCATE ITS ASSETS?
+Under normal circumstances, the asset allocation will be as follows:
+Instruments Indicative allocation
+(% of Net Assets)
+Minimum Maximum
+Equity and Equity related instruments as 80% 100%
+per ELSS guidelines*
+Debt, Money Market instruments, 0% 20%
+Cash and equivalent
+*The Scheme may invest upto a maximum of 50% of its net assets in Derivatives
+The fund managers will follow an active investment strategy taking defensive/aggressive postures depending on
+opportunities available at various points in time. On defensive considerations, the scheme may invest in money market
+instruments and Fixed Deposits of Scheduled Banks to protect the interest of the investors in the scheme.
+The scheme may enter into derivatives in line with the guidelines prescribed by SEBI from time to time. The exposure
+limit per scrip/instrument shall be to the extent permitted by the SEBI Regulation for the time being in force. These limits
+will be reviewed by the AMC from time to time.
+Indicative Table (Actual instrument/percentages may vary subject to applicable SEBI circulars)
+Sl. no Type of Instrument Percentage of exposure Circular references*
+1. Securities Lending 0% Paragraph 12.11 of
+SEBI Master Circular
+for Mutual Funds dated
+June 27, 2024.
+2. Equity Derivatives for non 50% Paragraph 12.25 of
+hedging purposes SEBI Master Circular
+for Mutual Funds dated
+June 27, 2024.
+3. Securitized Debt 0% Paragraph 12.15 of
+SEBI Master Circular
+for Mutual Funds dated
+June 27, 2024
+4. Overseas Securities 0% Paragraph 12.19 of
+SEBI Master Circular
+for Mutual Funds dated
+June 27, 2024.
+18
+
+=== S07-014 | page 19 | Groww ELSS Tax Saver Fund ===
+5. ReITS and InVITS 0% Paragraph 12.21 of
+SEBI Master Circular
+for Mutual Funds dated
+June 27, 2024.
+6. AT1 and AT2 Bonds 0% Paragraph 12.2 of SEBI
+Master Circular for
+Mutual Funds dated
+June 27, 2024.
+7. Any other instrument 0% -
+Rebalancing due to passive breach
+Further, as per para 2.9 of SEBI Master Circular dated June 27, 2024, as may be amended from time to time, in the event
+of deviation from mandated asset allocation due to passive breaches (occurrence of instances not arising out of omission
+and commission of the AMC), the fund manager shall rebalance the portfolio of the Scheme within 30 Business Days. In
+case the portfolio of the Scheme is not rebalanced within the period of 30 Business Days, justification in writing, including
+details of efforts taken to rebalance the portfolio shall be placed before the Investment Committee of the AMC. The
+Investment Committee, if it so desires, can extend the timeline for rebalancing up to sixty (60) Business Days from the
+date of completion of mandated rebalancing period. Further, in case the portfolio is not rebalanced within the
+aforementioned mandated plus extended timelines the AMC shall comply with the prescribed restrictions, the reporting
+and disclosure requirements as specified in para 2.9. of SEBI Master Circular dated June 27, 2024.
+Rebalancing of deviation due to short term defensive consideration
+Any alteration in the investment pattern will be for a short term on defensive considerations as per SEBI Circular no.
+SEBI/HO/IMD/DF2/CIR/P/2021/024 dated March 04, 2021; the intention being at all times to protect the interests of the
+Unit Holders and the Scheme shall endeavor to rebalance the portfolio within 30 business days. It may be noted that no
+prior intimation/indication will be given to investors when the composition/asset allocation pattern under the Scheme
+undergoes changes within the permitted band as indicated above.
+B. WHERE WILL THE SCHEME INVEST?
+Subject to the SEBI Regulations, Rule 5 of Equity Linked Savings Scheme, 2005 as notified by the Central Board of
+Direct Taxes, Ministry of Finance vide notification dated November 03, 2005 and amended vide notification dated
+December 13, 2005 and the asset allocation pattern mention above for the respective scheme, the Scheme may invest in
+various types of instruments including, but not limited to, any of the following:
+1. Equity and Equity linked instruments of domestic companies / corporations
+2. Equity and equity related securities including fully convertible bonds and debentures and warrants carrying the
+right to obtain equity shares.
+
+=== S07-015 | page 20 | Groww ELSS Tax Saver Fund ===
+7. Securities issued by banks (both public and private sector) as permitted by SEBI from time to time and
+development financial institutions
+8. Money market instruments permitted by SEBI/RBI, having maturities of up to one year or in any alternative
+investment as may be provided by the RBI to meet the liquidity requirements.
+9. Certificate of Deposits (CDs)
+10. Commercial Paper (CPs)
+11. The non-convertible part of convertible securities
+12. Any other domestic fixed income securities
+13. Derivative instruments like, Stock Futures, Index Futures, Stock options & Index options and such other
+derivative instruments permitted by SEBI.
+14. Subject to the Regulations, the securities mentioned above could be listed, unlisted, privately placed, secured,
+unsecured, rated or unrated and of varying maturity. The securities may be acquired through New Fund Offerings
+(NFOs), secondary market operations, private placement, rights offers (including renunciation) or negotiated
+deals.
+C. WHAT ARE THE INVESTMENT STRATEGIES?
+The AMC will construct the portfolio using bottom up approach and will have the flexibility to invest across the market
+capitalization. The investment environment, valuation parameters and other investment criteria will determine the
+allocation and the investment style. The AMC will conduct in-house research in order to identify investable ideas. AMC
+will evaluate appreciation potential of individual stocks from a fundamental perspective, assess industry and company
+fundamentals, robustness of business model, sustainability of moat, valuations, quality of management, corporate
+governance standards etc. The Scheme will have reasonably well diversified Portfolio without being overly diversified.
+Portfolio Turnover
+Portfolio turnover is the aggregate volume of purchases and sales as a percentage of the corpus of the Scheme during a
+specified period of time. The portfolio turnover in the Scheme will be a function of inflows, outflows as well as market
+opportunities available to the Fund Manager. Consequently, it is difficult to estimate with any reasonable measure of
+accuracy, the likely turnover in the portfolios. It will be the endeavor of the Fund Manager to keep the portfolio turnover
+rates as low as possible. Active asset allocation would impact portfolio turnover. There may be trading opportunities that
+present themselves from time to time, where in the opinion of the fund manager, there is an opportunity to enhance the
+total returns of the portfolio. The fund manager will endeavor to balance the increased cost on account of higher portfolio
+turnover, if any, with benefits likely to be derived from such an approach.
+Borrowing by the Fund
+The Scheme may borrow monies to meet temporary liquidity requirements for the purpose of repurchase or redemption
+
+=== S07-016 | page 20 | Groww ELSS Tax Saver Fund ===
+total returns of the portfolio. The fund manager will endeavor to balance the increased cost on account of higher portfolio
+turnover, if any, with benefits likely to be derived from such an approach.
+Borrowing by the Fund
+The Scheme may borrow monies to meet temporary liquidity requirements for the purpose of repurchase or redemption
+of Units or the payment of interest or IDCW to the Unit holders. However, such borrowing shall be restricted to 20% of
+the net assets of the Scheme and for a maximum period of six months. The limit of 20% may be revised by the Fund and
+to the extent the Regulations may permit.
+The Fund may raise such borrowings, secured or unsecured, from any person or entity as it may deem fit, including
+Sponsor or Shareholders of any of their associate / group / affiliate entities or banks, after approval by the Trustee, at
+market related rates.
+Stock Lending by the Fund
+Stock Lending involves lending of securities to another person or entity for a fixed period of time, at a negotiated
+compensation in order to enhance returns of the portfolio. The Fund can temporarily lend, through an approved
+intermediary, securities held by the Scheme to reputed counterparties, for a fee, subject to internal norms, if any. This
+would enable generating better returns on those securities, which are otherwise bought with the intention of holding the
+20
+
+=== S07-017 | page 21 | Groww ELSS Tax Saver Fund ===
+same for a longer period of time. The securities lent will be returned by the borrower on the expiry of the stipulated period
+or the lender can call the same back before its expiry.
+The AMC will follow regulatory restrictions as may be prescribed in carrying on the activities of Stock lending. Such lent
+stock, while they are on-lending, will not be available for sale, and this can result in temporary illiquidity.
+The Fund Manager may engage in Stock Lending as per following limits:
+• Not more than 20% of the net assets of the Scheme can generally be deployed in Stock Lending.
+• Not more than 5% of the net assets of the Scheme can generally be deployed in Stock Lending to any single counter
+party.
+D. HOW WILL THE SCHEME BENCHMARK ITS PERFORMANCE?
+The Benchmark for the scheme would be Nifty 500 - TRI
+The AMC and the Trustee may mutually agree to change the benchmark index or select an additional benchmark index
+after recording reasons for such change and by following required regulatory process.
+E. WHO MANAGES THE SCHEME?
+Fund Manager Tenure of managing the Scheme
+Mr. Paras Matalia Managing Fund Since July 14, 2025
+Mr. Nikhil Satam Managing Fund Since Nov 21, 2025
+Name of the Age Education Experience Other Schemes managed
+Fund Qualification by the Fund Manager
+Manager
+Mr. Paras 30 CA, CFA (US) Mr. Paras Matalia has about 7 • Groww ELSS Tax
+Matalia (Fun and B. Com years of experience in the Saver Fund
+d Manager- capital markets. He started • Groww Multi Asset
+Equity) out as an equity research Allocation Fund
+Analyst with Samco • Groww Multi Asset
+Securities Limited. Just prior Omni FOF
+to joining Groww Mutual
+Fund, he was working with The above mentioned
+Samco Mutual Fund as Fund details include name of
+Manager and Head of this Scheme
+Equities.
+Mr. Nikhil 29 years B. Com & Mr. Nikhil Satam has over 8 • Groww BSE
+Satam Masters in years of work experience in Power ETF
+Finance (MFM) the financial services • Groww ELSS Tax
+industry. Since June 2023, he Saver Fund
+has been working as an • Groww BSE
+Equity dealer in existing Power ETF FOF
+equity schemes of Groww • Groww Nifty 200
+Asset Management Ltd. ETF
+(Groww AMC), wherein he
+21
+
+=== S07-018 | page 23 | Groww ELSS Tax Saver Fund ===
+• Groww Nifty
+Smallcap 250
+Index Fund
+• Groww Nifty Total
+Market Index Fund
+• Groww Multi
+Asset Allocation
+Fund
+The above mentioned
+details include name of
+this Scheme
+F. HOW IS THE SCHEME DIFFERENT FROM EXISTING SCHEMES OF THE MUTUAL FUND?
+For detailed comparative table of the aforesaid schemes, please click here
+https://www.growwmf.in/downloads/sid
+G. HOW HAS THE SCHEME PERFORMED
+Compounded Scheme Returns Scheme Returns Benchmark
+Annualised Returns % (Regular Plan) % (Direct Plan) Returns %
+Returns for last 1 year -7.62 -6.09 -5.28
+Returns for last 3 year 14.55 16.42 16.38
+Returns for last 5 year 16.27 18.58 20.70
+Returns since
+inception 9.09 10.92 13.15
+Groww ELSS Tax Saver Fund
+100.00
+80.00
+60.00
+40.00
+20.00
+0.00
+-20.00
+Regular Plan Direct Plan NIFTY 500 TRI
+Absolute Returns for each Financial year for the last 5 years
+23
+
+=== S07-019 | page 26 | Groww ELSS Tax Saver Fund ===
+Repurchase Price:
+Repurchase price is a price at which fund house repurchases the mutual fund units back from the investor. For investor
+who wants to redeem his mutual fund units, the units are repurchased at respective scheme NAV less Exit Load (If
+Applicable)
+For Example - If Mutual Fund Scheme XYZ is having NAV of Rs. 15 & Exit Load of 1% then the repurchase price
+would be calculated as follow:
+Repurchase Price = NAV *(1- Exit Load %)
+= 15 *(1-0.01)
+= 14.8500
+This means the investor will realise Rs. 14.8500 per unit if he redeems from Mutual Fund Scheme XYZ.
+In case of no exit load the NAV & repurchase price are same.
+The repurchase price of an open ended scheme shall not be lower than 95% of the NAV.
+For other details such as policies w.r.t computation of NAV, rounding off, investment in foreign securities, procedure in
+case of delay in disclosure of NAV etc. refer to SAI
+B. NEW FUND OFFER (NFO) EXPENSES
+These expenses are incurred for the purpose of various activities related to the NFO like sale and distribution fees paid,
+marketing and advertising, registrar expenses, printing and stationery, bank charges etc. NFO expenses were borne by the
+AMC.
+C. ANNUAL SCHEME RECURRING EXPENSES
+As per SEBI (MF) Regulations, 1996, recurring expenses will not exceed 2.25% of the Scheme’s daily net assets:
+The total fees and expenses for operating the scheme as listed hereunder would be 2.25% of the daily net assets which
+includes expenses towards management fees, commission, marketing expense and other expense relating to operating
+the scheme.
+Estimated Recurring Expenses:
+Expense Head % of daily Net
+Assets
+Investment Management and Advisory Fees
+Trustee fee
+Audit fees
+Custodian fees
+RTA Fees
+Marketing & Selling expense incl. agent commission
+Cost related to investor communications
+Upto 2.25%
+Cost of fund transfer from location to location
+26
+
+=== S07-020 | page 27 | Groww ELSS Tax Saver Fund ===
+Cost of providing account statements and Income Distribution cum
+Capital Withdrawal redemption cheques and warrants
+Costs of statutory Advertisements
+Cost towards investor education & awareness (as per paragraph
+10.1.16 of SEBI Master circular for Mutual Funds dated June 27,
+2024) ^
+Brokerage & transaction cost over and above 12 bps and 5 bps for
+cash and derivative market trades resp. @
+Goods & Services Tax/ goods and services tax on expenses other
+than investment and advisory fees
+Goods & Services Tax/ goods and services tax on brokerage and
+transaction cost
+Other Expenses
+Maximum total expense ratio (TER) permissible under Upto 2.25%
+Regulation 52 (6) (c)
+Additional expenses under regulation 52 (6A) (c) ** 0.05%
+Additional expenses for gross new inflows from specified cities* Upto 0.30%
+*SEBI vide its letter no. SEBI/HO/IMD-SEC-3/P/OW/2023/5823/1 dated February 24, 2023, and AMFI letter dated No.
+35P/ MEM-COR/ 85-a/ 2022-23 dated March 02, 2023 has directed AMCs to keep B-30 incentive structure in abeyance
+till further notice.
+^ In terms of paragraph 10.1.16 of SEBI Master Circular for Mutual Funds dated June 27, 2024, the AMC / Mutual Fund
+shall annually set apart at least 2 basis points (i.e., 0.02%) on daily net assets of the scheme within the maximum limit of
+Total Expense Ratio as per Regulation 52 of the SEBI (MF) Regulations for investor education and awareness initiatives.
+**Additional Expenses upto 0.05% of daily net assets as permissible under Regulation 52 (6A) (c) may be charged by
+AMC under different heads of expenses mentioned under Regulation 52 (2) and (4) and more specifically stated in table
+above.
+@ Brokerage and transaction costs incurred for the execution of trades and included in the cost of investment, not exceeding
+0.12 per cent of the value of trades of cash market transactions and 0.05 per cent of the value of trades of derivative market
+transactions. Thus, in terms of paragraph 10.1.14 of SEBI Master Circular for Mutual Funds dated June 27, 2024, it is
+hereby clarified that the brokerage and transaction costs incurred for the execution of trades may be capitalized to the
+extent of 0.12 per cent of the value of trades of cash market transactions and 0.05 per cent of the value of trades of
+derivative market transactions. Any payment towards brokerage and transaction costs (including Goods & Services Tax,
+if any) incurred for the execution of trades, over and above the said 0.12 per cent for cash market transactions and 0.05
+
+=== S07-021 | page 27 | Groww ELSS Tax Saver Fund ===
+derivative market transactions. Any payment towards brokerage and transaction costs (including Goods & Services Tax,
+if any) incurred for the execution of trades, over and above the said 0.12 per cent for cash market transactions and 0.05
+per cent of the value of trades of derivative market transactions may be charged to the scheme within the maximum limit
+of Total Expense Ratio (TER) as prescribed under Regulation 52 of the SEBI (MF) Regulations.
+Direct Plan shall have a lower expense ratio excluding distribution expenses, commission, etc and no commission for
+distribution of Units will be paid / charged under Direct Plan. All fees and expenses charged in a direct plan (in percentage
+terms) under various heads including the investment and advisory fee shall not exceed the fees and expenses charged
+under such heads in a regular plan.
+27
+
+=== S07-022 | page 28 | Groww ELSS Tax Saver Fund ===
+The purpose of the above table is to assist the investor in understanding various costs and expenses that an investor in the
+Scheme will bear directly or indirectly. These estimates have been made in good faith as per the information available
+with AMC based on past experience and are subject to change inter-se.
+The total recurring expenses that can be charged to the Scheme will be subject to limits prescribed from time to time under
+the SEBI (MF) Regulations.
+Annual recurring expenses of the Scheme, (including the investment and advisory fees without any sub limit) as a % of
+daily net assets will be subject to following limit:
+The AMC shall adhere provisions of SEBI Circular dated October 22, 2018 and various guidelines specified by SEBI as
+amended from time to time, with reference to charging of fees and expenses.
+Annual recurring expenses of the Scheme, (including the investment and advisory fees without any sublimit) as a % of
+daily net assets will be subject to following limit:
+First Rs. Next Rs. Next Rs. Next Rs. Next Rs. Next Rs. Balance
+40,000
+500 250 1,250 3,000 5,000
+Crores
+Crores Crores Crores Crores Crores
+2.25% 2.00% 1.75% 1.60% 1.50% TER 1.05%
+reduction of
+0.05% for
+every
+increase of
+Rs. 5,000
+crores or
+part thereof
+In addition to TER within the limits specified under regulation 52 (6) of the Regulations, towards investment & advisory
+fees as specified under regulation 52(2) of the Regulations and/or towards recurring expenses as specified under 52(4)
+of the Regulations. However, such additional expenses will not be charged if exit load is not levied / not applicable
+to the Scheme.
+Additional Distribution Expenses in case of new inflows from specified cities In addition to total expenses ratio (TER) as
+specified above, the AMC will charge expenses not exceeding 0.30% of daily net assets if the new inflows in the Scheme
+from such cities, as specified by
+SEBI from time to time, are at least:
+(i) 30% of gross new inflows in the Scheme, or;
+(ii) 15% of the average assets under management (year to date) of the Scheme,
+whichever is higher.
+In case, inflows from such cities is less than the higher of (i) or (ii) of above, such expenses on daily net assets of the
+Scheme will be charged on proportionate basis in accordance with para 10.1.3 of SEBI Master Circular dated June 27,
+2024.
+The additional expenses on account of inflows from such cities charged will be credited back to the Scheme in case the
+
+=== S07-023 | page 29 | Groww ELSS Tax Saver Fund ===
+Goods & Services Tax on investment management and advisory fees shall be in addition to the above expense. Further,
+with respect to Goods & Services Tax on other than management and advisory fees:
+- Goods & Services Tax on other than investment and advisory fees, if any, shall be borne by the scheme within the
+maximum limit of TER as per regulation 52 of the Regulations.
+- Goods & Services Tax on exit load, if any, shall be paid out of the exit load proceeds and exit load net of Goods &
+Services Tax, if any, shall be credited to the scheme.
+- Goods & Services Tax on brokerage and transaction cost paid for asset purchases, if any, shall be within the limit
+prescribed under regulation 52 of the Regulations.
+For the actual current expenses being charged to the Scheme, the investor should refer to the website of the mutual fund
+https://www.growwmf.in/downloads/expense-ratio. Any change proposed to the current expense ratio will be updated
+on the website at least three working days prior to the change.
+As per the Regulations, the total recurring expenses that can be charged to the Scheme in this Scheme information
+document shall be subject to the applicable guidelines. The total recurring expenses of the Scheme, will, however, be
+limited to the ceilings as prescribed under Regulation 52(6) of the Regulations.
+29
+
+=== S07-024 | page 30 | Groww ELSS Tax Saver Fund ===
+D. LOAD STRUCTURE
+Exit Load is an amount which is paid by the investor to redeem the units from the scheme. Load amounts are variable and
+are subject to change from time to time. For the current applicable structure, please refer to the website of the AMC
+(https://www.growwmf.in/downloads/fact-sheet) or may call at (toll free no. 80501 80222) or your distributor.
+Type of Load Load Chargeable (as %age of NAV)
+Exit Load Nil
+30
+
+=== S07-025 | page 33 | Groww ELSS Tax Saver Fund ===
+▪ The writer of a put option bears the risk of loss if the value of the underlying asset declines below the exercise
+price. The writer of a call option bears a risk of loss if the value of the underlying asset increases above the
+exercise price.
+▪ Investments in index futures face the same risk as the investments in a portfolio of shares representing an index.
+The extent of loss is the same as in the underlying stocks.
+▪ The Scheme bears a risk that it may not be able to correctly forecast future market trends or the value of assets,
+indices or other financial or economic factors in establishing derivative positions for the Scheme.
+▪ The risk of loss in trading futures contracts can be substantial, because of the low margin deposits required, the
+extremely high degree of leverage involved in futures pricing and the potential high volatility of the futures
+markets
+▪ There is the possibility that a loss may be sustained by the portfolio as a result of the failure of another party
+(usually referred to as the "counter party") to comply with the terms of the derivatives contract. The counter party
+may default on a transaction before settlement and therefore, the Scheme is compelled to negotiate with another
+counterparty at the then prevailing (possibly unfavourable) market price.
+▪ Derivatives also carry a market liquidity risk where the derivatives cannot be sold (unwound) at prices that reflect
+the underlying assets, rates and indices.
+▪ Where derivatives are used for hedging, such use may involve a basis risk where the instrument used as a hedge
+does not match the movement in the instrument/underlying asset being hedged. The risk may be inter-related also
+e.g. interest rate movements can affect equity prices, which could influence specific issuer/industry assets.
+▪ Other risks in using derivatives include the risk of mispricing or improper valuation of derivatives and the
+inability of derivatives to correlate perfectly with underlying assets, rates and indices.
+▪ Derivative products are leveraged instruments and can provide disproportionate gains as well as disproportionate
+losses to the investor.
+▪ Execution of investment strategies depends upon the ability of the fund manager(s) to identify such opportunities
+which may not be available at all times. Identification and execution of the strategies to be pursued by the fund
+manager(s) involve uncertainty and decision of fund manager(s) may not always be profitable. No assurance can
+be given that the fund manager(s) will be able to identify or execute such strategies.
+
+=== S07-026 | page 33 | Groww ELSS Tax Saver Fund ===
+which may not be available at all times. Identification and execution of the strategies to be pursued by the fund
+manager(s) involve uncertainty and decision of fund manager(s) may not always be profitable. No assurance can
+be given that the fund manager(s) will be able to identify or execute such strategies.
+▪ The risks associated with the use of derivatives are different from or possibly greater than, the risks associated
+with investing directly in securities and other traditional investments.
+Risk associated with Securities Lending
+▪ Securities Lending is a lending of securities through an approved intermediary to a borrower under an agreement
+for a specified period with the condition that the borrower will return equivalent securities of the same type or
+class at the end of the specified period along with the corporate benefits accruing on the securities borrowed.
+There are risks inherent in securities lending, including the risk of failure of the other party, in this case the
+approved intermediary to comply with the terms of the agreement. Such failure can result in a possible loss of
+rights to the collateral, the inability of the approved intermediary to return the securities deposited by the lender
+and the possible loss of corporate benefits accruing thereon.
+Risks associated with investing in foreign securities/ overseas investments/ offshore securities
+▪ Subject to necessary approvals and within the investment objectives of the Scheme, the Scheme may invest in
+overseas markets which carry risks related to fluctuations in the foreign exchange rates, the nature of the securities
+market of the country, repatriation of capital due to exchange controls and political circumstances.
+▪ It is the AMC’s belief that investment in foreign securities offers new investment and portfolio diversification
+opportunities into multi-market and multi-currency products. However, such investments also entail additional
+risks. Such investment opportunities may be pursued by the AMC provided they are considered appropriate in
+terms of the overall investment objective of the Scheme. Since the Scheme may invest only partially in foreign
+securities, there may not be readily available and widely accepted benchmarks to measure performance of the
+Scheme. To manage risks associated with foreign currency and interest rate exposure, the Mutual Fund may use
+33
+
+=== S07-027 | page 34 | Groww ELSS Tax Saver Fund ===
+derivatives for efficient portfolio management including hedging and portfolio rebalancing and in accordance
+with conditions as may be stipulated under the Regulations or by RBI from time to time.
+To the extent that the assets of the Scheme will be invested in securities denominated in foreign currencies, the Indian
+Rupee equivalent of the net assets, distributions and income may be adversely affected by changes in the value of certain
+foreign currencies relative to the Indian Rupee. The repatriation of capital to India may also be hampered by changes in
+regulations concerning exchange controls or political circumstances as well as the application to it of other restrictions
+on investment.
+Risk Mitigation
+The asset allocation of the Scheme will be steadily monitored and it shall be ensured that investments are made in
+accordance with the scheme objective and within the regulatory and internal investment restrictions prescribed from time
+to time.
+The overall volatility of the portfolio would be maintained in line with the objective of the scheme. As the scheme is
+involved only in cash-futures arbitrage, the portfolio volatility depends on the spread between the cash and the futures
+prices.
+A major part of the scheme is invested in liquid stocks & derivative instruments. The fund manager may also keep some
+portion of the portfolio in debt and money market instruments and/or cash within the specified asset allocation framework
+for the purpose of meeting redemptions.
+Following exposure limits shall be maintained while dealing in derivative instruments to mitigate the risk,
+- The cumulative gross exposure through equity, debt and derivative positions will not exceed 100% of the net
+assets of the scheme.
+- The Scheme will not write options or purchase instruments with embedded written options.
+- The total exposure related to option premium paid will not exceed 20% of the net assets of the scheme.
+- Cash or cash equivalents with residual maturity of less than 91 days will be treated as not creating any exposure.
+- Exposure due to hedging positions will not be included in the above mentioned limits subject to the following,
+a. Hedging positions are the derivative positions that reduce possible losses on an existing position in securities and till
+the existing position remains.
+b. Hedging positions cannot be taken for existing derivative positions. Exposure due to such positions shall have to be
+added and treated under limits mentioned in Point 3.
+c. Any derivative instrument used to hedge has the same underlying security as the existing position being hedged.
+
+=== S07-028 | page 35 | Groww ELSS Tax Saver Fund ===
+II. INFORMATION ABOUT THE SCHEME:
+A. Where will the scheme invest –
+i. Subject to the SEBI Regulations, Rule 5 of Equity Linked Savings Scheme, 2005 as notified by the Central Board
+of Direct Taxes, Ministry of Finance vide notification dated November 03, 2005 and amended vide notification
+dated December 13, 2005 and the asset allocation pattern mention above for the respective scheme, the Scheme
+may invest in various types of instruments including, but not limited to, any of the following:
+1. Equity and Equity linked instruments of domestic companies / corporations
+2. Equity and equity related securities including fully convertible bonds and debentures and warrants carrying the
+right to obtain equity shares.
+3. Securities created and issued by the Central and State Governments and/or repos/reverse repos in such Government
+Securities as may be permitted by RBI (including but not limited to coupon bearing bonds, zero coupon bonds and
+treasury bills)
+4. Securities guaranteed by the Central and State Governments (including but not limited to coupon bearing bonds,
+zero coupon bonds and treasury bills)
+5. Debt securities issued by domestic Government agencies and statutory bodies, which may or may not carry a
+Central/State Government guarantee
+6. Corporate debt securities (of both public and private sector undertakings)
+7. Securities issued by banks (both public and private sector) as permitted by SEBI from time to time and development
+financial institutions
+8. Money market instruments permitted by SEBI/RBI, having maturities of up to one year or in any alternative
+investment as may be provided by the RBI to meet the liquidity requirements.
+9. Certificate of Deposits (CDs)
+10. Commercial Paper (CPs)
+11. The non-convertible part of convertible securities
+12. Any other domestic fixed income securities
+13. Derivative instruments like, Stock Futures, Index Futures, Stock options & Index options and such other derivative
+instruments permitted by SEBI.
+14. Subject to the Regulations, the securities mentioned above could be listed, unlisted, privately placed, secured,
+unsecured, rated or unrated and of varying maturity. The securities may be acquired through New Fund Offerings
+(NFOs), secondary market operations, private placement, rights offers (including renunciation) or negotiated deals.
+ii. Investments in units of mutual fund schemes
+The Scheme may invest in other schemes managed by the AMC or in the schemes of any other mutual funds in conformity
+with the investment objective of the Scheme and in terms of the prevailing SEBI (MF) Regulations. The maximum limit
+for such investment shall not exceed 5% of the net assets of the Scheme. No investment management fees or any other
+
+=== S07-029 | page 35 | Groww ELSS Tax Saver Fund ===
+with the investment objective of the Scheme and in terms of the prevailing SEBI (MF) Regulations. The maximum limit
+for such investment shall not exceed 5% of the net assets of the Scheme. No investment management fees or any other
+fees will be charged for such investments.
+iii. Investment in Short Term Deposits
+Pending deployment of funds as per the investment objective of the Scheme, the funds may be parked in short term
+deposits of Scheduled Commercial Banks, in compliance with paragraph 12.16 of SEBI Master Circular for Mutual Fund
+dated June 27, 2024
+The aforementioned securities may be acquired through Initial Public Offering (IPOs), secondary market, private
+placement, rights offers, and negotiated deals. Further investments in debentures, bonds and other fixed income securities
+will be in instruments which have been assigned investment grade rating by the Credit Rating Agency.
+35
+
+=== S07-030 | page 36 | Groww ELSS Tax Saver Fund ===
+Investment in unrated debt instruments shall be subject to complying with the provisions of the Regulations and within
+the limit as specified in Schedule VII to the Regulations.
+The securities / instruments mentioned above and such other securities the Scheme is permitted to invest in could be listed,
+unlisted, privately placed, secured, unsecured, rated or unrated and of any maturity subject to investment limits specified
+elsewhere in this document.
+The Fund Manager reserves the right to invest in such securities as may be permitted from time to time and which are in
+line with the investment objectives of the Scheme.
+iv. Investment in Equity Derivatives
+As part of the Fund Management process, the Trustee may permit the use of derivative instruments such as index futures,
+stock futures and options contracts, warrants, convertible securities, swap agreements, Forward Rate Agreement (FRA)
+or any other derivative instruments that are permissible or may be permissible in future under applicable regulations and
+such investments shall be in accordance with the investment objectives of the scheme.
+v. Futures:
+Futures are exchange-traded contracts to sell or buy financial instruments for future delivery at an agreed price. There is
+an agreement to buy or sell a specified quantity of financial instrument on a designated future date at a price agreed upon
+by the buyer and seller at the time of entering into a contract. To make trading possible, the exchange specifies certain
+standardized features of the contract. A futures contract involves an obligation on both the parties to fulfill the terms of
+the contract.
+SEBI has permitted futures contracts on indices and individual stocks with maturity of 1 month, 2 months and 3 months
+on a rolling basis. The futures contracts are settled on last Thursday (or immediately preceding trading day if Thursday is
+a trading holiday) of each month. The final settlement price is the closing price of the underlying stock(s)/index.
+vi. Options:
+Option is a contract which provides the buyer of the option (also called holder) the right, without the obligation, to buy or
+sell a specified asset at the agreed price on or upto a particular date. For acquiring this privilege, the buyer pays premium
+(fee) to the seller. The seller on the other hand has the obligation to buy or sell specified asset at the agreed price and for
+this obligation he receives premium. The premium is determined considering number of factors such as the market price
+
+=== S07-031 | page 40 | Groww ELSS Tax Saver Fund ===
+investment limit may be extended to 15% of the net assets of the Scheme with prior approval of the Board of
+Trustees.
+For this purpose, a group means a group as defined under regulation 2 (mm) of the Regulations and shall include
+an entity, its subsidiaries, fellow subsidiaries, its holding company and its associates.
+In addition, certain investment parameters (like limits on exposure to Sectors, Industries, Companies, etc.) may
+be adopted internally by AMC, and amended from time to time, to ensure appropriate diversification / security
+for the Fund. The Trustee Company / AMC may alter these above stated limitations from time to time, and also
+to the extent the SEBI (Mutual Funds) Regulations, 1996 change, so as to permit the Scheme to make its
+investments in the full spectrum of permitted investments for mutual funds to achieve its investment objective.
+As such all investments of the Scheme will be made in accordance with SEBI (Mutual Funds) Regulations, 1996,
+including Schedule VII thereof.
+C. Fundamental Attributes
+Following are the Fundamental Attributes of the scheme, in terms of Clause 1.14 of SEBI Master Circular for Mutual
+Funds dated June 27, 2024:
+(i) Type of a scheme
+Please refer Section ‘HIGHLIGHTS/ SUMMARY OF THE SCHEMES’
+(ii) Investment Objective: Please refer to Part I. V ie “Investment Objective” mentioned under “Highlights/Summary of
+the Scheme”
+Main Objective - Growth/Income/Both.
+Investment pattern - Please refer to Part II.A “HOW WILL THE SCHEME ALLOCATE ITS ASSETS?”
+(iii) Terms of Issue:
+o Liquidity provisions such as listing, repurchase, redemption - Please refer to the Part I
+o Aggregate fees and expenses charged to the scheme: Please refer to the section Part II Other details
+o Any safety net or guarantee provided: None
+In accordance with Regulation 18(15A) of the SEBI (MF) Regulations and Clause 1.14.1.4 of SEBI Master Circular for
+Mutual Funds dated June 27, 2024 the Trustees shall ensure that no change in the fundamental attributes of the Scheme(s)
+and the Plan(s) / Option(s) thereunder or the trust or fee and expenses payable or any other change which would modify
+the Scheme(s) and the Plan(s) / Option(s) thereunder and affect the interests of Unitholders is carried out unless: • SEBI
+has reviewed and provided its comments on the proposal
+• A written communication about the proposed change is sent to each Unitholder and an advertisement is given in
+one English daily newspaper having nationwide circulation as well as in a newspaper published in the language of the
+
+=== S07-032 | page 40 | Groww ELSS Tax Saver Fund ===
+has reviewed and provided its comments on the proposal
+• A written communication about the proposed change is sent to each Unitholder and an advertisement is given in
+one English daily newspaper having nationwide circulation as well as in a newspaper published in the language of the
+region where the Head Office of the Mutual Fund is situated; and
+• The Unitholders are given an option for a period of atleast 30 calendar days to exit at the prevailing Net Asset
+Value without any exit load.
+40
+
+=== S07-033 | page 41 | Groww ELSS Tax Saver Fund ===
+D. Index methodology (for index funds, ETFs and FOFs having one underlying domestic ETF)- Disclosures regarding the
+index, index eligibility criteria, methodology, index service provider, index constituents, impact cost of the constituents -
+NA
+E. Principles of incentive structure for market makers (for ETFs) - NA
+F. Floors and ceiling within a range of 5% of the intended allocation against each sub class of asset, as per clause 13.6.2 of
+SEBI master circular for mutual funds dated June 27, 2024 (only for close ended debt schemes)
+G. Other Scheme Specific Disclosures:
+Listing and transfer of units Since units of the Scheme will be offered for subscription and
+redemption at NAV based prices on all Business Days on an ongoing
+basis providing the required liquidity to investors, units of the Scheme
+are not proposed to be listed on any stock exchange. However, the
+Trustee reserves the right to list the units of the Scheme on any stock
+exchange(s) at its sole discretion at a later date.
+Dematerialization of units In accordance with Paragraph 14.4.2(a) of SEBI Master Circular for
+Mutual Funds dated June 27, 2024, investors have the option to receive
+allotment of Mutual Fund units in their demat account while subscribing
+to this scheme. Such units held in demat form shall be fully transferable.
+Minimum Target amount The Scheme had collected the minimum target amount during the NFO
+(This is the minimum amount
+required to operate the scheme and if
+this is not collected during the NFO
+period, then all the investors would be
+refunded the amount invested without
+any return.)
+Maximum Amount to be raised The Scheme is in existence and the said clause is not applicable
+(if any)
+Dividend Policy (IDCW) The Trustee will endeavour to declare IDCW under the IDCW Option,
+subject to availability of distributable surplus calculated in accordance
+with the Regulations.
+IDCW distribution procedure:
+In accordance with Chapter 11 of SEBI Master Circular for Mutual
+Funds dated June 27, 2024Pursuant to SEBI circular no. SEBI/IMD/CIR
+No. 1/64057/06, dated April 4, 2006, the procedure for IDCW
+distribution will be as follows:
+1. Quantum of IDCW and record date shall be fixed by the Board of
+Trustees. IDCW so decided shall be paid, subject to availability of
+distributable surplus as on the date of declaration of IDCW.
+2. Within 1 calendar day of the decision by the Board of Trustees, the
+AMC shall issue notice to the public communicating the decision about
+the IDCW including the record date, in one English daily newspaper
+41
+
+=== S07-034 | page 45 | Groww ELSS Tax Saver Fund ===
+The policy regarding reissue of Not Applicable
+repurchased units, including the
+maximum extent, the manner of Units once redeemed will not be reissued
+reissue, the entity (the scheme or the
+AMC) involved in the same.
+Restrictions, if any, on the right to As per the ELSS Rules, the units issued under the scheme can be assigned
+freely retain or dispose of units being or pledged only after lock in period of three years has elapsed from the
+offered. date of allotment. The Mutual Fund will be repurchasing (subject to
+completion of lock-in period, if any) and issuing units of the Scheme on
+an ongoing basis and hence the transfer facility is found redundant. Any
+addition / deletion of name from the folio of the Unit holder is deemed as
+transfer of Units. In view of the same, additions / deletions of names will
+not be allowed under any folio of the Scheme. The said provisions in
+respect of deletion of names will not be applicable in case of death of a
+Unit holder (in respect of joint holdings) as this is treated as transmission
+(transfer of units by operation of law) of Units and not transfer. Units of
+the Scheme held in demat form shall be freely transferable (subject to
+lock-in period, if any) and will be subject to transmission facility in
+accordance with the provisions of the SEBI (Depositories and
+Participants) Regulations, 1996 as amended from time to time.
+Also, when a person becomes a holder of the units by operation of law or
+upon enforcement of pledge, then the AMC shall, subject to
+production/submission of such satisfactory evidence, which in its opinion
+is sufficient, effect the transfer, if the intended transferee is otherwise
+eligible to hold the units.
+Units issued under this scheme can be transferred, assigned or pledged
+after three years of its issue.
+In the event of the death of the assessee, the nominee or legal heir, as the
+case may be, shall be able to withdraw the investment only after the
+completion of one year from the date of allotment of the units to the
+assessee or anytime thereafter.
+Please refer to paragraphs on Transfer and Transmission of units, ‘Right
+to limit Redemption‘, Suspension of Purchase and / or Redemption of
+Units and Pledge of Units in the SAI for further details.
+Cut off timing for subscriptions/ For Purchase (including switch-in) of any amount:
+redemptions/ switches
+● In respect of valid applications received upto 3.00 p.m. and where the
+
+=== S07-035 | page 46 | Groww ELSS Tax Saver Fund ===
+i.e. available for utilization before the cut-off time of the next Business
+Day - the closing NAV of the next Business Day shall be applicable.
+● Irrespective of the time of receipt of application, where the funds for
+the entire amount are credited to the bank account of the Scheme before
+the cut-off time on any subsequent Business Day i.e. available for
+utilization before the cut-off time on any subsequent Business Day - the
+closing NAV of such subsequent Business Day shall be applicable.
+For Switch-ins of any amount:
+For determining the applicable NAV, the following shall be ensured:
+● Application for switch-in is received before the applicable cut-off time.
+● Funds for the entire amount of subscription / purchase as per the switch-
+in request are credited to the bank account of the Scheme before the cut-
+off time.
+● The funds are available for utilization before the cut-off time.
+● In case of switch transactions from one scheme to another, the
+allocation shall be in line with redemption payouts
+For investments through systematic investment routes such as Systematic
+Investment Plans (SIP), Systematic Transfer Plans (STP), etc. the units
+will be allotted as per the closing NAV of the day on which the funds are
+available for utilization by the Target Scheme irrespective of the
+instalment date of the SIP, STP or record date of IDCW etc.”
+The Trustee reserves the right to change / modify the aforesaid
+requirements at a later date in line with SEBI directives from time to time.
+For allotment of units, it shall be ensured that:
+i. the application is received before the applicable cut-off time,
+ii. Funds for the entire amount of subscription / purchase as per the
+application / switch-in request are credited to the bank account of the
+Scheme before the cut-off time,
+iii. The funds are available for utilisation before the cut-off time without
+availing any credit facility whether intra-day or otherwise, by the Scheme.
+Redemptions including Switch - outs:
+The following cut-off timings shall be observed by the Mutual Fund in
+respect of Repurchase of Units:
+1. Where the application received upto 3.00 pm – closing NAV of the day
+of receipt of application; and
+2. An application received after 3.00 pm – closing NAV of the next
+Business Day.
+46
+
+=== S07-036 | page 47 | Groww ELSS Tax Saver Fund ===
+Technical issues when transactions are processed through online
+facilities/ electronic modes:
+The time of transaction done through various online facilities /electronic
+modes offered by the AMC, for the purpose of determining the
+applicability of NAV, would be the time when the request for purchase /
+SIP/ sale / switch of units is received in the servers of AMC/RTA. In case
+of transactions through online facilities / electronic modes, there may be
+a time lag of few seconds or upto 1-7 banking days between the amount
+of subscription being debited to investor's bank account and the
+subsequent credit into the respective Scheme's bank account. This lag
+may impact the applicability of NAV for transactions where NAV is to
+be applied, based on actual realization of funds by the Scheme. Under no
+circumstances will Groww Asset Management Limited or its bankers or
+its service providers be liable for any lag / delay in realization of funds
+and consequent pricing of units. The AMC has the right to amend cut off
+timings subject to SEBI (MF) Regulations for the smooth and efficient
+functioning of the Scheme. Representation of SIP transaction which have
+failed due to technical reasons will also follow same rule.
+Minimum amount for Ongoing: Rs.500 and in multiples of Rs.500/-
+purchase/redemption/switches. Switch-in amount: Rs.500 and in multiples of Rs.500/-
+The minimum subscription limits for new purchases/additional purchases
+will apply to each Option separately.
+Minimum Redemption Amount:
+The minimum redemption amount shall be Rs. 500 and in multiples of
+Re.1/-
+In case, if the investor wants to submit redemption in units, the value
+should be equivalent to the minimum redemption amount specified above
+as on the applicable NAV date and the units should be in multiples of
+0.001.
+In case the available balance in folio is less than the minimum redemption
+amount/units, then the investor can submit a request for "All units/Full
+redemption" of the amount / units available in folio. Please note this will
+not be applicable for units under pledge, lock-in units in Groww Tax
+Saver scheme and demat folios.
+The AMC reserves the right to change the minimum amounts for various
+purchase / redemption/ switch. Such changes shall only be applicable to
+transactions on a prospective basis.
+Accounts Statements The AMC shall send an allotment confirmation specifying the units
+allotted by way of email and/or SMS within 5 working days of receipt
+of valid application/transaction to the Unit holders registered e-mail
+address and/ or mobile number (whether units are held in demat mode
+or in account statement form).
+
+=== S07-037 | page 48 | Groww ELSS Tax Saver Fund ===
+holders in whose folio(s) transaction(s) have taken place during the
+month. The monthly CAS will be dispatched to investors that have opted
+for delivery via electronic mode (e-CAS) within twelve (12) days from
+the month end and to investors that have opted for delivery via physical
+mode within fifteen (15) days from the month end.
+Half-yearly CAS shall be issued at the end of every six months (i.e.
+September/ March) to all investors providing the prescribed details
+across all schemes of mutual funds and securities held in dematerialized
+form across demat accounts, if applicable. The CAS will be dispatched
+to investors that have opted for e-CAS on or before the eighteenth (18th)
+day of April and October and to investors that have opted for delivery
+via physical mode by the twenty first (21st) day of April and October.
+For further details, refer SAI.
+Dividend/ IDCW The payment of dividend/IDCW to the unitholders shall be made within
+seven working days from the record date
+Redemption The redemption or repurchase proceeds shall be dispatched to the
+unitholders within three working days from the date of redemption or
+repurchase.
+For list of exceptional circumstances refer para 14.1.3 of SEBI Master
+Circular for Mutual Funds dated June 27, 2024.
+Bank Mandate In case of those unit holders, who hold units in demat form, the bank
+mandate available with the respective DP will be treated as the valid bank
+mandate for the purpose of payout at the time of redemption. In view of
+the above, Multiple Bank Mandate registration facilities with the AMC
+will not be applicable to Demat account holders.
+Delay in payment of redemption / The Asset Management Company shall be liable to pay interest to the
+repurchase proceeds/dividend unitholders at rate as specified vide clause 14.2 of SEBI Master Circular
+for Mutual Funds dated June 27, 2024 by SEBI for the period of such
+delay
+Unclaimed Redemption and Income As per the Clause 14.3 of SEBI Master Circular dated June 27, 2024, the
+Distribution cum Capital Withdrawal unclaimed Redemption and dividend amounts shall be deployed by the
+Amount Fund in call money market or money market instruments and in a
+separate plan of Liquid scheme / Money Market Mutual Fund scheme
+floated by Mutual Funds specifically for deployment of the unclaimed
+amounts. The investment management fee charged by the AMC for
+managing such unclaimed amounts shall not exceed 50 basis points.
+The AMCs shall not be permitted to charge any exit load in this plan.
+
+=== S07-038 | page 48 | Groww ELSS Tax Saver Fund ===
+separate plan of Liquid scheme / Money Market Mutual Fund scheme
+floated by Mutual Funds specifically for deployment of the unclaimed
+amounts. The investment management fee charged by the AMC for
+managing such unclaimed amounts shall not exceed 50 basis points.
+The AMCs shall not be permitted to charge any exit load in this plan.
+Provided that such schemes where the unclaimed redemption and IDCW
+amounts are deployed shall be only those Overnight scheme/ Liquid
+scheme / Money Market Mutual Fund schemes which are placed in A-1
+cell (Relatively Low Interest Rate Risk and Relatively Low Credit Risk)
+of Potential Risk Class matrix. The investors who claim these amounts
+during a period of three years from the due date shall be paid at the
+prevailing NAV. After a period of three years, this amount can be
+48
+
+=== S07-039 | page 49 | Groww ELSS Tax Saver Fund ===
+transferred to a pool account and the investors can claim the said amounts
+at the NAV prevailing at the end of the third year. In terms of the circular,
+the onus is on the AMC to make a continuous effort to remind investors
+through letters to take their unclaimed amounts. The website of Groww
+Mutual Fund also provides information on the process of claiming the
+unclaimed amount and the necessary forms / documents required for the
+same. The details of such unclaimed amounts are also disclosed in the
+annual report sent to the Unit Holders.
+Important Note: All applicants must provide a bank name, bank
+account number, branch address, and account type in the Application
+Form.
+Disclosure w.r.t investment by minors As per paragraph 17.6 of SEBI Master circular for Mutual Funds dated
+June 27, 2024, the following Process for Investments in the name of a
+Minor through a Guardian will be applicable:
+a. Payment for investment by any mode shall be accepted from the bank
+account of the minor, parent or legal guardian of the minor, or from a
+joint account of the minor with parent or legal guardian. For existing
+folios, the AMCs shall insist upon a Change of Pay-out Bank mandate
+before redemption is processed.
+b. Irrespective of the source of payment for subscription, all redemption
+proceeds shall be credited only in the verified bank account of the
+minor, i.e. the account the minor may hold with
+the parent/ legal guardian after completing all KYC formalities.
+c. Upon the minor attaining the status of major, the minor in whose
+name the investment was made, shall be required to provide all the
+KYC details, updated bank account details including cancelled original
+cheque leaf of the new account. No further transactions shall be allowed
+till the status of the minor is changed to major.
+d. AMCs shall build a system control at the account set up stage of
+Systematic Investment Plan (SIP), Systematic Transfer Plan (STP) and
+Systematic Withdrawal Plan (SWP) on the basis of which, the standing
+instruction is suspended when the minor attains majority, till the status
+is changed to major.
+Please refer SAI for detailed process on investments made in the name
+of a Minor through a Guardian and Transmission of Units.
+49
+
+=== S07-040 | page 50 | Groww ELSS Tax Saver Fund ===
+III. OTHER DETAILS
+A. In case of Fund of Funds Scheme, Details of Benchmark, Investment Objective, Investment Strategy, TER, AUM, Year
+wise performance, Top 10 Holding/ link to Top 10 holding of the underlying fund should be provided- NA.
+B. Periodic Disclosures such as Half yearly disclosures, half yearly results, annual report
+Monthly / Half - Yearly The Mutual Fund shall disclose the scheme portfolios as on the
+Portfolio Disclosures last day of the month/ as on the last day of every half year ended
+March and September within 10 days from the close of each
+This is a list of securities where the month / half-year respectively. Further, the Mutual Fund shall
+corpus of the Scheme is currently also disclose portfolio of the scheme on a fortnightly basis within
+invested. The market value of 5 days from the end of the fortnight. The disclosure shall be on
+these investments is also stated in https://growwmf.in/statutory-disclosure/portfolio
+portfolio disclosures. (Fortnightly/Monthly), https://growwmf.in/financials/half-
+yearly-unaudited-financials-&-portfolio (Half Yearly) and
+www.amfiindia.com. The AMC shall send via email the
+fortnightly statement of scheme portfolio within 5 days from the
+close of each fortnight and the monthly and half-yearly statement
+of scheme portfolio within 10 days from the close of each month
+/ half-year respectively.
+Mutual Fund shall publish an advertisement every half-year
+disclosing the hosting of the half-yearly statement of its schemes
+portfolio on its website and on the website of AMFI. Such
+advertisement shall be published in the all India edition of at least
+two daily newspapers, one each in English and Hindi. Mutual
+Fund shall provide a physical copy of the statement of its scheme
+portfolio, without charging any cost, on specific request received
+from a unitholder.
+Half -Yearly Financial Results The Mutual Fund and AMC shall within one month from the close
+of each half year i.e. 31st March and on 30th September, host a
+soft copy of its unaudited financial results on their website. The
+Mutual Fund and AMC shall publish an advertisement disclosing
+the hosting of such financial results on their website, in atleast
+one national English daily newspaper and in a regional newspaper
+published in the language of the region where the Head Office of
+the Mutual Fund is situated.
+It will also be displayed on the website of the AMC
+(https://www.growwmf.in/financials/half-yearly-unaudited-
+financials-&-portfolio) and AMFI www.amfiindia.com
+Annual Report The Scheme wise annual report or an abridged summary thereof
+shall be mailed (emailed, where e-mail id is provided unless
+otherwise required) to all Unit holders not later than four months
+

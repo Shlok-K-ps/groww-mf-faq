@@ -1,23 +1,23 @@
-source_id,url,publisher,doc_type,scheme,title,fetched_at,as_of_date,status
-S01,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Largecap%20Fund.pdf,Groww MF,KIM,Groww Large Cap Fund,KIM – Groww Large Cap Fund,2026-10-01,2026-10-01,ok
-S02,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Multicap%20Fund.pdf,Groww MF,KIM,Groww Multicap Fund,KIM – Groww Multicap Fund,2026-10-01,2026-10-01,ok
-S03,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,Groww MF,KIM,Groww ELSS Tax Saver Fund,KIM – Groww ELSS Tax Saver Fund,2026-10-01,2026-10-01,ok
-S04,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Small%20cap%20Fund.pdf,Groww MF,KIM,Groww Small Cap Fund,KIM – Groww Small Cap Fund,2026-10-01,2026-10-01,ok
-S05,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Large%20Cap%20Fund.pdf,Groww MF,SID,Groww Large Cap Fund,SID – Groww Large Cap Fund,2026-10-01,2026-10-01,ok
-S06,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Multicap%20Fund.pdf,Groww MF,SID,Groww Multicap Fund,SID – Groww Multicap Fund,2026-10-01,2026-10-01,ok
-S07,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,Groww MF,SID,Groww ELSS Tax Saver Fund,SID – Groww ELSS Tax Saver Fund,2026-10-01,2026-10-01,ok
-S08,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Small%20Cap%20Fund.pdf,Groww MF,SID,Groww Small Cap Fund,SID – Groww Small Cap Fund,2026-10-01,2026-10-01,ok
-S09,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Fact%20Sheet/2026%20-%202027/Monthly%20Factsheet%20August%202026.pdf,Groww MF,Factsheet,ALL,Groww MF Monthly Factsheet – August 2026,2026-10-01,2026-08-31,ok
-S10,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Expense%20Ratio/2026/September/GRMF_WEBSITE%20TER_30.09.2026.xlsx,Groww MF,TER,ALL,Total Expense Ratio of all schemes – 30 Sep 2026,2026-10-01,2026-09-30,ok
-S11,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Riskometer/Riskometer%20-%202026%20-%202027.xlsx,Groww MF,Riskometer,ALL,Riskometer disclosure FY 2026-27 (to Aug 2026),2026-10-01,2026-08-31,ok
-S12,https://www.growwmf.in/investor/investor-education,Groww MF,Education,ALL,Groww MF – Investor Education,2026-10-01,2026-10-01,ok
-S13,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Investor%20charter/Investor%20Charter_GrowwMF.pdf,Groww MF,Charter,ALL,Groww MF – Investor Charter,2026-10-01,2026-10-01,ok
-S14,https://www.mutualfundssahihai.com/en/how-get-capital-gain-statement-mutual-funds,AMFI,FAQ,ALL,AMFI – How to Get Capital Gain Statement for Mutual Funds,2026-10-01,2026-10-01,ok
-S15,https://www.mutualfundssahihai.com/en/what-cas-consolidated-account-statement,AMFI,Education,ALL,AMFI – What is CAS (Consolidated Account Statement),2026-10-01,2026-10-01,ok
-S16,https://www.mutualfundssahihai.com/en/what-are-expenses-incurred-mutual-fund-scheme,AMFI,Education,ALL,AMFI – Expenses involved in a Mutual Fund scheme (TER),2026-10-01,2026-10-01,ok
-S17,https://www.mutualfundssahihai.com/en/there-advantage-investing-funds-exit-load,AMFI,Education,ALL,AMFI – Exit load in mutual funds,2026-10-01,2026-10-01,ok
-S18,https://www.mutualfundssahihai.com/en/elss-fund-tax-saving-mutual-fund,AMFI,Education,ALL,AMFI – ELSS Tax Saving Mutual Fund,2026-10-01,2026-10-01,ok
-S19,https://www.mutualfundssahihai.com/en/what-is-lock-in-period,AMFI,Education,ALL,AMFI – What is Lock-in Period in Mutual Funds,2026-10-01,2026-10-01,ok
-S20,https://www.mutualfundssahihai.com/en/what-is-sip,AMFI,Education,ALL,AMFI – What is SIP,2026-10-01,2026-10-01,ok
-S21,https://www.mutualfundssahihai.com/en/what-riskometer-and-what-are-different-levels,AMFI,Education,ALL,AMFI – Riskometer and its levels,2026-10-01,2026-10-01,ok
-S22,https://investor.sebi.gov.in/,SEBI,Education,ALL,SEBI Investor Website,2026-10-01,2026-10-01,ok
+source_id,url,publisher,doc_type,scheme,title,fetched_at,as_of_date,date_basis,status
+S01,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Largecap%20Fund.pdf,Groww MF,KIM,Groww Large Cap Fund,KIM – Groww Large Cap Fund,2026-10-01,2026-10-01,fetched,ok
+S02,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Multicap%20Fund.pdf,Groww MF,KIM,Groww Multicap Fund,KIM – Groww Multicap Fund,2026-10-01,2026-10-01,fetched,ok
+S03,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,Groww MF,KIM,Groww ELSS Tax Saver Fund,KIM – Groww ELSS Tax Saver Fund,2026-10-01,2026-10-01,fetched,ok
+S04,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/KIM/KIM_Active%20Funds/KIM_Groww%20Small%20cap%20Fund.pdf,Groww MF,KIM,Groww Small Cap Fund,KIM – Groww Small Cap Fund,2026-10-01,2026-09-03,pdf_metadata,ok
+S05,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Large%20Cap%20Fund.pdf,Groww MF,SID,Groww Large Cap Fund,SID – Groww Large Cap Fund,2026-10-01,2026-09-09,pdf_metadata,ok
+S06,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Multicap%20Fund.pdf,Groww MF,SID,Groww Multicap Fund,SID – Groww Multicap Fund,2026-10-01,2026-09-09,pdf_metadata,ok
+S07,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20ELSS%20Tax%20Saver%20Fund.pdf,Groww MF,SID,Groww ELSS Tax Saver Fund,SID – Groww ELSS Tax Saver Fund,2026-10-01,2026-10-01,fetched,ok
+S08,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/SID/Equity%20Fund/SID_Groww%20Small%20Cap%20Fund.pdf,Groww MF,SID,Groww Small Cap Fund,SID – Groww Small Cap Fund,2026-10-01,2026-09-09,pdf_metadata,ok
+S09,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Fact%20Sheet/2026%20-%202027/Monthly%20Factsheet%20August%202026.pdf,Groww MF,Factsheet,ALL,Groww MF Monthly Factsheet – August 2026,2026-10-01,2026-08-31,printed,ok
+S10,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Expense%20Ratio/2026/September/GRMF_WEBSITE%20TER_30.09.2026.xlsx,Groww MF,TER,ALL,Total Expense Ratio of all schemes – 30 Sep 2026,2026-10-01,2026-09-30,printed,ok
+S11,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Riskometer/Riskometer%20-%202026%20-%202027.xlsx,Groww MF,Riskometer,ALL,Riskometer disclosure FY 2026-27 (to Aug 2026),2026-10-01,2026-08-31,printed,ok
+S12,https://www.growwmf.in/investor/investor-education,Groww MF,Education,ALL,Groww MF – Investor Education,2026-10-01,2026-10-01,fetched,ok
+S13,https://assets-netstorage.growwmf.in/compliance_docs/Downloads/Investor%20charter/Investor%20Charter_GrowwMF.pdf,Groww MF,Charter,ALL,Groww MF – Investor Charter,2026-10-01,2026-09-09,pdf_metadata,ok
+S14,https://www.mutualfundssahihai.com/en/how-get-capital-gain-statement-mutual-funds,AMFI,FAQ,ALL,AMFI – How to Get Capital Gain Statement for Mutual Funds,2026-10-01,2026-10-01,fetched,ok
+S15,https://www.mutualfundssahihai.com/en/what-cas-consolidated-account-statement,AMFI,Education,ALL,AMFI – What is CAS (Consolidated Account Statement),2026-10-01,2026-10-01,fetched,ok
+S16,https://www.mutualfundssahihai.com/en/what-are-expenses-incurred-mutual-fund-scheme,AMFI,Education,ALL,AMFI – Expenses involved in a Mutual Fund scheme (TER),2026-10-01,2026-10-01,fetched,ok
+S17,https://www.mutualfundssahihai.com/en/there-advantage-investing-funds-exit-load,AMFI,Education,ALL,AMFI – Exit load in mutual funds,2026-10-01,2026-10-01,fetched,ok
+S18,https://www.mutualfundssahihai.com/en/elss-fund-tax-saving-mutual-fund,AMFI,Education,ALL,AMFI – ELSS Tax Saving Mutual Fund,2026-10-01,2026-10-01,fetched,ok
+S19,https://www.mutualfundssahihai.com/en/what-is-lock-in-period,AMFI,Education,ALL,AMFI – What is Lock-in Period in Mutual Funds,2026-10-01,2026-10-01,fetched,ok
+S20,https://www.mutualfundssahihai.com/en/what-is-sip,AMFI,Education,ALL,AMFI – What is SIP,2026-10-01,2026-10-01,fetched,ok
+S21,https://www.mutualfundssahihai.com/en/what-riskometer-and-what-are-different-levels,AMFI,Education,ALL,AMFI – Riskometer and its levels,2026-10-01,2026-10-01,fetched,ok
+S22,https://investor.sebi.gov.in/,SEBI,Education,ALL,SEBI Investor Website,2026-10-01,2026-10-01,fetched,ok

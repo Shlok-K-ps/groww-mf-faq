@@ -1,13 +1,11 @@
-﻿streamlit==1.39.0
-google-genai==1.2.0
-pdfplumber==0.11.4
-beautifulsoup4==4.12.3
-requests==2.32.3
-rank-bm25==0.2.2
-numpy==1.26.4
-python-dotenv==1.0.1
-pytest==8.3.3
-
+beautifulsoup4==4.15.0
+google-genai==2.26.0
+numpy==2.4.6
 openpyxl==3.1.5
-pymupdf==warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
-1.28.2
+pdfplumber==0.11.9
+pymupdf==1.28.2
+pytest==9.1.1
+python-dotenv==1.2.4
+rank-bm25==0.2.2
+requests==2.34.2
+streamlit==1.39.0

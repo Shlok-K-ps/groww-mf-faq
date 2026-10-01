@@ -1,0 +1,21 @@
+=== S15-001 | page 1 | ALL ===
+What is CAS? (Consolidated Account Statement)
+More about Mutual Funds
+Types of Mutual Funds
+54 seconds read
+Just like a school report card shows the score of a child in various exams held during the academic year across different subjects that are taught by different teachers, a Consolidated Account Statement(CAS) is a physical statement that captures all financial transactions done by an investor across different
+Mutual Funds
+during a month. If you have invested in three different funds, all the financial transactions like purchase, redemption, switches,
+SIPs
+/STPs/SWPs, dividend payouts/reinvestment of dividends are captured.
+The CAS also captures opening and closing balances of the various portfolios linked to a PAN. Non-financial transactions like changes to bank detail, address, nominees etc are however not captured in a CAS. A CAS not only captures monthly financial transactions across different fund houses, it also captures transaction in other securities held in Demat mode. This means even stock related transactions are captured in a CAS.
+Thus, CAS is truly a consolidated statement of all your financial investment related transactions. The CAS is generated monthly and is mailed to the investors by the 10th day of the following month. CAS is generated for unique PAN holders and hence it captures all financial transactions associated with a particular PAN. If no financial transactions have been made by the PAN holder in a month, no CAS is generated.
+Read More
+I Am Ready to Invest
+Related Articles
+More details are loading
+Load More
+Calculators
+More details are loading
+Load More
+

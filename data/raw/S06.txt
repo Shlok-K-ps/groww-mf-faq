@@ -1,0 +1,1414 @@
+=== S06-001 | page 1 | Groww Multicap Fund ===
+SCHEME INFORMATION DOCUMENT
+GROWW MULTICAP FUND
+(An open-ended equity scheme investing across large-cap, mid-cap, and small-cap stocks)
+This product is suitable for Scheme Riskometer
+Benchmark Riskometer (as
+investors who are seeking*:
+applicable)
+• Investments in equity and As per AMFI Tier 1 Benchmark
+equity-related instruments Nifty 500 Multicap 50:25:25 Index
+across large-cap, mid-cap and TRI
+small-cap stocks
+• Long-term capital growth
+Investor understands that their The Benchmark is at Very High
+principal will be at Very High Risk Risk
+*Investors should consult their financial advisers if in doubt about whether the product is suitable for them.
+Name of Mutual Fund Groww Mutual Fund
+Groww Asset Management Limited (CIN: U65991KA2008PLC180894)
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey
+Name of Asset Management Company
+No.16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur,
+Bangalore South, Bangalore- 560103, Karnataka, India
+Groww Trustee Limited (CIN: U65991KA2008PLC183561)
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey
+Name of Trustee Company
+No.16/1 and 17/2, Ambalipura Village, Varthur Hobli, Bellandur,
+Bangalore South, Bangalore- 560103, Karnataka, India.
+505 – 5th Floor, Tower 2B, One World Centre, Near Prabhadevi Railway
+Corporate Office Station, Lower Parel, Mumbai – 400013, Maharashtra, Tele-+91 22
+69744435
+Website www.growwmf.in
+The particulars of the Scheme have been prepared in accordance with Securities and Exchange Board of India (Mutual
+Funds) Regulations 1996, (hereinafter referred to as SEBI (MF) Regulations) as amended till date and circulars issued
+thereunder filed with SEBI, along with a Due Diligence Certificate from the AMC. The units being offered for public
+subscription have not been approved or recommended by SEBI nor has SEBI certified the accuracy or adequacy of the
+Scheme Information Document.
+The Scheme Information Document sets forth concisely the information about the scheme that a prospective investor ought to
+know before investing. Before investing, investors should also ascertain about any further changes to this Scheme Information
+Document after the date of this Document from the Mutual Fund / Investor Service Centres / Website / Distributors or Brokers.
+1
+
+=== S06-002 | page 3 | Groww Multicap Fund ===
+TABLE OF CONTENTS PAGE NO.
+SECTION I
+I. HIGHLIGHTS / SUMMARY OF THE SCHEME 4
+II. INFORMATION ABOUT SCHEME 17
+A. HOW WILL SCHEME ALLOCATE ITS ASSESTS 17
+B. WHERE WILL THE SCHEME INVEST 20
+C. WHAT ARE THE INVESTMENT STRATEGIES 21
+D. HOW WILL THE SCHEME BENCHMARK ITS PERFORMANCE 21
+E. WHO MANAGES THE SCHEME? 22
+F. HOW IS THE SCHEME DIFFERENT FROM EXISTING SCHEMES OF THE MUTUAL FUND? 22
+G. HOW HAS THE SCHEME PERFORMED 23
+H. ADDITIONAL SCHEME RELATED DISCLOSURES 23
+III. OTHER DETAILS 25
+A. COMPUTATION OF NAV 25
+B. NEW FUND OFFER (NFO) EXPENSES 26
+C. ANNUAL SCHEME RECURRING EXPENSES 26
+D. LOAD STRUCTURE 30
+SECTION II. 31
+I. INTRODUCTION 31
+A. DEFINITION & INTERPRETATION 31
+B. RISK FACTORS 31
+C. RISK MITIGATION STRATEGIES 36
+II. INFORMATION ABOUT SCHEME 38
+A. WHERE WILL THE SCHEME INVEST? 38
+B. WHAT ARE THE INVESTMENT RESTRICTIONS? 39
+C. FUNDAMENTAL ATTRIBUTES 42
+D. INDEX METHODOLOGY (FOR INDEX FUNDS, ETFS AND FOFS HAVING ONE UNDERLYING DOMESTIC ETF) 43
+E. PRINCIPLES OF INCENTIVE STRUCTURE FOR MARKET MAKERS (FOR ETFS) 43
+F. FLOORS AND CEILING WITHIN A RANGE OF 5% OF THE INTENDED ALLOCATION AGAINST EACH SUB 43
+CLASS OF ASSET
+G. OTHER SCHEME SPECIFIC DISCLOSURES 43
+III. OTHER DETAILS 54
+A. IN CASE OF FUND OF FUNDS SCHEME, DETAILS OF BENCHMARK, INVESTMENT OBJECTIVE, 54
+INVESTMENT STRATEGY, TER, AUM, YEAR WISE PERFORMANCE, TOP 10 HOLDING/ LINK TO TOP 10
+HOLDING OF THE UNDERLYING FUND SHOULD BE PROVIDED
+B. PERIODIC DISCLOSURES SUCH AS HALF YEARLY DISCLOSURES, HALF YEARLY RESULTS, ANNUAL 54
+REPORT
+C. TRANSPARENCY/NAV DISCLOSURE 54
+D. TRANSACTION CHARGES AND STAMP DUTY 55
+E. ASSOCIATE TRANSACTIONS 55
+F. TAXATION 55
+G. RIGHTS OF UNITHOLDERS 58
+H. LIST OF OFFICIAL POINTS OF ACCEPTANCE 58
+I. PENALTIES, PENDING LITIGATION OR PROCEEDINGS, FINDINGS OF INSPECTIONS OR INVESTIGATIONS 58
+FOR WHICH ACTION MAY HAVE BEEN TAKEN OR IS IN THE PROCESS OF BEING TAKEN BY ANY
+REGULATORY AUTHORITY
+3
+
+=== S06-003 | page 4 | Groww Multicap Fund ===
+SECTION I
+Part I. HIGHLIGHTS/SUMMARY OF THE SCHEME
+Sr. No. Title Description
+I. Name of the scheme Groww Multicap Fund
+II. Category of the Scheme Multi Cap Fund
+III. Scheme type An open-ended equity scheme investing across large-cap, mid-cap,
+and small-cap stocks.
+IV. Scheme code GROW/O/E /MCF/24/09/0022
+V. Investment objective To achieve long-term capital appreciation by predominantly investing
+in equity and equity-related instruments of large, mid and small-cap
+companies. However, there can be no assurance that the investment
+objective of the scheme will be realised.
+VI. Liquidity details: The Scheme will offer units for purchases/switch-ins and
+redemptions/switch-outs at NAV based prices on all business days on
+an ongoing basis. Repurchase of Units will be at the NAV prevailing
+on the date the units are tendered for repurchase.
+As per SEBI Regulations, the Mutual Fund shall dispatch redemption
+proceeds within 3 working Days of receiving a valid redemption
+request. A penal interest of 15% per annum or such other rate as may
+be prescribed by SEBI from time to time, will be paid in case the
+redemption proceeds are not made within 3 working Days from the
+date of receipt of a valid redemption request.
+The Scheme being open ended, the units are not proposed to be listed
+on any stock exchange and no transfer facility on the exchange is
+provided. However, the Trustee reserves the right to list the units as and
+Listing details
+when open-end Schemes are permitted to be listed under the
+Regulations, and if the Trustee considers it necessary in the interest of
+unit holders of the Scheme.
+VII. Benchmark (Total Return As per AMFI Tier 1 Benchmark
+Index) Nifty 500 Multicap 50:25:25 Index - Total Return Index
+The Trustees have adopted Nifty 500 Multicap 50:25:25 Index as the
+benchmark index.
+As per its investment objective, the investment would primarily be in
+Securities which are constituents of the benchmark index. Thus, the
+composition of the aforesaid benchmark index is such that it is most
+suited for comparing performance of the Scheme. The Trustees
+reserves right to change benchmark in future for measuring
+performance of the Scheme subject to SEBI Mutual Fund Regulations,
+1996 and circulars issued by SEBI from time to time.
+The AMC / Trustee reserves the right to change / modify the benchmark
+by issuing an addendum.
+VIII. NAV disclosure The AMC shall update the NAVs on the website of the Mutual Fund
+https://www.growwmf.in/nav and on the website of Association of
+Mutual Funds in India - AMFI (www.amfiindia.com) by 11.00 p.m. on
+
+=== S06-004 | page 4 | Groww Multicap Fund ===
+The AMC / Trustee reserves the right to change / modify the benchmark
+by issuing an addendum.
+VIII. NAV disclosure The AMC shall update the NAVs on the website of the Mutual Fund
+https://www.growwmf.in/nav and on the website of Association of
+Mutual Funds in India - AMFI (www.amfiindia.com) by 11.00 p.m. on
+every Business Day. Further Details in Section II.
+4
+
+=== S06-005 | page 5 | Groww Multicap Fund ===
+IX. Applicable timelines Timeline for
+Dispatch of redemption proceeds:
+The redemption or repurchase proceeds shall be dispatched to the
+unitholders within 03 working days from the date of redemption or
+repurchase. In case of exceptional situations, additional time for
+redemption payment may be taken. This shall be in line with AMFI
+letter dated January 16, 2023.
+• Dispatch of IDCW:
+The IDCW warrants shall be dispatched to the unitholders within
+07 working days of the date of declaration of the IDCW.
+In case of Unit holders having a bank account with certain banks
+with which the Mutual Fund would have an arrangement from time
+to time, the IDCW proceeds shall be electronically credited to their
+account.
+In case of specific request for IDCW by warrants/cheques/demand
+drafts or unavailability of sufficient details with the Fund, the
+IDCW will be paid by warrant/cheques/demand drafts and
+payments will be made in favour of the unitholder (registered
+holder of the Unit or, if there are more than one registered holder,
+only to the first registered holder) with bank account number
+furnished to the Fund.
+Please note that it is mandatory for the unitholders to provide the
+bank account details as per SEBI guidelines.
+X. Plans and Options The Scheme will have Regular Plan and Direct Plan** with a
+Plans/Options and sub common portfolio and separate NAVs. Investors should indicate the
+options under the Scheme Plan for which the subscription is made by indicating the choice in
+the application form.
+Each of the above Regular and Direct Plan under the scheme will
+have the following Options / Sub-options: (1) Growth Option and
+(2) Income Distribution cum Capital Withdrawal (IDCW) Option.
+The IDCW Option shall have only Reinvestment of IDCW and
+Payout of IDCW Option.
+The default option for the unitholders will be Regular Plan - Growth
+Option if he is routing his investments through a distributor and
+Direct Plan – Growth option if he is a direct investor.
+If the unit holders selects IDCW option but does not specify the sub-
+option then the default sub-option shall be Reinvestment of IDCW.
+Investors subscribing under Direct Plan of the Scheme will have to
+indicate “Direct Plan” against the Scheme name in the application
+form i.e. “Groww Multicap Fund - Direct Plan”. Treatment for
+investors based on the applications received is given in the table
+below:
+Investors should also indicate “Direct” in the ARN column of the
+application form. If the application is received incomplete with
+respect to not selecting Regular/Direct Plan, the application will be
+
+=== S06-006 | page 6 | Groww Multicap Fund ===
+2. N ot mentioned Direct Direct Plan
+3. N ot mentioned Regular Direct Plan
+Plan
+4. M entioned Direct Direct Plan
+5. D irect Not Direct Plan
+mentioned
+6. D irect Regular Direct Plan
+Plan
+7. M entioned Regular Regular Plan
+Plan
+8. M entioned Not Regular Plan
+mentioned
+In cases of wrong/ invalid/ incomplete ARN codes mentioned on the
+application form, the application shall be processed under Regular
+Plan. The AMC shall contact and obtain the correct ARN code
+within 30 calendar days of the receipt of the application form from
+the investor/ distributor. In case, the correct code is not received
+within 30 calendar days, the AMC shall reprocess the transaction
+under Direct Plan from the date of application without any exit load.
+**DIRECT PLAN: Direct Plan is only for investors who purchase
+/subscribe Units in a Scheme directly with the Mutual Fund or through
+the stock exchange and is not available for investors who route their
+investments through a Distributor.
+XI. Load Structure Exit Load:
+a) 1% if redeemed/ switched out within 1 year from the date of
+allotment.
+b) NIL, if redeemed/ switched out after 1 year from the date of
+allotment.
+Subject to the Regulations, the AMC reserves the right to modify /
+change the load structure on a prospective basis.
+XII. Minimum Application
+Amount/switch in
+Initial Purchase Rs. 500/- and in multiples of Re. 1 for
+(Non- SIP) purchases and of Re 0.01 for switches.
+SIP Purchase Daily - Rs.100 and in multiples of Re.1
+Weekly - Rs. 100 and in multiples of
+Re.1
+Monthly - Rs. 500 and in multiples of
+Re.1
+Quarterly - Rs. 500 and in multiples of
+Re.1
+XIII. Minimum Additional R s. 500 per application and in multiples of Re. 1 thereafter.
+Purchase Amount
+XIV. Minimum The minimum switch amount / redemption amount shall be Rs. 500
+Redemption/switch out or ‘any number of units’ as requested by the investor at the time of the
+amount request.
+6
+
+=== S06-007 | page 8 | Groww Multicap Fund ===
+KFin Technologies Limited’s ISC directly. All grievances received at
+the ISC of the AMC will then be forwarded to KFin Technologies
+Limited, if required, for necessary action. The complaints will closely
+be followed up with KFin Technologies Limited by the AMC to ensure
+timely redressal and prompt investor service.
+KFin Technologies Ltd.
+Selenium,Tower B,
+Plot number 31 & 32,
+Financial District, Nanakramguda, Serilingampally Mandal,
+Hyderabad- 500032.
+The investors are further requested to take note that, pursuant to SEBI
+Circular no. SEBI/HO/OIAE/OIAE_IAD-1/P/CIR/2023/145 dated
+July 31, 2023, read along with circular dated August 04, 2023, a
+common Online Dispute Resolution Portal (“ODR Portal”) has been
+introduced to provide investors / unit holders with a mechanism to
+redress their grievances.
+The ODR Portal allows investors / unitholders with additional
+mechanism to resolve the grievances through online conciliation and
+online arbitration. The link to access ODR Portal is
+https://smartodr.in/login
+XXII Specific attribute of the Not Applicable. The Scheme is an open ended multi cap fund
+scheme (such as lock in,
+duration in case of target
+maturity scheme/close
+ended schemes) (as
+applicable)
+XXIII Special product/facility Switching and Systematic Investment Plan are available during the
+available during the NFO NFO.
+and on ongoing basis
+The Special Products / Facilities available under the Scheme, are:
+i. Systematic Investment Plan [SIP]
+ii. Systematic Transfer Plan[STP]
+iii. Systematic Withdrawal Plan[SWP]
+iv. IDCW Sweep Facility
+v. Transactions by Email
+vi. Transactions through Electronic Mode
+vii. K-TRACK for transaction in the units of Groww Mutual Fund
+towards additional purchase, redemption or switch
+viii. Transactions through Stock Exchange Platform for Mutual Funds
+ix. Transactions Through MF Utility ("MFU")
+x. Registration of Multiple Bank Accounts in respect of an Investor
+Folio
+xi. MFCentral as Official Point of Acceptance of Transactions (OPAT)
+For further details of above special products / facilities, For Details,
+kindly refer SAI
+Systematic Investment Plan (SIP):
+This facility enables investors to save and invest periodically over a
+longer period of time. It is a convenient way to “invest as you earn” and
+affords the investor an opportunity to enter the market regularly, thus
+8
+
+=== S06-008 | page 9 | Groww Multicap Fund ===
+averaging the acquisition cost of Units. The conditions for investing in
+SIP will be as follows:
+SIP Frequency:
+SIP Installments and Amount –
+Daily – Rs. 100 and in multiples of Re.1 thereafter
+Weekly – Rs. 100 and in multiples of Re.1 thereafter
+Monthly – Rs. 500 and in multiples of Re.1 thereafter
+Quarterly - Rs. 500 and in multiples of Re.1 thereafter
+Minimum No. of SIP instalments:
+Minimum number of installments for each frequency are -
+Daily – 180 instalments
+Weekly – 24 instalments
+Monthly - 12 instalments
+Quarterly – 4 instalments
+Frequency / Date:
+Daily - Every business day
+Weekly - 1, 8, 15 & 22
+Monthly - Any day between 1st and 28th of the month
+Quarterly - Any day between 1st and 28th of the quarter
+(In case any of these days fall on a non-business day, the transaction
+will be effected on the next business day of the Scheme).
+Registration period: There must be at least 30 days between the first
+SIP cheque and subsequent due date of Auto Debit [NACH clearing];
+In case of the auto debit facility, the default options (where auto debit
+period, frequency and SIP date are not indicated) will be as follows:
+• SIP auto debit period: The SIP auto debit will continue till 5 years.
+• SIP date: 15th of the month (commencing 30 days after the first SIP
+instalment date); and
+• SIP frequency: Monthly
+The load structure prevailing at the time of submission of the SIP
+application [whether fresh or extension] will apply for all the
+instalments indicated in such application;
+All the cheques/ payment instructions [including the first
+cheque/payment instruction] shall be of equal amounts in case of SIP
+applications;
+Investors may also choose to invest any lump sum amount along with
+the first SIP instalment by way of a single cheque/ payment instruction.
+Investors will have the right to discontinue the SIP facility at any time
+by sending a written request to any of the Official Point(s) of
+Acceptance. Notice of such discontinuance should be received at least
+30 days prior to the due date of the next debit. On receipt of such
+request, the SIP facility will be terminated. It is clarified that if the Fund
+fails to get the proceeds for three consecutive Instalments out of a
+continuous series of Instalments submitted at the time of initiating a
+SIP), the AMC reserves the right to discontinue the SIP.
+Systematic Transfer Plan (STP)
+This facility enables unitholders to transfer a fixed specified amount
+
+=== S06-009 | page 10 | Groww Multicap Fund ===
+minimum investment criteria of the target scheme. Investors can opt for
+the Systematic Transfer Plan by investing a lump sum amount in one
+scheme of the fund and providing a standing instruction to transfer sums
+at regular intervals. Investors could also opt for STP from an existing
+account by quoting their account / folio number. However, units marked
+under lien or pledged in the source scheme shall not be eligible for STP.
+The conditions for investing in STP will be as follows:
+STP Frequency : Daily, Weekly, Monthly and Quarterly;
+Minimum STP instalment amount: Rs. 500/- per instalment and in
+multiples of Re.1/- thereafter for Daily/ Weekly/ Monthly/ Quarterly;
+Minimum No. of STP instalments
+Daily – 6 instalments
+Weekly – 6 instalments
+Monthly - 6 instalments
+Quarterly - 6 instalments
+STP Dates:
+Daily – Every business day
+Weekly option - Any day from Monday to Friday
+Monthly/ Quarterly option – 2nd, 8th, 15th or 23rd of the month/ of any
+month in the quarter
+Registration period: A minimum period of 7 calendar days shall be
+required for registration under STP.
+• If no day is selected, the default day will be Friday. • If the STP date
+falls on a holiday, the transaction will be processed on the next working
+day.
+The default options (where the period, frequency and STP date are not
+indicated) will be as follows:
+• STP period: 12 instalments.
+• STP date: 15th of every month; and
+• STP frequency: Monthly
+Unitholder may change the amount (but not below the minimum
+specified amount) / frequency by giving written notice to any of the
+Official Point(s) of Acceptance at least 8 business days prior to next
+STP execution date. Units will be allotted/ redeemed at the applicable
+NAV of the respective dates of the Scheme on which such
+investments/withdrawals are sought from the Scheme.
+The STP may be terminated on a written notice of 8 business days by a
+unitholder of the Scheme. The STP will be automatically terminated if
+all units are liquidated or withdrawn from the source scheme or pledged
+or upon receipt of intimation of death of the unitholder.
+Systematic Withdrawal Plan (SWP)
+This facility enables unitholders to withdraw a fixed sum (subject to tax
+deduction at source, if applicable) by redemption of units in the
+unitholder‘s account at regular intervals through a one-time request.
+The conditions for investing in SWP will be as follows:
+SWP Frequency : Monthly; Quarterly
+Minimum SWP instalment amount:
+Monthly: Rs. 500/- and in multiples of Re.1/- thereafter;
+
+=== S06-010 | page 11 | Groww Multicap Fund ===
+Monthly - 12 instalments
+Quarterly – 4 installments
+SWP Dates: 15th of every month as the STP date (in case any of these
+days fall on a non-business day, the transaction will be effected on the
+next business day of the Scheme).
+Registration period: A minimum period of 7 calendar days shall be
+required for registration under SWP.
+The default options (where the period, frequency and SWP date are not
+indicated) will be as follows:
+• SWP period: The SWP will continue till 5 years.
+• SWP frequency : Monthly
+• SWP date: 15th of every month.
+If 15th is a holiday, the SWP will be processed on the next business day.
+Unit holder may change the amount (but not below the minimum
+specified amount) / frequency by giving written notice to any of the
+Official Point(s) of Acceptance at least 8 calendar days prior to next
+SWP execution date.
+The SWP may be terminated on a written notice of 8 calendar days by
+a unitholder of the Scheme. SWP will be automatically terminated if all
+units are liquidated or withdrawn from the Scheme or pledged or upon
+receipt of intimation of death of the unitholder.
+IDCW Sweep Facility
+IDCW Sweep facility shall be in addition to the existing IDCW Payout
+and IDCW Reinvestment Option. Default IDCW Option shall be
+IDCW Payout.
+Under IDCW Sweep Facility, Unit holders can opt for switching the
+IDCW earned under any Schemes (Source Scheme) of Groww Mutual
+Fund into any other Schemes (Target Scheme) of Groww Mutual Fund.
+The IDCW (net of applicable DDT, if any) shall be swept subject to
+minimum investment eligibility requirements of the Target Scheme at
+applicable NAV based prices.
+The minimum amount for sweep out to be Rs. 500/-. In case the sweep
+amount is less than Rs. 500/-, the IDCW amount shall be reinvested in
+the Source scheme. This facility shall be processed on the record date
+of the IDCW declared under the Source Scheme. Further, this facility
+shall not allow for switch of partial IDCW or switch of IDCW to
+multiple schemes. In case the investor fails to specify his preference of
+Option for the Target scheme into which the IDCW has to be swept,
+Sweep-in amount shall be invested in default plan / option as
+mentioned in Scheme Information Document (SID) of Target scheme.
+The Load Structure prevailing at the time of submission of the
+STP/SWP application will apply for all the installments indicated in
+such application.
+
+=== S06-011 | page 11 | Groww Multicap Fund ===
+Sweep-in amount shall be invested in default plan / option as
+mentioned in Scheme Information Document (SID) of Target scheme.
+The Load Structure prevailing at the time of submission of the
+STP/SWP application will apply for all the installments indicated in
+such application.
+The AMC reserves the right to introduce STP/SWP/ IDCW Sweep
+Facility at any other frequencies or on any other dates as the AMC may
+feel appropriate from time to time.
+Transactions by Email:
+In order to facilitate quick processing of transaction and / or instruction
+of investment of investor the Mutual Fund / AMC / Trustee may (at its
+sole discretion and without being obliged in any manner to do so and
+without being responsible and /or liable in any manner whatsoever),
+11
+
+=== S06-012 | page 13 | Groww Multicap Fund ===
+exchange infrastructure is available subject to such operating
+guidelines, terms and conditions as may be prescribed by the respective
+Stock Exchanges from time to time.
+Transactions Through MF Utility ("MFU"):
+The AMC has entered into an Agreement with MF Utilities India
+Private Limited ("MFUI"), a "Category II - Registrar to an Issue" under
+SEBI (Registrars to an Issue and Share Transfer Agents) Regulations,
+1993, for usage of MF Utility ("MFU") a "Shared Services" initiative
+formed by the Asset Management Companies of SEBI registered
+Mutual Funds under the aegis of Association of Mutual Funds in India
+(AMFI). MFU acts as a transaction aggregation portal for enabling
+transaction in multiple Schemes of various Mutual Funds with a single
+form and a single payment instrument. Both financial and non-
+financial transactions pertaining to Scheme(s) of Groww Mutual Fund
+('the Fund') can be done through MFU at the authorized Points of
+Service ("POS") of MFUI. The details of POS with effect from the
+respective dates published on MFU website at www.mfuindia.com will
+be considered as Official Point of Acceptance (OPA) for transactions
+in the Scheme(s) of the Fund.
+Additionally, such transactions can also be carried out electronically
+on the online transaction portal of MFU at www.mfuonline.com as and
+when such a facility is made available by MFUI and that the same will
+be considered OPA for transactions in the Scheme(s) of the Fund.
+The key features of MFU are:
+1. Investors will be required to obtain Common Account Number
+("CAN") for transacting through MFU.
+2. Investors can create a CAN by submitting the CAN Registration
+Form (CRF) and necessary documents at the Point of Service (POS) of
+MFU. The AMC and/ or CAMS, Registrar and Transfer Agent (RTA)
+of the Fund shall provide necessary details to MFU as may be needed
+for providing the required services to investors / distributors through
+MFU.
+3. Investors will be allotted a CAN, a single reference number for all
+investments across Mutual Funds, for transacting in multiple Schemes
+of various Mutual Funds through MFU and to map existing folios, if
+any.
+4. Currently, the transactions facilitated through MFU for the investors
+are:
+(i) CAN registration;
+(ii) Submission of documents to KRAs for KYC Registration;
+(iii) Financial transactions like Purchases, Redemptions and Switches,
+Registration of Systematic Transactions like Systematic Investments
+(SIP) using a single Mandate, Systematic Withdrawals (SWP) and
+Systematic Transfers (STP);
+(iv) Non-financial transactions (NFT) like Bank Account changes,
+facilitating change of address through KRAs etc. based on duly signed
+written requests from the Investors.
+
+=== S06-013 | page 13 | Groww Multicap Fund ===
+(iii) Financial transactions like Purchases, Redemptions and Switches,
+Registration of Systematic Transactions like Systematic Investments
+(SIP) using a single Mandate, Systematic Withdrawals (SWP) and
+Systematic Transfers (STP);
+(iv) Non-financial transactions (NFT) like Bank Account changes,
+facilitating change of address through KRAs etc. based on duly signed
+written requests from the Investors.
+5. The CRF and other relevant forms for transacting thorugh MFU can
+be downloaded from MFUI website at www.mfuindia.com or can be
+obtained from MFUI POS.
+6. Investors transacting through MFU shall be deemed to have
+consented to exchange of information viz. personal and / or financial
+(including the changes, if any) between the Fund / AMC and MFUI
+13
+
+=== S06-014 | page 20 | Groww Multicap Fund ===
+of omission and commission of the AMC), the fund manager shall rebalance the portfolio of the Scheme within 30
+Business Days. In case the portfolio of the Scheme is not rebalanced within the period of 30 Business Days,
+justification in writing, including details of efforts taken to rebalance the portfolio shall be placed before the
+Investment Committee of the AMC. The Investment Committee, if it so desires, can extend the timeline for
+rebalancing up to sixty (60) Business Days from the date of completion of mandated rebalancing period. Further, in
+case the portfolio is not rebalanced within the aforementioned mandated plus extended timelines the AMC shall
+comply with the prescribed restrictions, the reporting and disclosure requirements as specified in para 2.9. of SEBI
+Master Circular dated June 27, 2024.
+Rebalancing of deviation due to short term defensive consideration
+Any alteration in the investment pattern will be for a short term on defensive considerations as per SEBI Circular
+no. SEBI/HO/IMD/DF2/CIR/P/2021/024 dated March 04, 2021; the intention being at all times to protect the
+interests of the Unit Holders and the Scheme shall endeavor to rebalance the portfolio within 30 business days. It
+may be noted that no prior intimation/indication will be given to investors when the composition/asset allocation
+pattern under the Scheme undergoes changes within the permitted band as indicated above.
+B. WHERE WILL THE SCHEME INVEST?
+Subject to the Regulations and other prevailing laws as applicable, the corpus of the Scheme can be invested in any
+(but not exclusively) of the following securities:
+1) Indian Equity and equity related securities including convertible bonds and debentures and warrants carrying the
+right to obtain equity shares.
+2) Securities created and issued by the Central and State Governments and/or repos/reverse repos in such
+Government Securities as may be permitted by RBI (including but not limited to coupon bearing bonds, zero coupon
+bonds and treasury bills)
+3) Securities guaranteed by the Central and State Governments (including but not limited to coupon bearing bonds,
+zero coupon bonds and treasury bills)
+4) Repos of Corporate debt securities.
+5) Debt securities issued by domestic Government agencies and statutory bodies, which may or may not carry a
+Central/State Government guarantee.
+6) Government securities having an unexpired maturity upto one year
+7) Corporate debt securities (of both public and private sector undertakings)
+8) Securities issued by banks (both public and private sector) as permitted by SEBI from time to time and
+development financial institutions
+
+=== S06-015 | page 21 | Groww Multicap Fund ===
+Equity Related Instrument
+23) Schemes managed by the AMC or the schemes launched by SEBI registered Mutual Funds, provided it is in
+conformity to the investment objectives of the Scheme and in terms of the prevailing Regulations.
+24) Any other instruments, as may be permitted by RBI / SEBI / such other Regulatory Authority, from time to time,
+subject to Regulatory approvals. The securities mentioned above could be listed or permitted unlisted, privately
+placed, secured or unsecured, rated or un-rated and of any maturity, as enabled under SEBI Regulations/ circulars/
+RBI. The securities may be acquired from primary market/ Initial Public Offer (IPO), secondary market operations,
+private placement or negotiated deals.
+C. WHAT ARE THE INVESTMENT STRATEGIES?
+The investment objective of the Scheme is to generate long term capital appreciation by actively investing in
+equity and equity related securities of large cap, mid cap and small cap companies. There will be no style or market
+cap bias in the investment strategy. We aim to adapt and invest according to market conditions
+The investment horizon of the investments will be 5+ years
+A combination of top-down and bottom-up approaches to stock selection. Stocks in large caps will be selected
+using more of a top-down approach and stocks within mid and small caps will be selected using more of a bottom-
+up approach. We will be extremely flexible and adaptive while investing the leftover 25% after investing a
+minimum of 25% each in large, mid and small caps.
+The list of stocks would be as per the list published by AMFI in accordance with the said circular and updated on
+half yearly basis.
+(Detailed definition and applicable regulations/guidelines for each instrument is included in Section II)
+Though every endeavour will be made to achieve the objective of the Scheme, the AMC/Sponsors/Trustee
+does not guarantee that the investment objective of the Scheme will be achieved. No guaranteed returns are
+being offered under the Scheme.
+Derivative products are leveraged instruments and can provide disproportionate gains as well as disproportionate
+losses to the investor. Execution of such strategies depends upon the ability of the fund manager to identify such
+opportunities. Identification and execution of the strategies to be pursued by the fund manager involve uncertainty
+and decision of fund manager may not always be profitable. No assurance can be given that the fund manager will
+be able to identify or execute such strategies. The risks associated with the use of derivatives are different from or
+
+=== S06-016 | page 21 | Groww Multicap Fund ===
+and decision of fund manager may not always be profitable. No assurance can be given that the fund manager will
+be able to identify or execute such strategies. The risks associated with the use of derivatives are different from or
+possibly greater than, the risks associated with investing directly in securities and other traditional investments.
+For detailed derivative strategies, please refer to SAI.
+Portfolio Turnover Policy
+Portfolio turnover is defined as lesser of purchases and sales as a percentage of the average corpus of the Scheme
+during a specified period of time. Portfolio turnover in the scheme will be a function of market opportunities. The
+scheme is open-end scheme. It is expected that there would be a number of subscriptions and repurchases on a daily
+basis. Consequently, it is difficult to estimate with any reasonable measure of accuracy, the likely turnover in the
+portfolio. The AMC will endeavour to optimise portfolio turnover to optimise risk adjusted return keeping in mind
+the cost associated with it. A high portfolio turnover rate is not necessarily a drag on portfolio performance and may
+be representative of arbitrage opportunities that exist for securities held in the portfolio rather than an indication of
+change in AMC’s view on a security etc. However, the AMC will take advantage of the opportunities that present
+themselves from time to time because of the inefficiencies in the securities markets.
+D. HOW WILL THE SCHEME BENCHMARK ITS PERFORMANCE?
+Benchmark (Total Returns Index): Tier 1: Nifty 500 Multi Cap 50:25:25 Total Returns Index
+21
+
+=== S06-017 | page 22 | Groww Multicap Fund ===
+The index is constructed to measure the performance of large cap, midcap and small cap segments with target
+weights assigned to each segment in the ratio of 50:25:25. This structure makes it appropriate to be used as a
+benchmark for the Multi Cap scheme which will invest across large cap, midcap and small cap segments.
+As per clause 1.9 of Master Circular requires mutual funds to adopt first tier benchmarks for schemes as notified by
+AMFI. Accordingly, the benchmark is selected from the benchmarks notified by AMFI for the category of scheme.
+The performance will be benchmarked to the Total Returns Variant of the Index.
+The AMC/ Trustee reserves the right to change the benchmark for evaluation of performance of the Scheme from
+time to time in conformity with the investment objectives and appropriateness of the benchmark subject to SEBI
+(MF) Regulations, and other prevailing guidelines, if any.
+E. WHO MANAGES THE SCHEME?
+The Fund Manager of the Scheme is Mr. Anupam Tiwari, his particulars are given below:
+Fund Manager Tenure of managing the Scheme
+Mr. Anupam Tiwari Since inception of the Scheme
+Mr. Saptarshee Chatterjee Managing scheme since Sept 24, 2025
+Name of the Age Education Experience Other Schemes managed
+Fund Qualification by the Fund Manager
+Manager
+Mr. Anupam 46 years CA Mr. Anupam brings 18 years of • Groww Aggressive
+Tiwari, Head extensive experience in the Hybrid Fund
+Equity Mutual Fund Industry, having • Groww Value Fund
+served as an Equity Analyst at • Groww Banking &
+Reliance Mutual Fund for 5 Financial Services Fund
+years. He then held roles as an
+• Groww Large Cap
+Equity Fund Manager at
+Fund
+Reliance Life Insurance
+• Groww Multicap Fund
+Company, Principal at PNB
+The above mentioned
+Asset Management Company,
+details include name of this
+and Axis Asset Management
+Scheme
+Company in his most recent
+assignment prior to joining
+Groww AMC.
+Mr. Saptarshee 32 years • CFA Level Mr. Saptarshee Chatterjee has 8 • Groww Aggressive
+Chatterjee 3 passed years of overall experience as an Hybrid Fund
+• PGDM analyst. Prior to joining GMF, he • Groww Large cap Fund
+(Finance) was associated with Centrum • Groww Value Fund
+from IIM Wealth Management Limited & • Groww Banking &
+Indore Edelweiss Financial Services Financial Services Fund
+BE (E.T.C.E) Limited. • Groww Multicap Fund
+The above mentioned
+details include name of this
+Scheme
+F. HOW IS THE SCHEME DIFFERENT FROM EXISTING SCHEMES OF THE MUTUAL FUND?
+
+=== S06-018 | page 23 | Groww Multicap Fund ===
+Equity Schemes Scheme Category Product Positioning
+Groww Large Cap Large Cap Fund A diversified equity portfolio
+Fund investing predominantly in large-
+cap stocks.
+Groww Value Fund Value Fund A diversified equity portfolio
+with value investment strategy.
+Groww ELSS Tax Equity Linked Savings Scheme A diversified equity portfolio for
+Saver Fund investors seeking exemption
+under Section 80C of the Income
+Tax Act.
+Groww Banking & Financial Sectoral/Thematic A scheme investing in banking
+Services Fund and financial services related
+sector
+For detailed comparative table of the aforesaid schemes, please click here
+https://www.growwmf.in/downloads/sid
+G. HOW HAS THE SCHEME PERFORMED (if applicable)
+Compounded Scheme Scheme Benchmark
+Annualised Returns Returns % Returns % Returns %
+(Regular Plan) (Direct Plan)
+Returns for last 1
+year N.A. N.A. N.A.
+Returns for last 3
+year N.A. N.A. N.A.
+Returns for last 5
+year N.A. N.A. N.A.
+Returns since
+inception 2.50 4.00 -3.05
+Absolute Returns for each Financial year for the last 5 years – The Scheme has not
+completed 1 year.
+H. ADDITIONAL SCHEME RELATED DISCLOSURES
+i. Scheme’s portfolio holdings (top 10 holdings by issuer and fund allocation towards various
+sectors- https://www.growwmf.in/downloads/fact-sheet
+ii. Disclosure of name and exposure to Top 7 issuers, stocks, groups and sectors as a
+percentage of NAV of the scheme in case of debt and equity ETFs/index funds through a
+functional website link that contains detailed description - Not Applicable
+iii. Functional website link for Portfolio Disclosure- Fortnightly / Monthly - https://growwmf.in/statutory-
+disclosure/portfolio
+Half Yearly - https://growwmf.in/financials/half-yearly-unaudited-financials-&-portfolio
+iv. Portfolio Turnover Rate particularly for equity oriented schemes shall also be disclosed. - 0.95
+v. Aggregate investment in the Scheme by:
+Sr. No. Category of Persons Net Value Market Value (in
+Rs.)
+1. Concerned scheme’s Fund Manager(s) Units NAV per unit 1,60,68,246.33
+15,45,083.11 10.40
+23
+
+=== S06-019 | page 24 | Groww Multicap Fund ===
+For any other disclosure w.r.t investments by key personnel and AMC directors including regulatory provisions in
+this regard kindly refer SAI
+• Investments of AMC in the Scheme – Groww Asset Management Private Limited (GAML), the asset management
+company may invest in the Scheme. However, as per SEBI (Mutual Funds) Regulations, 1996, GAML will not
+charge any Investment Management Fee for its investment in the Scheme. In addition, the funds managed by the
+sponsors, Group may invest in the Scheme.
+The details are provided on https://www.growwmf.in/statutory-disclosure/alignment-of-interest
+• Risk-o-meter shall be evaluated on a monthly basis and the Risk-o-meter shall be disclosed along with portfolio
+disclosure on GMF website and on AMFI website within 10 days from the close of each month.
+• Scheme Summary Document (SSD) shall be updated on a Monthly basis or on changes in any specified fields,
+whichever is earlier. The same shall be uploaded on websites of GMF, AMFI and stock exchanges.
+24
+
+=== S06-020 | page 27 | Groww Multicap Fund ===
+Cost towards investor education & awareness (at least 1 bps) (as
+per paragraph 10.1.16 of SEBI Master circular for Mutual Funds
+dated June 27, 2024)
+Brokerage & transaction cost over and above 12 bps and 5 bps for
+cash and derivative market trades resp.
+Goods & Services Tax/ goods and services tax on expenses other
+than investment and advisory fees
+Goods & Services Tax/ goods and services tax on brokerage and
+transaction cost
+Other Expenses
+Maximum total expense ratio (TER) permissible under Upto 2.25%
+Regulation 52 (6) (c)
+Additional expenses under regulation 52 (6A) (c) 0.05%
+Additional expenses for gross new inflows from specified cities* Upto 0.30%
+*SEBI vide its letter no. SEBI/HO/IMD-SEC-3/P/OW/2023/5823/1 dated February 24, 2023, and AMFI
+letter dated No. 35P/ MEM-COR/ 85-a/ 2022-23 dated March 02, 2023 has directed AMCs to keep B-30
+incentive structure in abeyance till further notice.
+In terms of paragraph 10.1.16 of SEBI Master Circular for Mutual Funds dated June 27, 2024, the AMC /
+Mutual Fund shall annually set apart at least 2 basis points (i.e., 0.02%) on daily net assets of the scheme
+within the maximum limit of Total Expense Ratio as per Regulation 52 of the SEBI (MF) Regulations for
+investor education and awareness initiatives.
+Additional Expenses upto 0.05% of daily net assets as permissible under Regulation 52 (6A) (c) may be
+charged by AMC under different heads of expenses mentioned under Regulation 52 (2) and (4) and more
+specifically stated in table above.
+Brokerage and transaction costs incurred for the execution of trades and included in the cost of investment,
+not exceeding 0.12 per cent of the value of trades of cash market transactions and 0.05 per cent of the value
+of trades of derivative market transactions. Thus, in terms of paragraph 10.1.14 of SEBI Master Circular for
+Mutual Funds dated June 27, 2024, it is hereby clarified that the brokerage and transaction costs incurred
+for the execution of trades may be capitalized to the extent of 0.12 per cent of the value of trades of cash
+market transactions and 0.05 per cent of the value of trades of derivative market transactions. Any payment
+towards brokerage and transaction costs (including Goods & Services Tax, if any) incurred for the execution
+of trades, over and above the said 0.12 per cent for cash market transactions and 0.05 per cent of the value
+of trades of derivative market transactions may be charged to the scheme within the maximum limit of Total
+
+=== S06-021 | page 27 | Groww Multicap Fund ===
+towards brokerage and transaction costs (including Goods & Services Tax, if any) incurred for the execution
+of trades, over and above the said 0.12 per cent for cash market transactions and 0.05 per cent of the value
+of trades of derivative market transactions may be charged to the scheme within the maximum limit of Total
+Expense Ratio (TER) as prescribed under Regulation 52 of the SEBI (MF) Regulations.
+Direct Plan shall have a lower expense ratio excluding distribution expenses, commission, etc and no
+commission for distribution of Units will be paid / charged under Direct Plan. All fees and expenses charged
+in a direct plan (in percentage terms) under various heads including the investment and advisory fee shall
+not exceed the fees and expenses charged under such heads in a regular plan.
+The purpose of the above table is to assist the investor in understanding various costs and expenses that an
+investor in the Scheme will bear directly or indirectly. These estimates have been made in good faith as per
+the information available with AMC based on past experience and are subject to change inter-se.
+27
+
+=== S06-022 | page 28 | Groww Multicap Fund ===
+The total recurring expenses that can be charged to the Scheme will be subject to limits prescribed from
+time to time under the SEBI (MF) Regulations.
+Annual recurring expenses of the Scheme, (including the investment and advisory fees without any sub
+limit) as a % of daily net assets will be subject to following limit:
+The AMC shall adhere provisions of SEBI Circular dated October 22, 2018 and various guidelines
+specified by SEBI as amended from time to time, with reference to charging of fees and expenses.
+Annual recurring expenses of the Scheme, (including the investment and advisory fees without any
+sublimit) as a % of daily net assets will be subject to following limit:
+First Rs. Next Rs. Next Rs. Next Rs. Next Rs. Next Rs. Balance
+500 250 1,250 3,000 5,000 40,000
+Crores Crores Crores Crores Crores Crores
+2.25% 2.00% 1.75% 1.60% 1.50% TER 1.05%
+reduction of
+0.05% for
+every
+increase of
+Rs. 5,000
+crores or
+part thereof
+In addition to TER within the limits specified under regulation 52 (6) of the Regulations, towards
+investment & advisory fees as specified under regulation 52(2) of the Regulations and/or towards recurring
+expenses as specified under 52(4) of the Regulations. However, such additional expenses will not be
+charged if exit load is not levied / not applicable to the Scheme.
+Additional Distribution Expenses in case of new inflows from specified cities In addition to total expenses
+ratio (TER) as specified above, the AMC will charge expenses not exceeding 0.30% of daily net assets if the
+new inflows in the Scheme from such cities, as specified by
+SEBI from time to time, are at least:
+(i) 30% of gross new inflows in the Scheme, or;
+(ii) 15% of the average assets under management (year to date) of the Scheme,
+whichever is higher.
+In case, inflows from such cities is less than the higher of (i) or (ii) of above, such expenses on daily net
+assets of the Scheme will be charged on proportionate basis in accordance with para 10.1.3 of SEBI Master
+Circular dated June 27, 2024.
+The additional expenses on account of inflows from such cities charged will be credited back to the
+Scheme in case the said inflows are redeemed within a period of one year from the date of investment.
+The additional expenses charged in case of inflows from such cities will be utilized for distribution
+expenses incurred for bringing inflows from such cities.
+
+=== S06-023 | page 29 | Groww Multicap Fund ===
+any, shall be borne by the AMC.
+The costs related to Segregated Portfolio shall in no case be charged to the Main Portfolio
+Disclosure on Goods & Services Tax:
+Goods & Services Tax on investment management and advisory fees shall be in addition to the above
+expense. Further, with respect to Goods & Services Tax on other than management and advisory fees:
+- Goods & Services Tax on other than investment and advisory fees, if any, shall be borne by the scheme
+within the maximum limit of TER as per regulation 52 of the Regulations.
+- Goods & Services Tax on exit load, if any, shall be paid out of the exit load proceeds and exit load net
+of Goods & Services Tax, if any, shall be credited to the scheme.
+- Goods & Services Tax on brokerage and transaction cost paid for asset purchases, if any, shall be
+within the limit prescribed under regulation 52 of the Regulations.
+29
+
+=== S06-024 | page 30 | Groww Multicap Fund ===
+For the actual current expenses being charged to the Scheme, the investor should refer to the website of
+the mutual fund https://www.growwmf.in/downloads/expense-ratio. Any change proposed to the current
+expense ratio will be updated on the website at least three working days prior to the change.
+As per the Regulations, the total recurring expenses that can be charged to the Scheme in this Scheme
+information document shall be subject to the applicable guidelines. The total recurring expenses of the
+Scheme, will, however, be limited to the ceilings as prescribed under Regulation 52(6) of the Regulations.
+D. LOAD STRUCTURE
+Exit Load is an amount which is paid by the investor to redeem the units from the scheme. Load amounts are
+variable and are subject to change from time to time. For the current applicable structure, please refer to the
+website of the AMC (https://www.growwmf.in/downloads/fact-sheet) or may call at 8050180222) or your
+distributor or write to us at support@growwmf.in.
+Type of Load Load chargeable (as %age of NAV)
+Exit Load a) 1% if redeemed/ switched out within 1 year from the date of allotment.
+b) NIL, if redeemed/ switched out after 1 year from the date of allotment
+The AMC reserves the right to introduce a Load and change the Load structure any time in future if they
+so deem fit on a prospective basis. The investor is requested to check the prevailing load structure of the
+scheme before investing.
+In case of changes/modifications of load, the AMC will endeavor to do the following:
+1. An addendum will be attached to the Scheme Information Document and Key Information
+Memorandum. The same may be circulated to brokers/distributors so that the same can be attached to
+all SIDs and abridged SID in stock.
+2. Arrangement will be made to display the changes/modifications in the SID in the form of a notice in all
+the official point of acceptance of transactions.
+Note: The levy of Exit Load in case of switch transactions from Regular Plan to Direct Plan has been
+discontinued with effect from April 23, 2025.
+30
+
+=== S06-025 | page 34 | Groww Multicap Fund ===
+Risks associated with investing in Derivatives
+Derivative products are leveraged instruments and can provide disproportionate gains as well as disproportionate
+losses to the investor. Execution of such strategies depends upon the ability of the fund manager to identify such
+opportunities. Identification and execution of the strategies to be pursued by the fund manager involve uncertainty
+and decision of fund manager may not always be profitable. No assurance can be given that the fund manager will
+be able to identify or execute such strategies. The risks associated with the use of derivatives are different from or
+possibly greater than the risks associated with investing directly in securities and other traditional investments. The
+use of a derivative requires an understanding not only of the underlying instrument but also of the derivative itself.
+Derivatives require the maintenance of adequate controls to monitor the transactions entered into, the ability to
+assess the risk that a derivative adds to the portfolio and the ability to forecast price or interest rate movements
+correctly. Other risks include risk of mispricing or improper valuation and the inability of the derivative to correlate
+perfectly with underlying assets, rates and indices, illiquidity risk whereby the Scheme may not be able to sell or
+purchase derivative quickly enough at a fair price.
+9. Risks associated with Securities Lending
+For Equity Instruments:
+As with other modes of extensions of credit, there are risks inherent to securities lending. During the period the
+security is lent, the Scheme may not be able to sell such security and in turn cannot protect from the falling market
+price of the said security. Under the current securities lending and borrowing mechanism, the Scheme can call back
+the securities lent any time before the maturity date of securities lending contract. However, this will be again the
+function of liquidity in the market and if there are no lenders in the specified security, the Scheme may not be able
+to call back the security and in the process, the Scheme will be exposed to price volatility. Moreover, the fees paid
+for calling back the security may be more than the lending fees earned by Scheme at the time of lending the said
+security and this could result in loss to the Scheme. Also, during the period the security is lent, the Fund will not be
+able to exercise the voting rights attached to the security as the security will not be registered in the name of the
+Scheme in the records of the Depository/issuer.
+For Debt Instruments:
+
+=== S06-026 | page 42 | Groww Multicap Fund ===
+recognized as a market maker by RBI and exposure to a single counterparty in such transactions shall not exceed
+10% of the net assets of the scheme. However, if mutual funds are transacting in IRS through an electronic trading
+platform offered by the Clearing Corporation of India Ltd. (CCIL) and CCIL is the central counterparty for such
+transactions guaranteeing settlement, the single counterparty limit of 10% shall not be applicable.
+6 Exposure due to derivative positions taken for hedging purposes in excess of the underlying position against which
+the hedging position has been taken, shall be treated under gross cumulative exposure limits mentioned under Point1.
+Apart from the investment restrictions prescribed under SEBI (MF) Regulations, the Fund does not follow any
+internal norms vis-a-vis limiting exposure to a particular scrip or sector etc.
+C. Fundamental Attributes
+Following are the Fundamental Attributes of the scheme, in terms of Clause 1.14 of SEBI Master
+Circular for Mutual Funds dated June 27, 2024:
+i. Type of a scheme
+An open-ended equity scheme investing across large-cap, mid-cap, and small-cap stocks
+ii. Investment Objective
+o Main Objective – Please refer to Part I. V ie “Investment Objective” mentioned under “Highlights/Summary
+of the Scheme”
+42
+
+=== S06-027 | page 43 | Groww Multicap Fund ===
+o Investment pattern – Please refer to Part II.A “HOW WILL THE SCHEME ALLOCATE ITS
+ASSETS?”
+iii. Terms of Issue –
+o Liquidity provisions such as listing, repurchase, redemption - Please refer to the Part I
+o Aggregate fees and expenses charged to the scheme: Please refer to the section Part II Other details
+o Any safety net or guarantee provided: None
+In accordance with Regulation 18(15A) of the SEBI (MF) Regulations and Clause 1.14.1.4 of SEBI Master
+Circular for Mutual Funds dated June 27, 2024 the Trustees shall ensure that no change in the fundamental
+attributes of the Scheme(s) and the Plan(s) / Option(s) thereunder or the trust or fee and expenses payable
+or any other change which would modify the Scheme(s) and the Plan(s) / Option(s) thereunder and affect
+the interests of Unitholders is carried out unless:
+• SEBI has reviewed and provided its comments on the proposal
+• A written communication about the proposed change is sent to each Unitholder and an advertisement is
+given in one English daily newspaper having nationwide circulation as well as in a newspaper published in
+the language of the region where the Head Office of the Mutual Fund is situated; and
+• The Unitholders are given an option for a period of atleast 30 calendar days to exit at the prevailing Net
+Asset Value without any exit load.
+D. INDEX METHODOLOGY (FOR INDEX FUNDS, ETFS AND FOFS HAVING ONE UNDERLYING
+DOMESTIC ETF): Not Applicable
+E. PRINCIPLES OF INCENTIVE STRUCTURE FOR MARKET MAKERS (FOR ETFS): Not
+Applicable
+F. Floors and ceiling within a range of 5% of the intended allocation against each sub class of
+asset, as per clause 13.6.2 of SEBI master circular for mutual funds dated June 27, 2024–
+Not Applicable
+G. Other Scheme Specific Disclosures:
+Listing and transfer of units The Scheme being an open-ended Scheme under which the
+Units are available for Subscription and Redemption on an
+ongoing basis on all the Business Days, the Units of the Scheme
+are not proposed to be listed on any stock exchange.
+However, the AMC/ Trustee reserves the right to list the Units
+of the Scheme as and when the AMC/ Trustee considers it
+necessary in the interest of Unit holders of the Scheme.
+There are no restrictions on transfer of Units of the Scheme
+whether held in Statement of Account (physical) mode or
+dematerialised mode. Further, the Units held in dematerialized
+form can be transferred and transmitted in accordance with
+the provisions of SEBI (Depositories and Participants)
+
+=== S06-028 | page 44 | Groww Multicap Fund ===
+production of such satisfactory evidence and submission of such
+documents, proceed to effect the transfer, if the intended
+transferee is otherwise eligible to hold the Units of the Scheme.
+The said provisions in respect of deletion of names will not be
+applicable in case of death of a Unit holder (in respect of joint
+holdings) as this is treated as transmission of Units and not
+transfer.
+Dematerialization of units The Scheme offers option to hold units in electronic (demat)
+mode. Accordingly, the Units of the Scheme will be available in
+dematerialized (electronic) form. The option to hold units in
+electronic (demat) mode is not available for plans/options where
+the IDCW frequency is less than one month. The applicant
+intending to hold Units in dematerialized form will be required
+to have a beneficiary account with a Depository Participant (DP)
+of NSDL/CDSL and will be required to mention in the
+application form DP Name, DP ID and Beneficiary Account
+Number with the DP at the time of subscribing Units of the
+Schemes.
+In case Unit holders do not provide their demat account details
+or the demat details provided in the application form are
+incomplete / incorrect or do not match with the details with the
+Depository records, the Units will be allotted in account
+statement mode provided the application is otherwise complete
+in all respect. Further, if the Units cannot be allotted in demat
+mode due to reason that KYC details including IPV is not
+updated with DP, the Units will be allotted in non-demat mode
+subject to compliance with necessary KYC provisions and the
+application is otherwise complete in all respect.
+Minimum Target amount The Scheme had collected the minimum target amount during
+(This is the minimum amount the NFO.
+required to operate the scheme and if
+this is not collected during the NFO
+period, then all the investors would
+be refunded the amount invested
+without any return.)
+Maximum Amount to be raised (if There was no upper limit on the total amount that may be
+any) collected.
+Dividend Polic y ( IDCW ) The Trustee will endeavor to declare IDCW under the IDCW
+Option, subject to availability of distributable surplus
+calculated in accordance with the Regulations.
+IDCW distribution procedure:
+In accordance with Chapter 11 of SEBI Master Circular for
+Mutual Funds dated June 27, 2024, the procedure for IDCW
+distribution will be as follows:
+1. Quantum of IDCW and record date shall be fixed by the
+Board of Trustees. IDCW so decided shall be paid, subject to
+
+=== S06-029 | page 48 | Groww Multicap Fund ===
+and number, etc. to the Mutual Fund. Applications without
+complete bank details shall be rejected. The AMC will not be
+responsible for any loss arising out of fraudulent encashment
+of cheques / warrants and / or any delay / loss in transit. Also,
+please refer to point on Registration of Multiple Bank
+Accounts in respect of an Investor Folio given elsewhere in
+this document.
+The policy regarding reissue of Not Applicable
+repurchased units, including the
+maximum extent, the manner of Units once redeemed will not be reissued.
+reissue, the entity (the scheme or the
+AMC) involved in the same.
+Restrictions, if any, on the right to The Mutual Fund will be repurchasing (subject to completion of
+freely retain or dispose of units being lock-in period, if any) and issuing units of the Scheme on an
+offered. ongoing basis and hence the transfer facility is found redundant.
+Any addition / deletion of name from the folio of the Unit holder
+is deemed as transfer of Units. In view of the same, additions /
+deletions of names will not be allowed under any folio of the
+Scheme. The said provisions in respect of deletion of names will
+not be applicable in case of death of a Unit holder (in respect of
+joint holdings) as this is treated as transmission (transfer of units
+by operation of law) of Units and not transfer. Units of the
+Scheme held in demat form shall be freely transferable (subject
+to lock-in period, if any) and will be subject to transmission
+facility in accordance with the provisions of the SEBI
+(Depositories and Participants) Regulations, 1996 as amended
+from time to time. Also, when a person becomes a holder of the
+units by operation of law or upon enforcement of pledge, then
+the AMC shall, subject to production/submission of such
+satisfactory evidence, which in its opinion is sufficient, effect
+the transfer, if the intended transferee is otherwise eligible to
+hold the units.
+RIGHT TO RESTRICT REDEMPTION AND / OR
+SUSPEND REDEMPTION OF THE UNITS:
+The Fund at its sole discretion reserves the right to restrict
+Redemption (including switchout) of the Units (including Plan
+/Option) of the Scheme of the Fund upon occurrence of the
+below mentioned events for a period not exceeding ten (10)
+working days in any ninety (90) days period subject to approval
+of the Board of Directors of the AMC and the Trustee. The
+restriction on Redemption (including switch-out) shall be
+applicable where the Redemption (including switch-out) request
+
+=== S06-030 | page 50 | Groww Multicap Fund ===
+any delay on account of banking clearance or circumstances
+which are beyond the control of AMC.
+3. The provisions for applicability of NAV based on realization
+of funds will be applicable to all types of investment including
+various systematic investments routes (viz, SIP, STP, DTP etc.)
+as may be offered by the Scheme from time to time.
+Applicable NAV for Redemption/ Switch outs
+a) where the application received upto 3.00 pm – closing NAV
+of the day of receipt of application; and
+b) an application received after 3.00 pm – closing NAV of the
+next business day.
+Further, where the AMC or the Registrar has provided a facility
+to the investors to redeem /switch-out of the Scheme through the
+medium of Internet by logging onto specific web-sites or any
+other facilities offered by the AMC and where investors have
+signed up for using these facilities, the Applicable NAVs will be
+as provided above.
+Technical issues when transactions are processed through
+online facilities/ electronic modes:
+The time of transaction done through various online facilities /
+electronic modes offered by the AMC, for the purpose of
+determining the applicability of NAV, would be the time when
+the request for purchase / SIP/ sale / switch of units is received
+in the servers of AMC/RTA. In case of transactions through
+online facilities / electronic modes, there may be a time lag of
+few seconds or upto 1-7 banking days between the amount of
+subscription being debited to investor's bank account and the
+subsequent credit into the respective Scheme's bank account.
+This lag may impact the applicability of NAV for transactions
+where NAV is to be applied, based on actual realization of
+funds by the Scheme. Under no circumstances will Groww
+Asset Management Limited or its bankers or its service
+providers be liable for any lag / delay in realization of funds
+and consequent pricing of units. The AMC has the right to
+amend cut off timings subject to SEBI (MF) Regulations for
+the smooth and efficient functioning of the Scheme.
+Representation of SIP transaction which have failed due to
+technical reasons will also follow same rule.
+Minimum amount for Ongoing: Rs.500 and in multiples of Re. 1
+purchase/redemption/switches Switch-in amount: Rs.500 and in multiples of Re.1.
+The minimum subscription limits for new purchases/additional
+purchases will apply to each Option separately.
+Minimum Redemption Amount:
+The minimum redemption amount shall be Rs. 500 and in
+multiples of Re. 1
+In case, if the investor wants to submit redemption in units, the
+
+=== S06-031 | page 51 | Groww Multicap Fund ===
+In case the available balance in folio is less than the minimum
+redemption amount/units, then the investor can submit a
+request for "All units/Full redemption" of the amount / units
+available in folio.
+If the redemption is received in "Units" or "Amount" and
+reported Units/Amount are more than available units/amount in
+the folio then it will be considered as full unit/amount
+redemption.
+Please note this will not be applicable for units under pledge
+and demat folios.
+The AMC reserves the right to change the minimum amounts
+for various purchase / redemption/ switch. Such changes shall
+only be applicable to transactions on a prospective basis.
+Accounts Statements The AMC shall send an allotment confirmation specifying the
+units allotted by way of email and/or SMS within 5 working
+days of receipt of valid application/transaction to the Unit
+holders registered e-mail address and/ or mobile number
+(whether units are held in demat mode or in account statement
+form).
+A Consolidated Account Statement (CAS) detailing all the
+transactions across all mutual funds (including transaction
+charges paid to the distributor) and holding at the end of the
+month shall be sent to the Unit holders in whose folio(s)
+transaction(s) have taken place during the month. The monthly
+CAS will be dispatched to investors that have opted for delivery
+via electronic mode (e-CAS) within twelve (12) days from the
+month end and to investors that have opted for delivery via
+physical mode within fifteen (15) days from the month end.
+Half-yearly CAS shall be issued at the end of every six months
+(i.e. September/ March) to all investors providing the
+prescribed details across all schemes of mutual funds and
+securities held in dematerialized form across demat accounts,
+if applicable. The CAS will be dispatched to investors that have
+opted for e-CAS on or before the eighteenth (18th) day of April
+and October and to investors that have opted for delivery via
+physical mode by the twenty first (21st) day of April and
+October.
+For further details, refer SAI.
+Dividend/ IDCW The IDCW warrants shall be dispatched to the unit holders
+within 7 working days of the date of declaration of IDCW.
+In case of Unit Holder having a bank account with certain
+banks with which the Mutual Fund would have made
+arrangements from time to time, the IDCW proceeds shall be
+directly credited to their account.
+The IDCW will be paid by warrant and payments will be
+made in favor of the Unit holder (registered holder of the
+
+=== S06-032 | page 52 | Groww Multicap Fund ===
+furnished to the Mutual Fund (please note that it is mandatory
+for the Unit holders to provide the Bank account details as per
+the directives of SEBI).
+Further, the IDCW proceeds may be paid by way of
+ECS/EFT/NEFT/RTGS/any other manner through which the
+investor’s bank account specified in the Registrar & Transfer
+Agent’s records is credited with the IDCW proceeds as per
+the instructions of the Unit holders.
+In case the delay is beyond 7 working days, then the AMC
+shall pay interest @ 15% p.a. from the expiry of 7 working
+days till the date of dispatch of the warrant.
+Redemption The redemption or repurchase proceeds shall be dispatched to
+the unitholders within three working days from the date of
+redemption or repurchase.
+For list of exceptional circumstances refer para 14.1.3 of
+SEBI Master Circular for Mutual Funds dated June 27, 2024
+Bank Mandate It is mandatory for every applicant to provide the name of the
+bank, branch, address, account type and number as per SEBI
+requirements and any Application Form without these details
+will be treated as incomplete. Such incomplete applications will
+be rejected. The Registrar / AMC may ask the investor to
+provide a blank cancelled cheque or its photocopy for the
+purpose of verifying the bank account number.
+Delay in payment of redemption /
+The Asset Management Company shall be liable to pay
+repurchase proceeds/dividend
+interest to the unitholders at rate as specified vide clause 14.2
+of SEBI Master Circular for Mutual Funds dated June 27,
+2024 by SEBI for the period of such delay
+Unclaimed Redemption and Income As per the Clause 14.3 of SEBI Master Circular dated June 27,
+Distribution cum Capital Withdrawal 2024, the unclaimed Redemption and dividend amounts shall be
+Amount deployed by the Fund in call money market or money market
+instruments and in a separate plan of Liquid scheme / Money
+Market Mutual Fund scheme floated by Mutual Funds
+specifically for deployment of the unclaimed amounts. The
+investment management fee charged by the AMC for managing
+such unclaimed amounts shall not exceed 50 basis points.
+The AMCs shall not be permitted to charge any exit load in this
+plan. Provided that such schemes where the unclaimed
+redemption and IDCW amounts are deployed shall be only those
+Overnight scheme/ Liquid scheme / Money Market Mutual Fund
+schemes which are placed in A-1 cell (Relatively Low Interest
+Rate Risk and Relatively Low Credit Risk) of Potential Risk
+Class matrix. The investors who claim these amounts during a
+
+=== S06-033 | page 53 | Groww Multicap Fund ===
+their unclaimed amounts. The website of Groww Mutual Fund
+also provides information on the process of claiming the
+unclaimed amount and the necessary forms / documents
+required for the same. The details of such unclaimed amounts
+are also disclosed in the annual report sent to the Unit Holders.
+Important Note: All applicants must provide a bank name, bank
+account number, branch address, and account type in the
+Application Form.
+Disclosure w.r.t investment by minors As per Para 17.6 of SEBI Master Circular No.
+SEBI/HO/IMD/IMD-PoD-1/P/CIR/2024/90 dated June 27,
+2024 read with SEBI Circular dated May 12, 2023, the following
+Process for Investments in the name of a Minor through a
+Guardian will be applicable:
+a. Payment for investment by any mode shall be accepted from
+the bank account of the minor, parent or legal guardian of the
+minor, or from a joint account of the minor with parent or legal
+guardian. For existing folios, the AMCs shall insist upon a
+Change of Pay-out Bank mandate before redemption is
+processed.
+b. Redemption proceeds shall be credited only in verified bank
+account of the minor, i.e the account the minor may hold with
+the parent/legal guardian after completing KYC formalities.
+c. Upon the minor attaining the status of major, the minor in
+whose name the investment was made, shall be required to
+provide all the KYC details, updated bank account details
+including cancelled original cheque leaf of the new account. No
+further transactions shall be allowed till the status of the minor
+is changed to major.
+d. AMCs shall build a system control at the account set up stage
+of Systematic Investment Plan (SIP), Systematic Transfer Plan
+(STP) and Systematic Withdrawal Plan (SWP) on the basis of
+which, the standing instruction is suspended when the minor
+attains majority, till the status is changed to major.
+Please refer SAI for detailed process on investments made in the
+name of a Minor through a Guardian and Transmission of Units.
+53
+
+=== S06-034 | page 54 | Groww Multicap Fund ===
+III. Other Details
+A. In case of Fund of Funds Scheme, Details of Benchmark, Investment Objective, Investment Strategy,
+TER, AUM, Year wise performance, Top 10 Holding/ link to Top 10 holding of the underlying fund
+should be provided – Not Applicable
+B. Periodic Disclosures such as Half yearly disclosures, half yearly results, annual report
+• Portfolio / Financial Results: This is a list of securities where the corpus of the scheme is currently
+invested. The market value of these investments is also stated in portfolio disclosures.
+The Mutual Fund shall within one month of the close of each half year i.e., 31st March and 30th September,
+upload the soft copy of its unaudited financial results containing the details specified in Regulation 59 on
+its website and shall publish an advertisement disclosing uploading of such financial results on its website,
+in one English newspaper having nationwide circulation and in one regional newspaper circulating in the
+region where the head office of the Mutual Fund is situated.
+Further, the mutual fund shall also disclose the debt and money market securities transacted (including inter
+scheme transfers) in schemes portfolio on daily basis with a time lag of 15 days.
+The Mutual Fund shall disclose the scheme portfolios as on the last day of the month/ as on the last day of
+every half year ended March and September within 10 days from the close of each month / half-year
+respectively. Further, the Mutual Fund shall also disclose portfolio of the scheme on a fortnightly basis
+within 5 days from the end of the fortnight. The disclosure shall be on https://growwmf.in/statutory-
+disclosure/portfolio (Fortnightly/Monthly), https://growwmf.in/financials/half-yearly-unaudited-financials-
+&-portfolio (Half Yearly) and www.amfiindia.com. The AMC shall send via email the fortnightly statement
+of scheme portfolio within 5 days from the close of each fortnight and the monthly and half-yearly statement
+of scheme portfolio within 10 days from the close of each month / half-year respectively.
+Mutual Fund shall publish an advertisement every half-year disclosing the hosting of the half-yearly
+statement of its schemes portfolio on its website and on the website of AMFI. Such advertisement shall be
+published in the all India edition of at least two daily newspapers, one each in English and Hindi. Mutual
+Fund shall provide a physical copy of the statement of its scheme portfolio, without charging any cost, on
+specific request received from a unitholder.
+Annual Report: As required by the SEBI Regulations, the Fund will mail the scheme wise annual report or
+
+=== S06-035 | page 83 | Groww Multicap Fund ===
+Investment Manager: Groww Asset Management Ltd. (CIN-U65991KA2008PLC180894)
+Corporate Office: 505 - 5th Floor, Tower 2B, One World Centre, Jupiter Mills Compound, Senapati Bapat Marg, Near
+Prabhadevi Railway Station Prabhadevi (W), Mumbai – 400013
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No.16/1 and 17/2, Ambalipura Village, Varthur
+Hobli, Bellandur, Bangalore South, Bangalore- 560103, Karnataka, India
+Notice cum addendum no. 50/2025 – 2026
+Notice Cum Addendum to Statement of Additional Information (‘SAI’) of Groww Mutual Fund (‘the Fund’),
+Scheme Information Document (SID) and Key Information Memorandum (KIM) of the scheme(s) of the Fund.
+A. Change in designation of Key Personnel
+Investors/Unitholders are requested to note that Mr. Gagan Thareja [currently designated as Head of Research (Equity)]
+shall be re-designated to ‘Fund Manager & Head of Research (Equity)’ with effect from January 20, 2026.
+The relevant details shall be updated in the section ‘Information on Key Personnel” of the Asset Management Company’
+of the SAI of the Fund.
+B. Change in Fund Management Responsibilities of the scheme(s) of the Fund
+Investors/Unitholders are requested to note that, pursuant to internal re-structuring, the Fund Management Responsibilities
+of the following scheme(s) of the Fund, shall be changed as under, with effect from January 20, 2026.
+Sr. Scheme(s) Name Existing Fund Manager(s) Revised Fund Manager (s)
+No.
+1. Groww Large Cap Fund • Mr. Anupam Tiwari (Head- Equity) • Mr. Anupam Tiwari (Head- Equity)
+(Large Cap Fund- An open- • Mr. Saptarshee Chatterjee (Assistant • Mr. Saptarshee Chatterjee (Assistant
+ended equity scheme Fund Manager-Equity) Fund Manager-Equity)
+predominantly investing in • Mr. Gagan Thareja (Fund Manager-
+large cap stocks) Equity)
+2. Groww Value Fund (An • Mr. Anupam Tiwari (Head- Equity) • Mr. Gagan Thareja (Fund Manager -
+open-ended equity scheme • Mr. Saptarshee Chatterjee (Assistant Equity)
+following a value investment Fund Manager-Equity) • Mr. Saptarshee Chatterjee (Assistant
+strategy) Fund Manager-Equity)
+• Mr. Anupam Tiwari (Head- Equity)
+3. Groww Multicap Fund (An • Mr. Anupam Tiwari (Head- Equity) • Mr. Anupam Tiwari (Head- Equity)
+open-ended equity scheme • Mr. Saptarshee Chatterjee (Assistant • Mr. Saptarshee Chatterjee (Assistant
+investing across large-cap, Fund Manager-Equity) Fund Manager-Equity)
+mid-cap, and small-cap • Mr. Gagan Thareja (Fund Manager-
+stocks) Equity)
+4. Groww Banking & Financial • Mr. Anupam Tiwari (Head- • Mr. Anupam Tiwari (Head- Equity)
+Services Fund (An open Equity) • Mr. Saptarshee Chatterjee (Assistant
+ended equity scheme • Mr. Saptarshee Chatterjee Fund Manager- Equity)
+investing in banking and (Assistant Fund Manager- Equity) • Mr. Gagan Thareja (Fund Manager-
+financial services related Equity)
+sectors)
+
+=== S06-036 | page 83 | Groww Multicap Fund ===
+4. Groww Banking & Financial • Mr. Anupam Tiwari (Head- • Mr. Anupam Tiwari (Head- Equity)
+Services Fund (An open Equity) • Mr. Saptarshee Chatterjee (Assistant
+ended equity scheme • Mr. Saptarshee Chatterjee Fund Manager- Equity)
+investing in banking and (Assistant Fund Manager- Equity) • Mr. Gagan Thareja (Fund Manager-
+financial services related Equity)
+sectors)
+5. Groww Aggressive Hybrid • Mr. Anupam Tiwari (Head- Equity) • Mr. Anupam Tiwari (Head- Equity)
+Fund (An open-ended hybrid • Mr. Saptarshee Chatterjee (Assistant • Mr. Saptarshee Chatterjee (Assistant
+scheme investing Fund Manager-Equity) Fund Manager-Equity)
+predominantly in equity and • Mr. Kaustubh Sule (Fund Manager- • Mr. Gagan Thareja (Fund Manager-
+equity related instruments) Fixed Income) Equity
+• Mr. Kaustubh Sule (Fund Manager-
+Fixed Income)
+For details pertaining to age, qualification and brief experience of these Fund Managers/ Key Personnel, please refer the
+SAI of the Fund available at https://growwmf.in.
+
+=== S06-037 | page 84 | Groww Multicap Fund ===
+Relevant details of the aforesaid Fund Managers (wherever applicable) shall also be inserted in the section ‘Who Manages
+the Scheme?’ in the SID and KIM of the scheme(s) of the Fund.
+This Notice cum addendum forms an integral part of the SAI, SID and KIM of scheme (s). All other terms and conditions
+as mentioned in SAI, SID and KIM of scheme(s) shall remain unchanged.
+As per the Go Green Initiative, investors are encouraged to register/update their email id and mobile number with us to
+support paper less communications.
+For Groww Asset Management Ltd.
+Investment Manager to Groww Mutual Fund
+Sd/-
+Place: Mumbai
+Authorised Signatory
+Date: January 19, 2026
+MUTUAL FUND INVESTMENTS ARE SUBJECT TO MARKET RISKS, READ ALL SCHEME RELATED
+DOCUMENTS CAREFULLY.
+
+=== S06-038 | page 87 | Groww Multicap Fund ===
+Additionally, fresh subscription shall be discontinued in the Monthly, Quarterly, Half – yearly frequency in the IDCW
+Options having IDCW Re-investment Facility and IDCW Pay-out Facility of both Direct and Regular plans in the
+following schemes of the Fund from the effective date:
+Sr. no. Scheme(s) Name
+1. Groww Large cap Fund
+2. Groww Value Fund
+3. Groww Aggressive Hybrid Fund
+Investors are requested to note that, the above facility(ies) are discontinued through all modes such as Lump Sum mode
+(including Switches) and fresh registration of Systematic Investment Plan (SIP) and/or Systematic Transfer Plan (STP)
+registration, special products/features like IDCW sweep facility in the aforementioned schemes from the effective date.
+The AMC shall continue processing the existing instalments of SIP/STP/ other
+systematic transaction /special facility subject to the conditions specified in the SIDs of
+the aforesaid schemes, registered prior to the effective date.
+This Notice cum addendum forms an integral part of the SID and KIM of the aforesaid scheme(s). All other terms and
+conditions as mentioned in SID and KIM of the scheme(s) shall remain unchanged.
+As per the Go Green Initiative, investors are encouraged to register/update their email id and mobile number with us to
+support paper less communications.
+For Groww Asset Management Ltd.
+Investment Manager to Groww Mutual Fund
+Sd/-
+Place: Mumbai
+Authorised Signatory
+Date: June 29, 2026
+MUTUAL FUND INVESTMENTS ARE SUBJECT TO MARKET RISKS, READ ALL SCHEME RELATED
+DOCUMENTS CAREFULLY.
+
+=== S06-039 | page 90 | Groww Multicap Fund ===
+Investment Manager: Groww Asset Management Ltd. (CIN- U65991KA2008PLC180894)
+Corporate Office: 505 – 5th Floor, Tower 2 B, One World Centre, Jupiter Mills Compound, Senapati Bapat Marg,
+Near Prabhadevi Railway Station Prabhadevi (W), Mumbai – 400013
+Registered Office: Vaishnavi Tech Park, South Tower, 3rd Floor, Survey No.16/1 and 17/2, Ambalipura Village,
+Varthur Hobli, Bellandur, Bangalore South, Bangalore- 560103, Karnataka, India
+Notice cum Addendum No. 25/2026- 2027
+Notice cum Addendum to the Scheme Information Document (SID), Key Information Memorandum (KIM)
+of the scheme(s) and Statement of Additional Information (“SAI”) of Groww Mutual Fund (‘the Fund’).
+A. Resignation of Key Personnel:
+Investors are requested to note that, Mr. Gagan Thareja, ceased to be Fund Manager (Equity) & Head of Research
+(Equity) and a Key Personnel of Groww Asset Management Limited (GAML) with effect from the close of business
+hours of September 09, 2026.
+Accordingly, all references of Mr. Gagan Thareja in the SAI of the Fund and SID(s) and KIM(S) of the concerned
+scheme(s) of the Fund shall stands deleted effective the aforesaid date.
+B. Change in Fund Management Responsibilities of the scheme(s) of the Fund:
+Investors/Unitholders are requested to note that, pursuant to resignation of Mr. Gagan Thareja from the services of
+GAML, the Fund Management Responsibilities in the following scheme(s) of the Fund, shall be changed as under,
+with effect from September 10, 2026:
+Scheme(s) Name Existing Fund Manager(s) New Fund Manager(s)
+Groww Small Cap Fund (An • Mr. Anupam Tiwari (Head of • Mr. Anupam Tiwari (Head of
+open ended equity scheme Equity) Equity)
+predominantly investing in • Mr. Gagan Thareja (Head of • Mr. Saptarshee Chatterjee (Senior
+small cap stocks) Research - Equity and Fund Research Analyst & Fund Manager
+Manager) – Equity)
+• Mr. Saptarshee Chatterjee (Senior • Mr. Nikhil Satam (Fund Manager &
+Research Analyst & Fund Dealer – Equity)
+Manager – Equity)
+• Mr. Nikhil Satam (Fund Manager
+& Dealer – Equity)
+Groww Large Cap Fund (An • Mr. Anupam Tiwari (Head of • Mr. Anupam Tiwari (Head of
+open ended equity scheme Equity) Equity)
+predominantly investing in • Mr. Gagan Thareja (Head of • Mr. Saptarshee Chatterjee (Senior
+large cap stocks) Research - Equity and Fund Research Analyst & Fund Manager
+Manager) – Equity)
+• Mr. Saptarshee Chatterjee (Senior • Mr. Nikhil Satam (Fund Manager &
+Research Analyst & Fund Dealer – Equity)
+Manager – Equity)
+• Mr. Nikhil Satam (Fund Manager
+& Dealer – Equity)
+
+=== S06-040 | page 91 | Groww Multicap Fund ===
+Groww Value Fund (An • Mr. Anupam Tiwari (Head of • Mr. Anupam Tiwari (Head of
+open ended equity scheme Equity) Equity)
+following a value investment • Mr. Gagan Thareja (Head of • Mr. Saptarshee Chatterjee (Senior
+strategy) Research - Equity and Fund Research Analyst & Fund Manager
+Manager) – Equity)
+• Mr. Saptarshee Chatterjee (Senior • Mr. Nikhil Satam (Fund Manager &
+Research Analyst & Fund Dealer – Equity)
+Manager – Equity)
+• Mr. Nikhil Satam (Fund Manager
+& Dealer – Equity)
+Groww Multicap Fund (An • Mr. Anupam Tiwari (Head of • Mr. Anupam Tiwari (Head of
+open-ended equity scheme Equity) Equity)
+investing across large-cap, • Mr. Gagan Thareja (Head of • Mr. Saptarshee Chatterjee (Senior
+mid-cap, and small-cap Research - Equity and Fund Research Analyst & Fund Manager
+stocks) Manager) – Equity)
+• Mr. Saptarshee Chatterjee (Senior • Mr. Nikhil Satam (Fund Manager &
+Research Analyst & Fund Dealer – Equity)
+Manager – Equity)
+• Mr. Nikhil Satam (Fund Manager
+& Dealer – Equity)
+Groww Banking & Financial • Mr. Anupam Tiwari (Head of • Mr. Anupam Tiwari (Head of
+Services Fund Equity) Equity)
+(An open ended equity • Mr. Gagan Thareja (Head of • Mr. Saptarshee Chatterjee (Senior
+scheme investing in banking Research - Equity and Fund Research Analyst & Fund Manager
+and financial services related Manager) – Equity)
+sectors) • Mr. Saptarshee Chatterjee (Senior • Mr. Nikhil Satam (Fund Manager &
+Research Analyst & Fund Dealer – Equity)
+Manager – Equity)
+• Mr. Nikhil Satam (Fund Manager
+& Dealer – Equity)
+This Notice cum addendum forms an integral part of the SID, KIM of the aforesaid scheme(s) and SAI of the Fund. All
+other terms and conditions as mentioned in SID, KIM of the scheme(s) and SAI of the Fund shall remain unchanged.
+As per the Go Green Initiative, investors are encouraged to register/update their email id and mobile number with us
+to support paper less communications.
+For Groww Asset Management Ltd.
+Investment Manager to Groww Mutual Fund
+Sd/- Place: Mumbai
+Authorised Signatory Date: September 09, 2026
+MUTUAL FUND INVESTMENTS ARE SUBJECT TO MARKET RISKS, READ ALL SCHEME
+RELATED DOCUMENTS CAREFULLY.
+

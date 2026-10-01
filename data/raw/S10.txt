@@ -1,0 +1,52 @@
+=== S10-001 | page 1 | Groww Large Cap Fund ===
+Total Expense Ratio (TER) of Groww Large Cap Fund as on 30 Sep 2026:
+Regular Plan - Base Expense Ratio (BER) (%): 2.09
+Regular Plan - Brokerage cost (%): 0.1
+Regular Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Regular Plan - Statutory Levies (including GST) (%): 0.51
+Regular Plan - Total TER (%): 2.71
+Direct Plan - Base Expense Ratio (BER) (%): 1.18
+Direct Plan - Brokerage cost (%): 0.1
+Direct Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Direct Plan - Statutory Levies (including GST) (%): 0.4
+Direct Plan - Total TER (%): 1.69
+
+=== S10-002 | page 1 | Groww ELSS Tax Saver Fund ===
+Total Expense Ratio (TER) of Groww ELSS Tax Saver Fund as on 30 Sep 2026:
+Regular Plan - Base Expense Ratio (BER) (%): 2.08
+Regular Plan - Brokerage cost (%): 0.17
+Regular Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Regular Plan - Statutory Levies (including GST) (%): 0.64
+Regular Plan - Total TER (%): 2.9
+Direct Plan - Base Expense Ratio (BER) (%): 0.83
+Direct Plan - Brokerage cost (%): 0.17
+Direct Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Direct Plan - Statutory Levies (including GST) (%): 0.49
+Direct Plan - Total TER (%): 1.5
+
+=== S10-003 | page 1 | Groww Multicap Fund ===
+Total Expense Ratio (TER) of Groww Multicap Fund as on 30 Sep 2026:
+Regular Plan - Base Expense Ratio (BER) (%): 1.79
+Regular Plan - Brokerage cost (%): 0.23
+Regular Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Regular Plan - Statutory Levies (including GST) (%): 0.74
+Regular Plan - Total TER (%): 2.77
+Direct Plan - Base Expense Ratio (BER) (%): 0.34
+Direct Plan - Brokerage cost (%): 0.23
+Direct Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Direct Plan - Statutory Levies (including GST) (%): 0.54
+Direct Plan - Total TER (%): 1.12
+
+=== S10-004 | page 1 | Groww Small Cap Fund ===
+Total Expense Ratio (TER) of Groww Small Cap Fund as on 30 Sep 2026:
+Regular Plan - Base Expense Ratio (BER) (%): 1.94
+Regular Plan - Brokerage cost (%): 0.17
+Regular Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Regular Plan - Statutory Levies (including GST) (%): 0.61
+Regular Plan - Total TER (%): 2.73
+Direct Plan - Base Expense Ratio (BER) (%): 0.49
+Direct Plan - Brokerage cost (%): 0.17
+Direct Plan - Transaction Cost incurred for the purpose of execution of trade (%): 0.01
+Direct Plan - Statutory Levies (including GST) (%): 0.42
+Direct Plan - Total TER (%): 1.09
+

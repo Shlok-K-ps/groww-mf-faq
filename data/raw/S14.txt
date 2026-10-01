@@ -1,0 +1,62 @@
+=== S14-001 | page 1 | ALL ===
+How to Get Capital Gain Statement for Mutual Funds?
+New to Mutual Funds
+Basics
+1min 45 seconds read
+A mutual fund Capital Gain/Loss Statement is an important document that summarises the profits or losses you've made within a specific period. It provides details on gains or losses, which are crucial for both tax filing and evaluating your investments. Typically, it includes information such as:
+Asset Class (Equity, Debt or any other category)
+Type of Gain (long-term or short-term)
+Transaction Details
+Net Gain or Loss
+Here's how you can obtain your Capital Gain Statement using different methods:
+Mutual Fund Houses
+To check your capital gains statements for a mutual fund company’s portal:
+> Go to the official website of your mutual fund company.
+> Log in using your user ID or folio number.
+> Download your capital gains report.
+CAMS Portal
+To access your Capital Gain Statement through CAMS:
+> Visit
+www.camsonline.com
+and accept the terms and conditions.
+> Navigate to 'Services for INVESTORS' and click on 'View More' under Statements.
+> Select 'Capital Gain/Loss Statement.'
+> Fill out the form with your PAN and registered email ID.
+> Choose the financial years you need (up to three consecutive years).
+> Select your mutual fund holdings from the dropdown list or choose 'All Mutual Funds.'
+> Opt for delivery via "Email an encrypted attachment."
+> Set a password for the attachment and submit the form.
+> Receive the encrypted PDF statement in your email, which you can access using the password you set.
+KFintech Portal
+To access your Capital Gain Statement via Karvy:
+> Visit
+https://mfs.kfintech.com/mfs/
+> Choose 'Retail Investor' from the Login dropdown menu.
+> Navigate to 'Investor Statement and Report' and select 'Capital Gains Statement.'
+> Choose 'Consolidated Capital Gains Statement.'
+> Fill out the form with your details, select the desired financial years, choose your mutual fund holdings, opt for email delivery with an encrypted attachment, set a password, and submit.
+> You'll receive the statement in your email once processed.
+Online Platforms
+Many investors use various online platforms to manage their mutual fund investments, which often provide easy access to Capital Gain Statements.
+Here’s how you can get yours:
+> Visit the website or app of your chosen online platform and log in.
+> Navigate to the "Portfolio" or "Reports" section. Look for the option labelled "Capital Gain Statement."
+> Choose the specific financial year or period you're interested in.
+> Once selected, you can typically generate or download the statement in PDF format.
+Disclaimer
+
+=== S14-002 | page 1 | ALL ===
+> Navigate to the "Portfolio" or "Reports" section. Look for the option labelled "Capital Gain Statement."
+> Choose the specific financial year or period you're interested in.
+> Once selected, you can typically generate or download the statement in PDF format.
+Disclaimer
+Mutual Fund investments are subject to market risks, read all scheme related documents carefully.
+Read More
+I Am Ready to Invest
+Related Articles
+More details are loading
+Load More
+Calculators
+More details are loading
+Load More
+
