@@ -75,7 +75,7 @@ def build(only=None):
         out[eid] = rec
         json.dump(list(out.values()), open(CANDIDATES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"[{'ok ' if rec['ok'] else 'FAIL'}] {eid}: {rec.get('note', '')}", flush=True)
-        time.sleep(1)
+        time.sleep(15)          # stay under the Groq free-tier tokens-per-minute limit
     return list(out.values())
 
 

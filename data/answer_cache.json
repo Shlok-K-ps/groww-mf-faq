@@ -1,0 +1,88 @@
+[
+ {
+  "id": "ter",
+  "kind": "concept",
+  "questions": [
+   "What is TER?",
+   "What is an expense ratio?",
+   "Explain expense ratio"
+  ],
+  "answer": "TER (Total Expense Ratio) is the expense charged to a mutual fund scheme as a percentage of the scheme’s corpus.",
+  "source_id": "S16",
+  "page": null
+ },
+ {
+  "id": "sip",
+  "kind": "concept",
+  "questions": [
+   "What is SIP?",
+   "What is a SIP?",
+   "What is a systematic investment plan?",
+   "Explain SIP"
+  ],
+  "answer": "Systematic Investment Plan (SIP) is an investment route offered by mutual funds where a fixed amount is invested at regular intervals, such as monthly or quarterly, instead of a lump‑sum. The installment can be as low as INR 500 a month and works like a recurring deposit with bank standing instructions for debit.",
+  "source_id": "S20",
+  "page": null
+ },
+ {
+  "id": "elss",
+  "kind": "concept",
+  "questions": [
+   "What is ELSS?",
+   "What is an ELSS fund?",
+   "Explain ELSS",
+   "What is an ELSS tax saving fund?"
+  ],
+  "answer": "ELSS stands for Equity Linked Savings Scheme, a tax‑saving mutual fund that allows an individual or HUF a deduction of up to Rs. 1.5 lacs under Sec 80C of the Income Tax Act. It has a statutory lock‑in period of three years, after which units can be redeemed or switched, and offers both growth and dividend options.",
+  "source_id": "S18",
+  "page": null
+ },
+ {
+  "id": "riskometer",
+  "kind": "concept",
+  "questions": [
+   "What is a riskometer?",
+   "Explain riskometer"
+  ],
+  "answer": "The riskometer is a standardised risk measurement scale introduced by SEBI for Mutual Funds, displayed in scheme documents to indicate risk. It classifies risk into six levels: Low, Low to Moderate, Moderate, Moderately High, High and Very High.",
+  "source_id": "S21",
+  "page": null
+ },
+ {
+  "id": "cas",
+  "kind": "concept",
+  "questions": [
+   "What is CAS?",
+   "What is a consolidated account statement?",
+   "Explain CAS"
+  ],
+  "answer": "A Consolidated Account Statement (CAS) is a physical statement that captures all financial transactions done by an investor across different mutual funds during a month, including purchases, redemptions, switches, SIPs/STPs/SWPs, and dividend payouts/reinvestments, as well as opening and closing balances for portfolios linked to a PAN.",
+  "source_id": "S15",
+  "page": null
+ },
+ {
+  "id": "lock_in",
+  "kind": "concept",
+  "questions": [
+   "What is a lock-in period?",
+   "What is lock-in?",
+   "Explain lock-in period"
+  ],
+  "answer": "A lock‑in period is the minimum duration investors must hold their mutual fund units before they can redeem or sell them. It applies to schemes such as ELSS (three years), Fixed Maturity Plans, and certain closed‑ended funds, while most open‑ended funds have no lock‑in period.",
+  "source_id": "S19",
+  "page": null
+ },
+ {
+  "id": "capgains_statement",
+  "kind": "howto",
+  "questions": [
+   "How do I download my capital-gains statement?",
+   "How to download capital gains statement",
+   "How can I get my capital gain statement?",
+   "Where do I get my capital gains statement?"
+  ],
+  "answer": "Visit your mutual fund house’s website, log in with your user ID or folio number, and download the capital gains report. Alternatively, on the CAMS portal go to Services for INVESTORS → View More under Statements, select Capital Gain/Loss Statement, fill the form and choose email delivery of an encrypted PDF. You can also use the KFintech portal by selecting Retail Investor, then Investor Statement and Report → Capital Gains Statement and request the encrypted email attachment.",
+  "source_id": "S14",
+  "page": null
+ }
+]

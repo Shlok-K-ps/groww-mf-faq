@@ -103,3 +103,9 @@ def test_excel_sources_are_labelled_as_downloads():
     assert sources.label("S10").endswith("Excel file") and sources.label("S11").endswith("Excel file")
     assert "Excel" not in sources.label("S01") and "Excel" not in sources.label("S14")
     assert render("fact", answer="TER is 1.69%.", source_id="S10").source_label.endswith("\u00b7 Excel file")
+
+
+def test_disclaimer_doc_matches_the_ui_text_exactly():
+    from rag.templates import UI
+    doc = open("docs/disclaimer.md", encoding="utf-8").read()
+    assert f"**{UI['banner_head']}** {UI['banner_body']}" in doc and UI["footer"] in doc

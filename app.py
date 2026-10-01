@@ -71,11 +71,6 @@ with st.sidebar:
     with st.expander(f"Sources ({len(sources.load())})"):
         for sid, r in sources.load().items():
             st.markdown(f"- [{r['title']}]({r['url']}) · {r['publisher']} {r['doc_type']}")
-    with st.expander("System status"):
-        st.caption("Checks which AI providers are reachable. Lists models only; sends none of your questions.")
-        if st.button("Check connections", key="diag"):
-            for k, v in ss.assistant.llm.diagnose().items():
-                st.write(f"**{k}:** {v}")
     with st.expander("About / limits"):
         st.write("Answers come only from official Groww MF, AMFI and SEBI documents and are as fresh as the last data build. "
                  "TER changes monthly. Coverage is 4 schemes, English only. If something isn't in my sources I'll say so.")

@@ -13,6 +13,7 @@ Rules:
 3. Copy numbers exactly as written in CONTEXT, with units. Mention plan/option (Direct/Regular, Growth/IDCW) when the value depends on it.
 4. Never compute, compare or predict returns.
 5. Do not write URLs, links, markdown, HTML or any "last updated" date. Cite exactly one source: the source_id of the chunk that contains the fact.
+6. Answer the question that was asked. If CONTEXT only describes the topic but does not answer it (for example it explains what something is but not how to do it), return {"status":"not_found"}.
 Return JSON only: {"status":"ok","answer":"...","source_id":"S07"}"""
 
 STRICT_NOTE = ("\nYour previous answer was rejected for: {why}. Answer again in at most 3 short sentences, using only numbers that "

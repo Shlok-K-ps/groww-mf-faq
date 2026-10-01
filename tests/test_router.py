@@ -144,3 +144,15 @@ def test_advice_refusal_only_with_advice_signals():
     assert route("mutual funds stuff", None).intent == "unsure"
     assert route("Should I buy mutual funds", None).intent == "advice"
     assert route("Which fund is best?", None).intent == "advice"
+
+
+@pytest.mark.parametrize("msg", ["Is the minimum SIP ₹500?", "Exit load if I redeem within 365 days?", "What is the benchmark?",
+                                 "Who manages the fund?", "Any lock-in?"])
+def test_field_without_scheme_is_confident_so_no_classifier_call(msg):
+    r = rules(msg)
+    assert r.intent == "factual" and r.field and r.confident and r.via == "rules"
+
+
+def test_classifier_may_answer_unsure_for_vague_messages():
+    assert classify_llm(lambda p: '{"intent": "unsure"}', "mutual funds stuff") == "unsure"
+    assert "unsure" in route("mutual funds stuff", lambda p: '{"intent": "unsure"}').intent

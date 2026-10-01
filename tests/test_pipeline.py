@@ -217,3 +217,8 @@ def test_every_field_button_resends_a_question_that_gets_a_cited_fact_without_ll
 def test_unsure_wording_never_triggers_the_advice_refusal():
     res = Assistant(FakeLLM(fail=True)).ask("mutual funds stuff")
     assert res.response.kind == "unsure" and res.response.refusal_url is None
+
+
+def test_prompt_tells_the_model_to_answer_the_question_asked():
+    from rag.generate import SYSTEM
+    assert "Answer the question that was asked" in SYSTEM and "not_found" in SYSTEM
