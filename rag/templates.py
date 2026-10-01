@@ -1,6 +1,6 @@
 """Every user-visible response goes through render(). Code owns the format; the model only supplies an answer sentence.
 
-kind: fact | concept | howto | advice | performance | mixed | clarify | not_found | out_of_scope | pii_block | service_unavailable
+kind: fact | concept | howto | advice | performance | mixed | clarify | clarify_field | unsure | not_found | out_of_scope | pii_block | service_unavailable
 Source URL and 'Last updated' are always taken from sources.csv by source_id, never from model output.
 render() takes no user text, so a refusal/PII notice can never echo the input.
 """
@@ -23,12 +23,23 @@ TEXT = {
     "performance": ("I don't calculate or compare returns. You can see the official performance figures for {scheme} in Groww Mutual "
                     "Fund's latest factsheet."),
     "clarify": f"Which scheme do you mean? {SCOPE_LINE}.",
+    "clarify_field": "What would you like to know about {scheme}?",
+    "unsure": ("I'm not sure I understood. I can answer factual questions about 4 Groww MF schemes (" + SCOPE_LINE + ") - such as "
+               "expense ratio, exit load, minimum SIP, lock-in, riskometer, benchmark and fund managers - and explain general "
+               "mutual fund terms. Try one of these:"),
     "not_found": "I couldn't find this in my official sources.",
     "out_of_scope": ("I only cover these 4 Groww MF schemes and general mutual fund facts: " + ", ".join(SCHEME_NAMES) + "."),
     "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or account/folio numbers. "
                   "I don't need them and I don't store them. Ask your question without them and I'll help."),
     "service_unavailable": "Service busy, please try again in a moment.",
 }
+# buttons shown for a bare scheme name: (label, field, question template that the router maps to that field)
+FIELD_BUTTONS = [("Expense ratio", "expense_ratio", "What is the expense ratio of {scheme}?"),
+                 ("Exit load", "exit_load", "What is the exit load of {scheme}?"),
+                 ("Minimum SIP", "min_sip", "What is the minimum SIP of {scheme}?"),
+                 ("Riskometer", "riskometer", "What is the riskometer level of {scheme}?"),
+                 ("Benchmark", "benchmark", "What is the benchmark of {scheme}?"),
+                 ("Fund managers", "fund_managers", "Who are the fund managers of {scheme}?")]
 HIDDEN_USER_MESSAGE = "[message hidden: contained personal information]"
 
 UI = {
@@ -36,7 +47,7 @@ UI = {
     "subtitle": "Facts from official Groww Mutual Fund, AMFI and SEBI sources.",
     "banner_head": "Facts-only. No investment advice.",
     "banner_body": "Answers come from official public documents and may lag recent updates. Verify using the source link.",
-    "welcome": ("Hi! Ask me factual questions about 4 Groww Mutual Fund schemes: Largecap, Multicap, ELSS Tax Saver and Small Cap."),
+    "welcome": ("Hi! Ask me factual questions about 4 Groww Mutual Fund schemes: Large Cap, Multicap, ELSS Tax Saver and Small Cap."),
     "examples": ["What is the expense ratio of Groww Large Cap Fund (Direct)?",
                  "What is the lock-in period for Groww ELSS Tax Saver Fund?",
                  "How do I download my capital-gains statement?"],
@@ -102,7 +113,9 @@ def render(kind, *, answer=None, source_id=None, page=None, scheme=None, closest
             r.source_url = sources.source_url(closest_source_id)
             r.source_label = sources.label(closest_source_id)
         return r
-    if kind in ("clarify", "out_of_scope", "pii_block", "service_unavailable"):
+    if kind == "clarify_field":
+        return Response(kind, TEXT[kind].format(scheme=scheme or "this scheme"))
+    if kind in ("clarify", "unsure", "out_of_scope", "pii_block", "service_unavailable"):
         return Response(kind, TEXT[kind])
     raise ValueError(f"unknown response kind: {kind}")
 

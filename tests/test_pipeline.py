@@ -189,3 +189,28 @@ def test_abbreviations_are_expanded_for_retrieval():
     assert "systematic investment plan" in expand_terms("What is SIP?")
     assert expand_terms("what is a riskometer") == "what is a riskometer"
     assert retrieve(expand_terms("what is ter"), [], "concept", None)[0]["source_id"] == "S16"
+
+
+def test_bare_scheme_asks_which_fact_with_six_buttons_and_no_llm():
+    from rag.templates import FIELD_BUTTONS
+    llm = FakeLLM()
+    res = Assistant(llm).ask("Groww Small Cap")
+    r = res.response
+    assert r.kind == "clarify_field" and llm.calls == 0 and llm.embed_calls == 0 and getattr(llm, "classifier_calls", 0) == 0
+    assert [b[0] for b in r.fields["buttons"]] == ["Expense ratio", "Exit load", "Minimum SIP", "Riskometer", "Benchmark",
+                                                    "Fund managers"]
+    assert "Groww Small Cap Fund" in r.text and len(FIELD_BUTTONS) == 6
+
+
+def test_every_field_button_resends_a_question_that_gets_a_cited_fact_without_llm():
+    a = Assistant(FakeLLM())
+    for scheme in SCHEME_NAMES:
+        for label, question in a.ask(scheme).response.fields["buttons"]:
+            res = Assistant(FakeLLM()).ask(question)
+            assert res.response.kind == "fact" and res.response.source_id and res.via == "facts", (scheme, label, question)
+            assert scheme in res.response.text.replace("Groww ", "Groww ") or scheme.split()[1] in res.response.text
+
+
+def test_unsure_wording_never_triggers_the_advice_refusal():
+    res = Assistant(FakeLLM(fail=True)).ask("mutual funds stuff")
+    assert res.response.kind == "unsure" and res.response.refusal_url is None

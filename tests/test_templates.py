@@ -5,7 +5,7 @@ import pytest
 from rag import sources
 from rag.templates import HIDDEN_USER_MESSAGE, SEBI_SID, render, strip_links, to_text
 
-KINDS = ["fact", "concept", "howto", "advice", "performance", "mixed", "clarify", "not_found", "out_of_scope", "pii_block",
+KINDS = ["fact", "concept", "howto", "advice", "performance", "mixed", "clarify", "clarify_field", "unsure", "not_found", "out_of_scope", "pii_block",
          "service_unavailable"]
 
 
@@ -75,3 +75,8 @@ def test_templates_do_not_accept_user_text():
 def test_unknown_kind_rejected():
     with pytest.raises(ValueError):
         render("nope")
+
+
+def test_welcome_uses_official_names():
+    from rag.templates import UI
+    assert "Large Cap" in UI["welcome"] and "Small Cap" in UI["welcome"] and "Largecap" not in UI["welcome"]

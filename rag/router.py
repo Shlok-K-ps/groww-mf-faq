@@ -24,6 +24,7 @@ class Route:
     confident: bool = True
     via: str = "rules"           # rules | llm | default
     asks_current: bool = False   # "today / now / current / live" wording
+    bare_scheme: bool = False    # the message is just a scheme name ("Groww Small Cap") -> ask which fact
 
 
 def prep(text):
@@ -105,6 +106,18 @@ OTHER_AMC = re.compile(
     r"dynamic|bse|etf|index|hybrid|debt)\b", _I)
 
 
+_FILLER = {"groww", "fund", "funds", "mutual", "the", "a", "an", "of", "for", "about", "on", "info", "information", "details",
+           "scheme", "please", "pls", "hi", "hello", "hey", "and", "mf", "plan", "direct", "regular", "growth"}
+
+
+def is_bare_scheme(t, scheme):
+    """True if, after removing the scheme's name/aliases and filler words, nothing is left ("Groww Small Cap", "small cap fund?")."""
+    rest = prep(t)
+    for a in sorted([prep(scheme)] + [prep(x) for x in SCHEMES[scheme]], key=len, reverse=True):
+        rest = rest.replace(a, " ")
+    return not [w for w in re.findall(r"[a-z0-9]+", rest) if w not in _FILLER]
+
+
 def rules(text):
     """Rule-based routing. `confident=False` means the caller may ask the LLM classifier."""
     t = prep(text)
@@ -150,6 +163,10 @@ def rules(text):
 
     if definitional:
         return R("concept")
+    if len(schemes) == 1 and is_bare_scheme(t, schemes[0]):
+        r = R("factual")
+        r.bare_scheme = True
+        return r
     if schemes:
         return R("factual", confident=False)
     return R("concept", confident=False)
@@ -182,7 +199,8 @@ def classify_llm(call_model, text):
 
 def route(text, call_model=None):
     """Rules first. If rules are unconfident, ask the LLM classifier once (3 s, no failover). If it is unavailable, slow or
-    unusable, fall back to the rules result and REFUSE (advice) - a wrong refusal is cheaper than wrong advice."""
+    unusable, the answer is "unsure": a neutral 'I'm not sure I understood' message. Advice refusals happen only when the rules
+    saw advice signals (those are confident, so they never reach this fallback)."""
     r = rules(text)
     if r.confident:
         return r
@@ -190,5 +208,5 @@ def route(text, call_model=None):
     if intent:
         r.intent, r.confident, r.via = intent, True, "llm"
     else:
-        r.intent, r.via = "advice", "default"
+        r.intent, r.via = "unsure", "default"
     return r

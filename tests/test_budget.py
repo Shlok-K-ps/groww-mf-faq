@@ -7,7 +7,7 @@ from rag import answer_cache, llm as llm_mod
 from rag.llm import LLM, Budget, LLMUnavailable
 from rag.pipeline import Assistant
 from rag.router import route
-from rag.templates import to_text
+from rag.templates import UI, to_text
 
 
 class FakeModels:
@@ -89,15 +89,15 @@ def test_embedding_failure_falls_back_and_pauses(real_llm):
     llm_mod._embed_off_until = 0.0
 
 
-def test_unsure_and_classifier_down_means_refuse():
+def test_unsure_and_classifier_down_means_neutral_not_refusal():
     def down(prompt):
         raise LLMUnavailable("down")
-    r = route("Groww Large Cap Fund", down)                           # scheme named, no question: rules unsure
-    assert r.intent == "advice" and r.via == "default"
-    assert route("Groww Large Cap Fund", None).intent == "advice"     # offline: same
+    r = route("mutual funds stuff", down)                             # MF word, no question, no advice signal
+    assert r.intent == "unsure" and r.via == "default"
+    assert route("mutual funds stuff", None).intent == "unsure"       # offline: same
 
 
-def test_pipeline_unsure_question_refused_without_generate_call():
+def test_pipeline_unsure_wording_gets_neutral_message_and_example_buttons():
     class Down:
         calls = embed_calls = 0
 
@@ -109,8 +109,9 @@ def test_pipeline_unsure_question_refused_without_generate_call():
 
         def embed_query(self, *a, **k):
             raise AssertionError("embedding must not be called")
-    res = Assistant(Down()).ask("Groww Large Cap Fund")
-    assert res.response.kind == "advice"
+    r = Assistant(Down()).ask("mutual funds stuff").response
+    assert r.kind == "unsure" and "I'm not sure I understood" in r.text and "Refus" not in r.text
+    assert r.fields["examples"] == UI["examples"] and "can't advise" not in r.text and "SEBI" not in r.text
 
 
 def test_rag_outage_is_service_unavailable_fast():

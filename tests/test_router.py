@@ -125,3 +125,22 @@ def test_llm_only_when_unconfident_and_validated():
 
 def test_no_model_means_zero_calls_offline():
     assert route("Should I buy this?", None).intent == "advice"
+
+
+@pytest.mark.parametrize("msg,scheme", [("Groww Small Cap", SC), ("groww small cap fund?", SC), ("Largecap", LC), ("Multi cap", MC),
+                                        ("ELSS", EL), ("Groww ELSS Tax Saver Fund", EL), ("tax saver", EL)])
+def test_bare_scheme_name_is_detected(msg, scheme):
+    r = rules(msg)
+    assert r.bare_scheme and r.schemes == [scheme] and r.confident
+
+
+@pytest.mark.parametrize("msg", ["What is the expense ratio of Groww Small Cap?", "Groww Small Cap launch date known?",
+                                 "Should I buy Groww Small Cap", "Large Cap or Multicap"])
+def test_not_bare_when_there_is_more_to_the_message(msg):
+    assert not rules(msg).bare_scheme
+
+
+def test_advice_refusal_only_with_advice_signals():
+    assert route("mutual funds stuff", None).intent == "unsure"
+    assert route("Should I buy mutual funds", None).intent == "advice"
+    assert route("Which fund is best?", None).intent == "advice"

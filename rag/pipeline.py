@@ -17,7 +17,7 @@ from rag.generate import generate
 from rag.llm import LLM, Budget, LLMUnavailable
 from rag.retrieve import expand_terms, retrieve
 from rag.router import prep, route
-from rag.templates import render, strip_links
+from rag.templates import FIELD_BUTTONS, UI, render, strip_links
 from rag.validate import support_chunk, validate
 
 log = logging.getLogger("gmf")
@@ -87,6 +87,14 @@ class Assistant:
             return render("performance", scheme=r.schemes[0] if len(r.schemes) == 1 else None), "rules"
         if i == "out_of_scope":
             return render("out_of_scope"), "rules"
+        if i == "unsure":                                               # unrecognised wording, no advice signals
+            resp = render("unsure")
+            resp.fields = {"examples": list(UI["examples"])}
+            return resp, "rules"
+        if r.bare_scheme:                                               # just a scheme name: ask which fact (no LLM)
+            resp = render("clarify_field", scheme=r.schemes[0])
+            resp.fields = {"scheme": r.schemes[0], "buttons": [(lbl, tpl.format(scheme=r.schemes[0])) for lbl, _f, tpl in FIELD_BUTTONS]}
+            return resp, "rules"
         if i == "mixed":
             fa = factsqa.answer(r.field, r.schemes, r.asks_current) if r.field else None
             if fa and fa.text:

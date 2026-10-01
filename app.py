@@ -99,7 +99,18 @@ for i, m in enumerate(ss.messages):
             st.write(m["content"])
         else:
             show(m["resp"])
-            if m["resp"].kind == "clarify" and i == len(ss.messages) - 1 and m.get("orig"):
+            last = i == len(ss.messages) - 1
+            if m["resp"].kind == "clarify_field" and last:
+                btns = m["resp"].fields["buttons"]
+                for row in (btns[:3], btns[3:]):
+                    for c, (lbl, q) in zip(st.columns(3), row):
+                        if c.button(lbl, key=f"fld-{i}-{lbl}", use_container_width=True):
+                            ss.pending = q
+            if m["resp"].kind == "unsure" and last:
+                for k, q in enumerate(m["resp"].fields["examples"]):
+                    if st.button(q, key=f"uex-{i}-{k}", use_container_width=True):
+                        ss.pending = q
+            if m["resp"].kind == "clarify" and last and m.get("orig"):
                 cols = st.columns(len(SCHEME_NAMES))
                 for c, s in zip(cols, SCHEME_NAMES):
                     if c.button(s.replace("Groww ", "").replace(" Fund", ""), key=f"sch-{i}-{s}", use_container_width=True):
