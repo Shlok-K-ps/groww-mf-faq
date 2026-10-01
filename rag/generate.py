@@ -19,12 +19,20 @@ STRICT_NOTE = ("\nYour previous answer was rejected for: {why}. Answer again in 
                "appear verbatim in the cited chunk, no links, and no advice words.\n")
 
 
+MAX_CONTEXT_CHARS = 6000      # ~1500 tokens: keeps requests inside Groq's free-tier tokens/minute and makes answers faster
+MAX_CHUNK_CHARS = 2200
+
+
 def build_prompt(question, chunks, why=None):
-    blocks = []
-    for c in chunks:
+    blocks, used = [], 0
+    for c in chunks:                                    # best-ranked first; stop when the context budget is spent
+        room = MAX_CONTEXT_CHARS - used
+        if room < 300:
+            break
         r = sources.load()[c["source_id"]]
-        blocks.append(f"[{c['source_id']} | {r['publisher']} | {c['doc_type']} | {c['scheme']} | as of {r['as_of_date']}]\n"
-                      f"{c['text'][:2800]}")
+        body = c["text"][:min(MAX_CHUNK_CHARS, room)]
+        blocks.append(f"[{c['source_id']} | {r['publisher']} | {c['doc_type']} | {c['scheme']} | as of {r['as_of_date']}]\n{body}")
+        used += len(body)
     note = STRICT_NOTE.format(why=why) if why else ""
     return f"QUESTION: {question}\n{note}\nCONTEXT:\n" + "\n\n".join(blocks)
 

@@ -12,3 +12,5 @@ services:
         value: 3.11.9
       - key: GEMINI_API_KEY
         sync: false   # secret: set in the Render dashboard, never committed
+      - key: GROQ_API_KEY
+        sync: false   # secret: set in the Render dashboard, never committed

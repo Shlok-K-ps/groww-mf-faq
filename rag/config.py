@@ -29,7 +29,8 @@ def mark_bad(name, ttl=900):
     """Skip a model that keeps failing (overloaded / out of quota / retired) for `ttl` seconds, then retry it."""
     import time
     _bad[name] = time.time() + ttl
-    _resolved.pop("m", None)
+    if _resolved.get("m") == name:
+        _resolved.pop("m", None)
 
 
 def resolve_model(client):

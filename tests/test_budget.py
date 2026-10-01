@@ -38,7 +38,7 @@ def real_llm(monkeypatch):
     monkeypatch.setattr(llm_mod, "_embed_off_until", 0.0)
 
     def make(models):
-        l = LLM(api_key="x")
+        l = LLM(api_key="x", groq_key="")
         l._client = FakeClient(models)
         return l
     return make

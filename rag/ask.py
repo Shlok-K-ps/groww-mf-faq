@@ -25,7 +25,9 @@ def main():
     if res.response.kind == "clarify":
         print("[buttons] " + " | ".join(res.response.fields["choices"]))
     calls = (asst.llm.calls + asst.llm.embed_calls) if asst.llm else 0
-    print(f"\n[intent={res.intent} kind={res.response.kind} via={res.via} latency={res.latency_ms}ms llm_calls={calls}]")
+    last = getattr(asst.llm, "last", None) if asst.llm else None
+    prov = f" provider={last[0]}/{last[1]}" if last else ""
+    print(f"\n[intent={res.intent} kind={res.response.kind} via={res.via} latency={res.latency_ms}ms llm_calls={calls}{prov}]")
 
 
 if __name__ == "__main__":
