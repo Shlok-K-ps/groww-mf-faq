@@ -389,6 +389,64 @@ def kim_fund_managers(chunks, scheme):
     return None
 
 
+def det_fact(src, scheme, plan, field, value, unit, conditions, sid, page, quote):
+    if unit and str(value).endswith(unit):  # value already carries its unit ("1%"): don't repeat it
+        unit = ""
+    return {"scheme": scheme, "plan": plan, "field": field, "value": value, "unit": unit, "conditions": conditions,
+            "effective_date": src[sid]["as_of_date"], "source_id": sid, "page": page, "evidence_quote": quote}
+
+
+def deterministic_facts(scheme, chunks, src):
+    """No-LLM facts: expense ratio (S10 xlsx only), riskometer (S11 latest month), lock-in for non-ELSS schemes (KIM scheme-type line)."""
+    ter_id = next(s for s, r in src.items() if r["doc_type"] == "TER")
+    risk_id = next(s for s, r in src.items() if r["doc_type"] == "Riskometer")
+    out = []
+    ter = next(x for x in chunks if x["source_id"] == ter_id and x["scheme"] == scheme)
+    d = dict(re.findall(r"^(.+?): ([\d.]+)$", ter["text"], re.M))
+    for plan in ("Direct", "Regular"):
+        def g(k):
+            return d[f"{plan} Plan - {k}"]
+        total = g("Total TER (%)")
+        cond = (f"Total TER for the {plan} Plan = Base Expense Ratio {g('Base Expense Ratio (BER) (%)')}% + brokerage "
+                f"{g('Brokerage cost (%)')}% + transaction cost "
+                f"{g('Transaction Cost incurred for the purpose of execution of trade (%)')}% "
+                f"+ statutory levies incl. GST {g('Statutory Levies (including GST) (%)')}%. "
+                "Current disclosure; the KIM's 'actual expenses for the previous financial year' is an older figure.")
+        out.append(det_fact(src, scheme, plan.lower(), "expense_ratio", total, "%", cond, ter_id, None,
+                            f"{plan} Plan - Total TER (%): {total}"))
+    risk = next(x for x in chunks if x["source_id"] == risk_id and x["scheme"] == scheme)
+    month, level = re.findall(r"^([A-Z][a-z]{2} \d{4}): (.+)$", risk["text"], re.M)[-1]
+    out.append(det_fact(src, scheme, "both", "riskometer", level, "riskometer level", f"Riskometer level for {month}", risk_id,
+                        None, f"{month}: {level}"))
+    if scheme != "Groww ELSS Tax Saver Fund":
+        for x in chunks:
+            if x["scheme"] == scheme and x["doc_type"] == "KIM":
+                m = re.search(r"An open[- ]ended .*?(?=\))", re.sub(r"\s+", " ", x["text"]))
+                if m:
+                    out.append(det_fact(src, scheme, "both", "lock_in", "Not specified in KIM", "",
+                                        "Open-ended scheme; the KIM does not specify a lock-in period", x["source_id"], x["page"],
+                                        m.group(0)))
+                    break
+    return out
+
+
+def stage_patch():
+    """Rebuild every no-LLM fact in facts.json (no API calls), then the KIM fund-manager override."""
+    chunks = json.load(open(CHUNKS, encoding="utf-8"))
+    src = {r["source_id"]: r for r in load_sources()}
+    facts = json.load(open(FACTS, encoding="utf-8"))
+    for scheme in SCHEME_NAMES:
+        new = deterministic_facts(scheme, chunks, src)
+        for f in new:
+            ch = next(x for x in chunks if x["source_id"] == f["source_id"] and x["scheme"] == scheme and
+                      (f["page"] is None or x["page"] == f["page"]) and norm_ws(f["evidence_quote"]) in norm_ws(x["text"]))
+            assert ch, f
+        keys = {(f["field"], f["plan"]) for f in new}
+        facts = [f for f in facts if not (f["scheme"] == scheme and (f["field"], f["plan"]) in keys)] + new
+    json.dump(facts, open(FACTS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    stage_managers()
+
+
 def stage_managers():
     """Patch facts.json: KIM-derived fund managers override any lower-precedence value (KIM > SID > Factsheet)."""
     chunks = json.load(open(CHUNKS, encoding="utf-8"))
@@ -497,32 +555,17 @@ def stage_facts():
     facts, log = [], []
 
     def rec(scheme, plan, field, value, unit, conditions, sid, page, quote):
-        if unit and str(value).endswith(unit):  # value already carries its unit ("1%"): don't repeat it
-            unit = ""
-        facts.append({"scheme": scheme, "plan": plan, "field": field, "value": value, "unit": unit, "conditions": conditions,
-                      "effective_date": src[sid]["as_of_date"], "source_id": sid, "page": page, "evidence_quote": quote})
+        facts.append(det_fact(src, scheme, plan, field, value, unit, conditions, sid, page, quote))
 
     for scheme in SCHEME_NAMES:
-        # --- deterministic (no LLM): expense ratio from S10 only, riskometer from S11 latest month
-        ter = next(x for x in chunks if x["source_id"] == ter_id and x["scheme"] == scheme)
-        d = dict(re.findall(r"^(.+?): ([\d.]+)$", ter["text"], re.M))
-        for plan in ("Direct", "Regular"):
-            def g(k):
-                return d[f"{plan} Plan - {k}"]
-            total = g("Total TER (%)")
-            cond = (f"Total TER for the {plan} Plan = Base Expense Ratio {g('Base Expense Ratio (BER) (%)')}% + brokerage "
-                    f"{g('Brokerage cost (%)')}% + transaction cost "
-                    f"{g('Transaction Cost incurred for the purpose of execution of trade (%)')}% "
-                    f"+ statutory levies incl. GST {g('Statutory Levies (including GST) (%)')}%")
-            rec(scheme, plan.lower(), "expense_ratio", total, "%", cond, ter_id, None, f"{plan} Plan - Total TER (%): {total}")
-        risk = next(x for x in chunks if x["source_id"] == risk_id and x["scheme"] == scheme)
-        month, level = re.findall(r"^([A-Z][a-z]{2} \d{4}): (.+)$", risk["text"], re.M)[-1]
-        rec(scheme, "both", "riskometer", level, "riskometer level", f"Riskometer level for {month}", risk_id, None,
-            f"{month}: {level}")
+        facts += deterministic_facts(scheme, chunks, src)
+        have_lock_in = any(f["scheme"] == scheme and f["field"] == "lock_in" for f in facts)
 
         # --- LLM + verbatim validation, tier by tier (KIM > SID > Factsheet); first tier that validates wins
         mine = [x for x in chunks if x["scheme"] == scheme]
         remaining = dict(LLM_FIELDS)
+        if have_lock_in:
+            remaining.pop("lock_in")
         for tier in TIERS:
             ctx = [x for x in mine if x["doc_type"] == tier]
             if tier == "Factsheet":
@@ -571,7 +614,7 @@ def stage_facts():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("stage", choices=["parse", "embed", "facts", "managers", "all"])
+    ap.add_argument("stage", choices=["parse", "embed", "facts", "patch", "all"])
     ap.add_argument("--refresh", action="store_true", help="re-download sources")
     a = ap.parse_args()
     if a.stage in ("parse", "all"):
@@ -580,5 +623,5 @@ if __name__ == "__main__":
         stage_embed()
     if a.stage in ("facts", "all"):
         stage_facts()
-    if a.stage in ("managers", "all"):
-        stage_managers()
+    if a.stage in ("patch", "all"):
+        stage_patch()
