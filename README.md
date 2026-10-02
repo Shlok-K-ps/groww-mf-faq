@@ -5,6 +5,38 @@ and a "last updated" date, refuses investment advice, never computes returns, an
 
 **Live app: https://groww-mf-facts-assistant.onrender.com** (free Render instance: after ~15 minutes idle the first load takes 30-60 seconds).
 
+## Brief → implementation → evidence
+
+My reading of the Nextleap brief, item by item, with where to verify each. "Eval" means [`eval/report.md`](eval/report.md) and the 52 questions in
+[`eval/eval_set.jsonl`](eval/eval_set.jsonl); IDs such as F01 or H01 are question IDs in that file, and "Sample #n" is an entry in [`docs/sample_qa.md`](docs/sample_qa.md).
+
+| Brief item | What I built | Evidence |
+|---|---|---|
+| Corpus scope: one AMC, a handful of schemes | Groww Mutual Fund; 4 schemes: Large Cap, Multicap (standing in for flexi-cap, which Groww MF does not have), ELSS Tax Saver, Small Cap | [Scope](#scope) |
+| 15-25 official sources | 22: 13 Groww MF (4 KIMs, 4 SIDs, factsheet, TER file, riskometer file, investor-education page, investor charter), 8 AMFI, 1 SEBI | [`data/sources.csv`](data/sources.csv), [source table](#sources-and-field-precedence); all 22 answer 200 (`python -m scripts.check_links`); [weekly freshness check](#known-limits) |
+| Factual answers: expense ratio | Total TER for Direct and Regular in one sentence, from the TER file | Eval F01-F03; Sample #1 |
+| Factual answers: exit load | Full slab from the KIM or SID | Eval F05, F06, L05; Sample #3 |
+| Factual answers: minimum SIP / lumpsum | Every SIP frequency from the KIM table | Eval F07-F09, L04; Sample #4 |
+| Factual answers: lock-in | ELSS 3 years; the other schemes "not specified in the KIM" | Eval F04, F13; Sample #2 |
+| Factual answers: riskometer | Latest month from the riskometer file; plus the general concept | Eval F10, F14, L03, C01 |
+| Factual answers: benchmark | From the KIM | Eval F11, L02; Sample #5 |
+| How-to: capital-gains statement download | From AMFI's investor page (not the registrar) | Eval H01; Sample #7 |
+| General terms (TER, SIP, ELSS, exit load) | AMFI / SEBI pages, via vetted answers or retrieval | Eval C01-C05 |
+| One citation per answer | Exactly one link, always from `sources.csv`; PDFs open at the cited page | [Answer format](#answer-format); eval rows "Citation present / valid" and "At most one link"; `tests/test_templates.py` |
+| Polite refusal with an educational link | Advice, returns, out-of-scope and injection attempts get a fixed refusal with one educational link and its date | [Guardrails](#guardrails); eval "Refusal recall" 12/12 and "Refusals carry exactly one link and a date" 14/14; Sample #8-9 |
+| Tiny UI: welcome, 3 examples, a note | Welcome line, 3 example buttons (also kept in the sidebar), a permanent "Facts-only. No investment advice." banner | [Live app](https://groww-mf-facts-assistant.onrender.com), [`app.py`](app.py), [`docs/disclaimer.md`](docs/disclaimer.md) |
+| Public sources only | Domain allowlist in [`rag/config.py`](rag/config.py); no blogs, aggregators or app screenshots | [`data/sources.csv`](data/sources.csv); eval "Citation valid" |
+| No PII | Guard runs before anything else; nothing stored, echoed or logged | [Guardrails](#guardrails); eval "PII blocked" 5/5 and the zero-external-call mechanism check; `tests/test_pii.py` |
+| No performance claims | Returns and "calculate CAGR" questions are refused with a factsheet link; no performance figures are ingested | Eval P01-P03; Sample #9 |
+| At most 3 sentences | Fixed templates plus a validator on model answers | Eval "Answers with <= 3 sentences" 52/52 |
+| "Last updated" line | On every answer and refusal, taken from `sources.csv` | [Answer format](#answer-format); Sample Q&A |
+| Deliverables | Live link (above); source list ([`data/sources.csv`](data/sources.csv) and the table below); this README; [sample Q&A](docs/sample_qa.md) (10 real outputs); [disclaimer](docs/disclaimer.md); public repo https://github.com/Shlok-K-ps/groww-mf-faq | Files linked in this row |
+
+**How I read "every answer".** I treat it as every response that states or points to a fact. The PII block, the "which scheme?" and fact-button prompts, the
+"I'm not sure I understood" message, "Service busy" and "message too long" are **system notices, not answers**: they make no claim about any scheme, so they carry no citation.
+A "not found" reply also makes no claim; it may point to the closest official document as a suggestion. This is my interpretation of the brief, not an exception granted by the course;
+a stricter reading would mean attaching a source link to messages that have nothing to cite.
+
 **How to use**
 1. Ask a factual question about Groww Large Cap, Multicap, ELSS Tax Saver or Small Cap (fees, exit load, minimum SIP, lock-in, riskometer, benchmark, fund managers), or a general mutual fund term or how-to.
 2. Use the "Try asking" examples in the sidebar if you are not sure what to ask; if you name no scheme, tap the scheme or fact button that appears.
@@ -81,6 +113,13 @@ Code owns the format. The model only supplies an answer; URLs, page anchors and 
 - **Factual answers and refusals carry exactly one link and a date.** A factual answer shows `Source: <one URL from sources.csv>` (PDFs open at the cited page, Excel
   sources are labelled "Excel file") and `Last updated from sources: <date>`, the as-of date of that source. A refusal (advice, returns, out-of-scope, prompt-injection attempts) shows
   its single educational link, SEBI's investor website, or for a returns question the latest factsheet, with the date of *that* linked source. A mixed question keeps the fact's citation as its only link and declines the advice part in plain text.
+- **Which date is shown.** "Last updated from sources" is the as-of date of the *cited document*, not the time of the question, and it comes from the `as_of_date` column of
+  [`data/sources.csv`](data/sources.csv). The basis is recorded per source in the `date_basis` column: the document's **own printed or effective date** when it has one (the factsheet's month,
+  the TER file's date, the riskometer's latest month: S09-S11); otherwise the **PDF metadata date**, which is the file's modification date and can differ from when the content took effect (S04-S06, S08, S13);
+  otherwise **the date I retrieved it** (the other 14: three KIMs and one SID with no embedded date, and the web pages).
+- **Mixed questions are a deliberate trade-off.** "What's ELSS's lock-in, and should I invest?" has two parts that pull in opposite directions: the one-link rule says one link per answer, and the refusal rule says to give an
+  educational link. I resolved it by keeping the fact's citation as the only link and declining the advice in plain text ("...see SEBI's investor website or a SEBI-registered investment adviser"), so the answer stays checkable and nothing links to a second page.
+  A pure advice question has no fact to cite, so it gets the SEBI link instead.
 - **System notices carry no citation, by design:** the PII block, "which scheme?" and fact-button prompts, the "I'm not sure I understood" message, "Service busy" and "message too long". They are not answers, so they have no link and no date.
 - Answers are at most three sentences. "I couldn't find this in my official sources" (not found) may point to the closest official document as a suggestion; it is never presented as the answer's source.
 
@@ -169,6 +208,18 @@ The set covers 14 scheme-specific facts, 2 negative controls ("Is the minimum SI
 questions, 9 advice traps (including Hinglish and a prompt-injection attempt), 3 returns traps, 1 mixed question, 5 near-miss legitimate questions paired with the traps, 5 PII messages,
 2 out-of-scope and 2 unclear messages.
 
+**How to read these numbers.**
+- *What each denominator counts.* **Answer rate and citation-support accuracy (25)** cover only the questions that should be answered from the corpus: the 14 scheme facts, 5 near-miss legitimate questions,
+  5 supported concept questions and 1 supported how-to (H01). **False-refusal rate (30)** covers every legitimate question, including the 2 negative controls and the 3 unsupported ones, and counts a wrong advice, returns, out-of-scope or "unsure" reply as a false refusal (an honest "not found" is not a refusal).
+  **Refusal recall (12)** is the 9 advice traps plus the 3 returns traps; the mixed question is scored on its own (1/1). **PII (5)** are the PII messages, plus a separate mocked-client check that they cause zero external calls.
+  **"Zero model calls where none are allowed" (42)** is every response that must not need a model: facts, refusals, PII blocks, which-scheme prompts and the mixed answer. The sentence and one-link rows cover all 52.
+- *Why citation counts differ from the answer rate.* "Citation present / valid" counts every cited response: the 25 answers, the mixed answer, and the 3 returns refusals that link the factsheet, which is **29 in run 1 and 30 in run 2**.
+  The extra one in run 2 is "What is NAV?" (C07): the corpus covers NAV only thinly, so it is outside the 25-question answer rate, and the model answered it with a citation in run 2 but said "not found" in run 1. Both outcomes are allowed by the test, and it is the one place the two runs differ (51/52 identical).
+- *Cached versus model path.* In the deployed configuration 5 of the questions are served from vetted curated answers and only 4 reach the model, so model-path latency figures rest on few questions. A separate pass with the cache switched off ran the 9 concept and how-to questions through retrieval and the model.
+- *"How do I get a CAS?" was reclassified after the first run.* The corpus explains what a CAS is but not how to request one, so the first run's off-target answer was a corpus gap; the question is now counted as unsupported and an honest "not found" is accepted (see the changes listed below).
+- *What the automated checks do and do not prove.* They verify that the right source is cited, that expected phrases appear, and that **every number in an answer appears in the cited source**. They are **not a full semantic accuracy audit**: a model could still phrase a supported fact misleadingly without tripping a check.
+- *Known limit: multi-fact questions.* A message such as "exit load and minimum SIP of X" currently answers only the **first** field it recognises; this is not in the test set.
+
 | Metric (on this test set) | Run 1 | Run 2 |
 |---|---|---|
 | Answer rate on supported factual questions | 25/25 (100%) | 25/25 (100%) |
@@ -242,7 +293,7 @@ Environment variables (read from the environment, never committed; `.env` is git
   **Freshness check:** a GitHub Actions workflow ([`.github/workflows/freshness.yml`](.github/workflows/freshness.yml), every Monday 06:00 IST and on demand) runs [`scripts/check_freshness.py`](scripts/check_freshness.py): it checks that all source links still answer, re-parses the latest TER and riskometer files from growwmf.in, and opens a GitHub issue if a link fails or a TER or riskometer value differs from `data/facts.json`. It needs no secrets and makes no LLM calls. It **alerts only**: updating the data is a deliberate re-ingest (`python ingest.py`), not automatic, and it does not cover exit loads, minimum SIPs or managers.
 - **Coverage.** Four schemes and general mutual fund concepts only; English (plus basic Hinglish refusals); no returns, performance or NAV figures; one fact per question (a message asking for two fields answers the first).
 - **Scheme Summary Documents (SSD) skipped.** Groww MF publishes the SSDs only as one ZIP of all schemes, which cannot be cited as a single link; KIM, SID, TER and the factsheet cover the same facts.
-- **Not found is expected** for anything outside the corpus (for example how to *request* a CAS: the corpus only explains what a CAS is). The assistant says so rather than guessing.
+- **Not found is expected** for anything outside the corpus, and the assistant says so rather than guessing. In particular, **steps to *request* a CAS are not covered**: the corpus has an explainer of what a CAS is, and the only how-to it contains is *downloading a capital-gains statement* (AMFI's page).
 - **PDF tables.** Parsing can miss values; model-written numbers are guarded by the number check, and structured facts by verbatim-quote validation.
 - **Render free tier cold start.** The instance sleeps after ~15 minutes idle; the first request can take 30-60 seconds and a restart starts a fresh chat (nothing is persisted by design). An uptime pinger would avoid this.
 - **Free-tier rate limits.** Groq allows about 8,000 tokens per minute per model on the free tier (roughly 3 model-path questions per minute per model, with failover to two more Groq models and then Gemini, whose free quota is small). Under heavy traffic users may see "Service busy". Facts, refusals and PII blocks never call a model.
