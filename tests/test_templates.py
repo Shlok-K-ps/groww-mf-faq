@@ -142,6 +142,6 @@ def test_system_notices_carry_no_link_and_no_citation(kind):
 def test_pii_notice_is_exactly_the_approved_two_sentences():
     from rag.validate import count_sentences
     t = render("pii_block").text
-    assert t == ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or folio numbers — "
+    assert t == ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP, account or folio numbers — "
                  "I don't need or store them. Ask your question without them and I'll help.")
     assert count_sentences(t) == 2

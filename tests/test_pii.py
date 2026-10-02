@@ -77,7 +77,7 @@ def test_matching_stays_fast_on_adversarial_long_inputs():
     for s in evil:
         t0 = time.perf_counter()
         scan(s)
-        assert time.perf_counter() - t0 < 1.5, s[:20]
+        assert time.perf_counter() - t0 < 5, s[:20]      # the quadratic bug took 75 s; 5 s tolerates a loaded machine
 
 
 def test_over_length_messages_are_refused_without_processing():

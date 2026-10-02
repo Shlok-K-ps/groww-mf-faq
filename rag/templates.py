@@ -31,7 +31,7 @@ TEXT = {
                "mutual fund terms. Try one of these:"),
     "not_found": "I couldn't find this in my official sources.",
     "out_of_scope": ("I only cover these 4 Groww MF schemes and general mutual fund facts: " + ", ".join(SCHEME_NAMES) + "."),
-    "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP or folio numbers — "
+    "pii_block": ("For your safety, please don't share personal details like PAN, Aadhaar, phone, email, OTP, account or folio numbers — "
                   "I don't need or store them. Ask your question without them and I'll help."),
     "service_unavailable": "Service busy, please try again in a moment.",
     "too_long": "That message is too long for me to process. Please ask one short question (under 1,000 characters).",

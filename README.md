@@ -22,6 +22,27 @@ time on the same repetitive questions.
 
 This prototype answers only from official documents, in at most three sentences, with one link the reader can verify, and stays out of advice by design.
 
+## Product thinking
+
+**What I would track in production** (the app today logs only `{intent, latency_ms, source_id, blocked}`, never text; items marked * need new anonymous instrumentation):
+- *Outcome:* answer rate on supported questions; **"not found" rate**, where each miss is a corpus gap to fill; refusal rate, whose sudden shift would signal router drift; **support-ticket deflection**, the business metric the rest serves.
+- *Trust:* citation click-through* and helpful-rate (👍/👎)*, because an answer nobody can or will verify is not yet trusted.
+- *Guardrails:* **false-refusal rate** on legitimate questions (must stay near zero), PII blocks per day (a count, never content), p95 latency, and the "Service busy" rate on the model path.
+
+**Key trade-offs**
+- **Code templates over the LLM for structured facts.** TER, exit load, minimum SIP, lock-in, benchmark and managers come from validated data and fixed sentences. Accuracy and auditability matter more than conversational flexibility, and it makes those answers instant and free.
+- **Refuse when unsure.** A wrong refusal costs a user one rephrase; a wrong piece of advice is a compliance problem on a SEBI-regulated platform. Advice signals always win, and the false-refusal rate is the counterweight we measure.
+- **One citation per answer.** It keeps every claim checkable, but it narrows multi-scheme answers: exit load or minimum SIP across all four schemes would need four sources, so the assistant asks "which scheme?" (TER and riskometer can span all four because one file covers them).
+- **No database.** About 20 documents fit in memory, and storing nothing about users is privacy by design rather than by policy; it also removes a whole class of breach and retention questions.
+- **Free-tier providers.** Cost is near zero, but rate limits are real (Groq tokens per minute, Gemini daily quota). A hard 2-attempt / 10 s budget, model failover and vetted curated answers keep it usable; paid tiers would remove most of this.
+
+**What's next (v2)**
+1. All Groww MF schemes, not just four, with per-scheme source ingestion.
+2. Scheduled re-ingest with change alerts (a weekly [freshness check](#known-limits) already flags drifted TER, riskometer or broken links).
+3. Hinglish and other Indic-language input.
+4. Anonymous 👍/👎 feedback to measure helpful-rate and find gaps.
+5. Embed on Groww scheme pages with the scheme pre-selected, so most questions start with the scheme known.
+
 ## Scope
 
 - **AMC:** Groww Mutual Fund (Groww Asset Management Ltd), https://www.growwmf.in
@@ -208,6 +229,7 @@ Rebuild the data from the official sources (needs `GEMINI_API_KEY`): `python ing
 | Unit tests | `pytest` |
 | Run the eval (2 runs, paced for Groq's limits; writes `eval/report.md`) | `python -m eval.run_eval` (`--limit N`, `--offline-classifier`, `--sleep S`, `--runs N`) |
 | Check all source URLs | `python -m scripts.check_links` |
+| Freshness check (links + live TER/riskometer vs `facts.json`; no secrets, no LLM) | `python -m scripts.check_freshness` |
 | Rebuild the curated answer candidates (then review by hand) | `python -m scripts.build_answer_cache` then `--promote` |
 
 Environment variables (read from the environment, never committed; `.env` is git-ignored): `GROQ_API_KEY` (generation and classifier) and `GEMINI_API_KEY`
@@ -217,6 +239,7 @@ Environment variables (read from the environment, never committed; `.env` is git
 
 - **Regex PII detection cannot catch every obfuscation.** Spelled-out digits, unusual separators, images or creative encodings can slip through. It is a safety net, not a guarantee: please do not type personal details, and nothing is stored or logged either way.
 - **Data freshness.** Answers are only as fresh as the last data build (sources fetched 1 Oct 2026; factsheet as of 31 Aug 2026, riskometer through Aug 2026). **TER changes monthly**; the answer shows its as-of date and says it is not a live figure. Fund managers and loads can change by addendum before a document is refreshed.
+  **Freshness check:** a GitHub Actions workflow ([`.github/workflows/freshness.yml`](.github/workflows/freshness.yml), every Monday 06:00 IST and on demand) runs [`scripts/check_freshness.py`](scripts/check_freshness.py): it checks that all source links still answer, re-parses the latest TER and riskometer files from growwmf.in, and opens a GitHub issue if a link fails or a TER or riskometer value differs from `data/facts.json`. It needs no secrets and makes no LLM calls. It **alerts only**: updating the data is a deliberate re-ingest (`python ingest.py`), not automatic, and it does not cover exit loads, minimum SIPs or managers.
 - **Coverage.** Four schemes and general mutual fund concepts only; English (plus basic Hinglish refusals); no returns, performance or NAV figures; one fact per question (a message asking for two fields answers the first).
 - **Scheme Summary Documents (SSD) skipped.** Groww MF publishes the SSDs only as one ZIP of all schemes, which cannot be cited as a single link; KIM, SID, TER and the factsheet cover the same facts.
 - **Not found is expected** for anything outside the corpus (for example how to *request* a CAS: the corpus only explains what a CAS is). The assistant says so rather than guessing.

@@ -1,0 +1,55 @@
+name: Data freshness
+
+# Weekly check that the source links still work and that facts.json still matches the live TER and riskometer files.
+# No secrets and no LLM calls: it only needs requests + openpyxl. Opens (or updates) a GitHub issue when something differs.
+on:
+  schedule:
+    - cron: "30 0 * * 1"        # Monday 06:00 IST (00:30 UTC)
+  workflow_dispatch:            # manual: Actions tab -> "Data freshness" -> Run workflow
+  push:                         # TEMPORARY: first run when this file lands (removed in the next commit)
+    paths: [".github/workflows/freshness.yml"]
+
+permissions:
+  contents: read
+  issues: write                 # the built-in GITHUB_TOKEN is used only to open/comment on the issue
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install the two dependencies the check needs
+        run: pip install requests==2.34.2 openpyxl==3.1.5
+
+      - name: Check links, TER and riskometer against data/facts.json
+        id: check
+        run: python -m scripts.check_freshness --report freshness_report.md
+
+      - name: Open (or update) a freshness issue
+        if: steps.check.outputs.problems == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create freshness --description "Automated data freshness check" --color FBCA04 --force || true
+          existing=$(gh issue list --state open --label freshness --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file freshness_report.md
+          else
+            gh issue create --label freshness \
+              --title "Data freshness: facts.json is out of date or a source link is broken" \
+              --body-file freshness_report.md
+          fi
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: freshness-report
+          path: freshness_report.md
+          if-no-files-found: ignore
