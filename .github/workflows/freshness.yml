@@ -6,8 +6,6 @@ on:
   schedule:
     - cron: "30 0 * * 1"        # Monday 06:00 IST (00:30 UTC)
   workflow_dispatch:            # manual: Actions tab -> "Data freshness" -> Run workflow
-  push:                         # TEMPORARY: first run when this file lands (removed in the next commit)
-    paths: [".github/workflows/freshness.yml"]
 
 permissions:
   contents: read
